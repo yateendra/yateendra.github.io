@@ -69,8 +69,8 @@ github_show_profile_link: true
 github_skip_forks: true
 
 # Twitter
-twitter_user: simarpreet7
-twitter_tweet_button: true
+twitter_user: 
+twitter_tweet_button: false 
 
 # Google +1
 google_plus_one: true 
@@ -94,7 +94,7 @@ disqus_short_name:
 disqus_show_comment_count: false
 
 # Google Analytics
-google_analytics_tracking_id: UA-24468101-1
+google_analytics_tracking_id: 24468101 
 
 # Facebook Like
 facebook_like: false
