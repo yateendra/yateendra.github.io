@@ -21,6 +21,11 @@ author:
   name:              Simarpreet Singh 
   url:               http://git.io/simar 
   email:             simar@linux.com 
+  linkedin:          https://ca.linkedin.com/in/simar7
+  googleplus:        https://plus.google.com/+SimarpreetSingh/
+
+# Timezone
+timezone: America/Toronto
 
 # Custom vars
 version:             1.0.0

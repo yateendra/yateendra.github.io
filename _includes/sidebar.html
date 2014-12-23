@@ -25,14 +25,13 @@
       {% endif %}
     {% endfor %}
 
-    <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a>
-    <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
-    <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
+    <a class="sidebar-nav-item" href="mailto:{{ site.author.email }}">E-mail</a>
+    <a class="sidebar-nav-item" href="{{ site.author.url }}">GitHub</a>
   </nav>
 
   <div class="sidebar-item">
-    <p>
-      &copy; {{ site.time | date: '%Y' }}. All rights reserved.
+    <p style="font-size:10px">
+    git show HEAD | grep "Date" <br /> {{ site.time }}
     </p>
   </div>
 </div>
