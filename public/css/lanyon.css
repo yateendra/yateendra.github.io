@@ -431,6 +431,33 @@ a.pagination-item:hover {
  * Based on colors from Base16: http://chriskempson.github.io/base16/#default.
  */
 
+/* Simar */
+.theme-base-07 .sidebar {
+ color: #9a9a9a;
+ background-color: #fff;
+}
+
+.theme-base-07 .sidebar-nav-item {
+  color: #9a9a9a;
+  background-color: #fff;
+}
+
+.theme-base-07 .sidebar-nav-item.active {
+  color: #ff4942;
+  background-color: #fff;
+}
+
+.theme-base-07 #sidebar-checkbox:checked ~ .sidebar-toggle {
+  background-color: #ff4942;
+}
+
+.theme-base-07 .container a,
+.theme-base-07 .sidebar-toggle,
+.theme-base-07 .sidebar-toggle:active,
+.theme-base-07 .related-posts li a:hover {
+  color: #ff4942;
+}
+
 /* Red */
 .theme-base-08 .sidebar,
 .theme-base-08 .sidebar-toggle:active,
