@@ -3,28 +3,24 @@ layout: page
 title: About
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+My name is Simar. I'm an engineering student, gamer and a [FOSS](http://en.wikipedia.org/wiki/Free_and_open-source_software) enthusiast.
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+I'm currently in my 4th year of Computer Engineering degree (Class of 2016) at the [University of Waterloo](http://uwaterloo.ca). I'm specializing in the following areas:
 
-There are currently two themes built on Poole:
+* Embedded Design
+* Distributed Computing
+* Digital Signal Processing
+* AI and Machine Learning
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+Besides the nerdy stuff, I also enjoy the following:
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+* Anime (Most recently watched: [サイコパス - Psycho Pass] (http://en.wikipedia.org/wiki/Psycho-Pass))
+* Creating EDM ([SoundCloud] (https://soundcloud.com/simar7))
 
-## Setup
+I'm currently **available** for hire starting in September 2015. Here's a [list] (/explist) of companies I've worked at before. My detailed resume is available upon [request] (mailto:simar@linux.com?subject=Resume Request).
 
-Some fun facts about the setup of this project include:
+This blog was created using open source software and is freely available [here] (https://github.com/simar7/simar7.github.io).
 
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+<div class="message" style="font-size:11px">
+  The views expressed on this blog are solely personal and have no binding, relation or influence with my current and/or past employers.
+</div>
