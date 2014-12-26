@@ -3,4 +3,4 @@ layout: page
 title: Projects 
 ---
 
-_cool stuff incoming..._
+_cool stuff incoming.._
