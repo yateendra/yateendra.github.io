@@ -49,3 +49,6 @@ I've worked on Yocto quite a lot so it's hard to describe in a few sentences. Mo
 
 * **[firmware-hackery] (https://github.com/simar7/firmware-hackery)**    
 Some of the reverse engineering binary blobs of firmware found on the internet. I do this purely for fun and educational purposes; the rights are reserved for the copyright owners.
+
+* **[RasTop] (https://plus.google.com/photos/113314680959125706225/albums/5827461406250990737?authkey=CNKmy9TCq76FmQE)**
+Built RasTop, a fully functional ARM laptop built on top of a Raspberry Pi and Yocto Project.
