@@ -3,7 +3,7 @@ layout: page
 title: Projects 
 ---
 
-Here's a list of projects I'm currently working on. If you would like to contribute to any of these, feel free to either [email] (mailto:simar@linux.com) or send me a Pull Request with your patch on github and I'll look into it.
+Here's a list of projects I've contributed to. If you would like to contribute to any of these, feel free to either [email] (mailto:simar@linux.com) or send me a Pull Request with your patch on github and I'll look into it.
 
 ### Active Projects
 
@@ -15,6 +15,9 @@ gitty is an Android app that lets you compete with your friends on GitHub.
 
 * **[mozharness] (https://github.com/mozilla/build-mozharness)**    
 mozharness is a python harness that can be used to automate testing.
+
+* **[moz-git-tools] (https://github.com/simar7/moz-git-tools)**    
+moz-git-tools are a collection of some neat hg-git-bzr-svn VCS tools.
 
 ### Latent Projects
 (I don't work on these unless I need to use them)
@@ -39,7 +42,7 @@ Some of my work in implementing tmux to run nicely alongwith powerline on Macint
 networking-python is a network simulator written in purely in python. It simulates CSMA/CD and Ethernet networks.
 
 * **[digital-design-vhdl] (https://github.com/simar7/digital-design-vhdl)**     
-digital-design-vhdl is a bunch of hardware componenets written in VHDL. These include some math utilties like the ALU and shift reg, a heating system state machine and a full-blown Kirsch Edge detector system.
+digital-design-vhdl is a bunch of hardware componenets written in VHDL. These include some math utilties like the ALU and shift reg, a heating system state machine and a Kirsch Edge detector system.
 
 * **[yocto-project] (https://github.com/simar7/yocto-project)**    
 I've worked on Yocto quite a lot so it's hard to describe in a few sentences. Most of my work was on the BeagleBoard BSP and Raspberry Pi integration work. Some parts also involved working with oVirt and QEMU work.
