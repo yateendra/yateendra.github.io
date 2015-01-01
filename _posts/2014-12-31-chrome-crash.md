@@ -53,7 +53,7 @@ Thread 11 Crashed:: Chrome_IOThread
 5   libsystem_pthread.dylib         0x00007fff8f18a96f pthread_mutex_unlock + 184
 {% endhighlight %}
 
-We definitely see the thread getting killed and then trying to abort itself with whatever it was trying to do before the kill signal was received. On line 5, we notice the same <code>pthread\_mutex\_unlock()</code> call, our main culprit here.
+We definitely see the thread getting aborted and then trying to get killed with whatever it was trying to do before the kill signal was received. On line 5, we notice the same <code>pthread\_mutex\_unlock()</code> call, our main suspect here.
 
 The rest of the stack trace seems rather mysterious as to what led to the crash. We see that the thread was clean when started but something happened between line 20 to line 5.
 {% highlight bash %}
@@ -117,4 +117,109 @@ rip: 0x00007fff903f6866
 
 <code>rip</code> is storing a non-zero value and we don't have a arithmetic based crash. This means the only possibility we have left is the following: We dereferenced an invalid pointer.
 
+### ..but why?
+
+If you look closely the stack trace it's hard to believe what happened.
+
+{% highlight bash %}
+0   libsystem_kernel.dylib          0x00007fff903f6866 __pthread_kill + 10
+1   libsystem_pthread.dylib         0x00007fff8f18835c pthread_kill + 92
+2   libsystem_c.dylib               0x00007fff8b978b1a abort + 125
+3   libsystem_pthread.dylib         0x00007fff8f18b984 __pthread_abort + 49
+4   libsystem_pthread.dylib         0x00007fff8f18ba38 __pthread_abort_reason + 180
+5   libsystem_pthread.dylib         0x00007fff8f18a96f pthread_mutex_unlock + 184
+..snip..
+21  libsystem_pthread.dylib         0x00007fff8f187899 _pthread_body + 138
+22  libsystem_pthread.dylib         0x00007fff8f18772a _pthread_start + 137
+23  libsystem_pthread.dylib         0x00007fff8f18bfc9 thread_start + 13
+{% endhighlight %}
+
+Line <code>5</code> indicates that <code>pthread\_mutex\_unlock()</code> failed. But we don't see a corresponding <code>pthread\_mutex\_lock()</code> call anywhere on the stacktrace. Really odd that an <code>unlock</code> call would fail out so badly without even a corresponding <code>lock</code> being held in place.
+
+### Need moar code
+
+Seems like the question still hasn't been answered as to why the crash happened with an <code>unlock</code> call in the first place. Let's look at the actual <code>pthread\_mutex\_unlock()</code> to see how it's implemented.    
+<br />Interestingly enough, Apple still provides an open sourced codebase for some of it's OS code. The following snippet was taken from [Apple Opensource](http://opensource.apple.com/source/Libc/Libc-825.40.1/pthreads/pthread_mutex.c)
+website.
+
+{% highlight c lineos %}
+/*
+ * Unlock a mutex.
+ * TODO: Priority inheritance stuff
+ */
+int
+pthread_mutex_unlock(pthread_mutex_t *omutex)
+{
+    npthread_mutex_t * mutex = (npthread_mutex_t *)omutex;
+    int retval;
+    uint32_t mtxgen, mtxugen, flags, notify, updateval;
+    int sig = mutex->sig; 
+    pthread_t self;
+    uint64_t selfid;
+    volatile uint32_t * lseqaddr, *useqaddr;
+    int firstfit = 0;
+
+...snip...
+
+        if ((updateval = __psynch_mutexdrop(omutex, mtxgen, mtxugen, mutex->m_tid, flags))== (uint32_t)-1) 
+#endif /* USE_COMPAGE ] */
+        {
+            retval = errno;
+#if _KSYN_TRACE_
+    (void)__kdebug_trace(_KSYN_TRACE_UM_UNLOCK | DBG_FUNC_END, (uint32_t)mutex, retval, 0, 0, 0);
+#endif
+            if (retval == 0)
+                return(0);
+            else if (errno == EINTR)
+                return(0);
+            else {
+                LIBC_ABORT("__p_mutexdrop failed with error %d\n", retval);
+                return(retval);
+            }
+
+{% endhighlight %}
+
+Aha! Okay we did find the branch of code that is being taken. We have a nonzero errno and its not EINTR. But who is causing this mess?
+
+### The real culprit
+I browsed around more of <code>pthread_cond.c</code> and found this. 
+
+{% highlight c lineos %}
+int
+pthread_cond_destroy(pthread_cond_t *ocond)
+{
+    ...snip...
+        // <rdar://problem/13782056> Need to clear preposts.
+        uint32_t flags = 0;
+        bool needclearpre = ((scntval & PTH_RWS_CV_PBIT) != 0);
+        if (needclearpre && cond->pshared == PTHREAD_PROCESS_SHARED) {
+            flags |= _PTHREAD_MTX_OPT_PSHARED;
+        }
+{% endhighlight %}
+
+Yikes. That seems to be like a internal PR link to a bug in the source code. I can't access it from the outside world but I could imagine while running <code>pthread\_cond\_destroy()</code> from somewhere within a <code>pthread\_mutex\_unlock()</code> what could possible go wrong.    
+<br />
+
+In general any generic subsystem library consists of a give architecture: A userspace component for userland level calls to use and a corresponding system or a kernel level component for the conversion of calls from userspace to kernelspace. Here's a [good read] (http://sysdigcloud.com/fascinating-world-linux-system-calls/) to see the mentioned things in action.    
+<br />
+
+With that in mind, here's a possible scenario. When using a <code>pthread</code> subsystem to create a condition variable; two entries are created: a userspace address and a kernel space address for the OS to use. This is by design as discussed previously as to how the susbsytem calls maintain an interface between the userlevel and the kernellevel.    
+<br />
+
+The problem could very well arise if the following was to take place: The userspace call cleaned up the userspace memory address and free'd it after using it **but** couldn't free the kernel level memory address (for whatever reason). We now have a dangling reference that is not yet marked to be free and has no pointer pointing to it.    
+<br />
+
 ### Conclusion
+This dangling reference is clearly bad and is a possible cause of what has happened in this case. The dangling reference at some point was used by a call in <code>Thread 11</code> within the Chrome browser and led to a series of events which ended up generating a nonzero <code>errno</code> from the <code>pthread\_mutex\_unlock()</code> which was further handled by the thread as a <code>SIGABRT</code> and led to the thread getting killed and subsequently it being an <code>IO</code> level thread the entire browser getting crashed.    
+<br />
+
+### Who is to blame?
+I didn't expect this blog post to go the way it did. To me it initally sounded like a bad memory access within chrome that led to the OS killing it but in reality the problem lied within the OS level API <code>pthread_subsystem</code> itself.    
+<br />
+
+This again might not be the real cause of the entire crash in the first place. The crash happened on Mac OS X 10.9 and the API calls that are open sourced are from OS X 10.8. It could very well be some other system level call failing due to other reasons but in either case the problem exists in the OS APIs and Chrome itself cannot be blamed.
+
+### Reproducibility
+
+Very low to none, I would say. Although I did find some more evidence on the internet that is along similar lines. [Here's] (http://rayne3d.com/blog/02-27-2014-rayne-weekly-devblog-4) a writeup that also seems to have a workaround for the same problem.
+
