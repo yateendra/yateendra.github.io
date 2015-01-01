@@ -37,19 +37,9 @@ abort() called
 /SourceCache/libpthread/libpthread-53.1.4/src/pthread_mutex.c:pthread_mutex_unlock:700: __p_mutexdrop__ failed with error 16
 {% endhighlight bash %}
 
-### Possible hypothesis    
-{% highlight bash %}
-Exception Type:  EXC_CRASH (SIGABRT)
-Exception Codes: 0x0000000000000000, 0x0000000000000000
- 
-Application Specific Information:
-abort() called
-/SourceCache/libpthread/libpthread-53.1.4/src/pthread_mutex.c:pthread_mutex_unlock:700: __p_mutexdrop__ failed with error 16
-{% endhighlight %}
+### Hypothesis    
 
-One thing that is pretty obvious here that Chrome crashed after getting a SIGABRT, So it knew something was off or broken within Chrome and a SIGABRT was sent from one of the function calls. Possible culprit could be a <code>malloc()</code> call returning code 6 or <code>SIGABRT</code> which indicated lack of available memory.
-
-Okay cool, the logs also mentioned that as a result of the <code>pthread\_mutex\_unlock()</code> call, thread 11 crashed. Let's look at that.
+Okay the logs mention that as a result of the <code>pthread\_mutex\_unlock()</code> call, thread 11 crashed. The first  thing that catches the eye is the error return code: </code>16</code>. On Mac OS X system the error code 16 corresponds to <code>EBUSY</code>.
 
 ### Initial stacktrace analysis
 
@@ -66,7 +56,7 @@ Thread 11 Crashed:: Chrome_IOThread
 We definitely see the thread getting killed and then trying to abort itself with whatever it was trying to do before the kill signal was received. On line 5, we notice the same <code>pthread\_mutex\_unlock()</code> call, our main culprit here.
 
 The rest of the stack trace seems rather mysterious as to what led to the crash. We see that the thread was clean when started but something happened between line 20 to line 5.
-{% highlight bash%}
+{% highlight bash %}
 6   com.google.Chrome.framework     0x000000010b051604 0x10a955000 + 7325188
 7   com.google.Chrome.framework     0x000000010b04fd5c 0x10a955000 + 7318876
 8   com.google.Chrome.framework     0x000000010b4dec91 0x10a955000 + 12098705
@@ -87,7 +77,7 @@ The rest of the stack trace seems rather mysterious as to what led to the crash.
 23  libsystem_pthread.dylib         0x00007fff8f18bfc9 thread_start + 13
 {% endhighlight %}
 
-Okay, well that does confirm two things right away; the crashing thread in question was a thread responsible for I/O of the app. Memory seems to be the first culprit. Further on we see that on a <code>pthread\_mutex\_unlock()</code> call the code crashed. Seems like an unexisting resource guarded by a lock was being attempted to be freed/unlocked.
+Okay, well that does confirm two things right away; the crashing thread in question was a thread responsible for I/O of the app. Memory seems to be the first suspect. Further on we see that on a <code>pthread\_mutex\_unlock()</code> call the code crashed. Seems like an unexisting resource guarded by a lock was being attempted to be freed/unlocked.
 
 ### x86 thread-state analysis
 
@@ -113,7 +103,7 @@ There are two main values in question here that can confirm us the type of crash
 The two cases that are formed are as follows:
 
 * For Arithmetic exceptions:    
-<code>rip</code> register holds the value of the of the instruction that caused the arithmetic exception. In our case we know it wasn't a arithmetic exception as indicated by the type of crash earlier from the logs.
+The <code>rip</code> register holds the value of the of the instruction that caused the arithmetic exception. In our case we know it wasn't a arithmetic exception as indicated by the type of crash earlier from the logs.
 
 * For badmemory exceptions:    
 If <code>rip</code> holds the same value as indicated from the exception address, then it means that we are fetching a bogus function pointer or making a call on a bogus object. It could also mean that we are returning to a bad address in memory and now the stack is corrupt. In our case this is not the case as we have the following:
@@ -128,4 +118,3 @@ rip: 0x00007fff903f6866
 <code>rip</code> is storing a non-zero value and we don't have a arithmetic based crash. This means the only possibility we have left is the following: We dereferenced an invalid pointer.
 
 ### Conclusion
-
