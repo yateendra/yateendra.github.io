@@ -142,7 +142,7 @@ Seems like the question still hasn't been answered as to why the crash happened 
 <br />Interestingly enough, Apple still provides an open sourced codebase for some of it's OS code. The following snippet was taken from [Apple Opensource](http://opensource.apple.com/source/Libc/Libc-825.40.1/pthreads/pthread_mutex.c)
 website.
 
-{% highlight c lineos %}
+{% highlight c linenos %}
 /*
  * Unlock a mutex.
  * TODO: Priority inheritance stuff
@@ -184,7 +184,7 @@ Aha! Okay we did find the branch of code that is being taken. We have a nonzero 
 ### The real culprit
 I browsed around more of <code>pthread_cond.c</code> and found this. 
 
-{% highlight c lineos %}
+{% highlight c linenos %}
 int
 pthread_cond_destroy(pthread_cond_t *ocond)
 {
