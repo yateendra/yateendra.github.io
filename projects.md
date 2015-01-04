@@ -52,3 +52,6 @@ Some of the reverse engineering binary blobs of firmware found on the internet. 
 
 * **[RasTop] (https://plus.google.com/photos/113314680959125706225/albums/5827461406250990737?authkey=CNKmy9TCq76FmQE)**    
 Built RasTop, a fully functional ARM laptop built on top of a Raspberry Pi and Yocto Project.
+
+
+[![Analytics](https://ga-beacon.appspot.com/UA-58200910-1/simar7.github.io/projects.md?pixel)](https://github.com/igrigorik/ga-beacon)
