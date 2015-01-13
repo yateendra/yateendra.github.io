@@ -5,7 +5,7 @@ title: 0xbadpoint
 
 Sometimes you just have a bad time and all hell breaks loose.
 
-So consider a structure that has the following field:
+So consider a structure that has the following fields:
 
 {% highlight c %}
 typedef struct MY_TYPE {
@@ -48,3 +48,21 @@ MY_TYPE* my_ptr = &my_event;
 {% endhighlight %}
 
 Simple, but not on a long day.
+
+### Bonus level
+So as pointed out, I've come to know there are two ways to fix the above.
+* Setting all fields manually to <code>>zero/NULL</code>.
+* Doing a <code>memset()<code>
+
+The second approach only has one caveat. Consider the following code:
+
+{% highlight c %}
+typedef struct MY_TYPE {
+    uint8_t id;
+    uint8_t length;
+    boolean flag;
+    int* ptr_to_an_int_arr;
+} EventQ;
+{% endhighlight %}
+
+Now if the ptr_to_an_int_arr was actually pointing to an integer array, doing a <code>memset()</code> on a <code>sizeof()</code> would end us up with a pointer lost to the integer array. And even worse still we would end up modifying the address that was being previously held by the structure and would now be pointing to a random location in memory, which is equally if not more dangerous than having no initialization.
