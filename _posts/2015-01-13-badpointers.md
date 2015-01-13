@@ -65,4 +65,4 @@ typedef struct MY_TYPE {
 } EventQ;
 {% endhighlight %}
 
-Now if the ptr_to_an_int_arr was actually pointing to an integer array, doing a <code>memset()</code> on a <code>sizeof()</code> would end us up with a pointer lost to the integer array. And even worse still we would end up modifying the address that was being previously held by the structure and would now be pointing to a random location in memory, which is equally if not more dangerous than having no initialization.
+Now if the ptr\_to\_an\_int\_arr was actually pointing to an integer array, doing a <code>memset()</code> on a <code>sizeof()</code> would end us up with a pointer lost to the integer array. And even worse still we would end up modifying the address that was being previously held by the structure and would now be pointing to a random location in memory, which is equally if not more dangerous than having no initialization.
