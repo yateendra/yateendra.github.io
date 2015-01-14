@@ -44,7 +44,7 @@ Fortunately this was part of a security routine and I had random calls going on 
 ### The fix?
 {% highlight c %}
 MY_TYPE my_event = {0};
-MY_TYPE* my_ptr = &my_event;
+MY_TYPE\* my_ptr = &my_event;
 {% endhighlight %}
 
 Simple, but not on a long day.
