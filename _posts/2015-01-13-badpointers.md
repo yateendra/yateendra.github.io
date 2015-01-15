@@ -51,6 +51,7 @@ Simple, but not on a long day.
 
 ### Bonus level
 So as pointed out, I've come to know there are two ways to fix the above.
+
 * Setting all fields manually to <code>zero/NULL</code>.    
 * Doing a <code>memset()</code>    
 
