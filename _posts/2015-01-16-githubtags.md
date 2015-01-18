@@ -3,4 +3,4 @@ layout: post
 title: tags for ghpages
 tags: [github-pages]
 ---
-WIP
+Finally, it works!
