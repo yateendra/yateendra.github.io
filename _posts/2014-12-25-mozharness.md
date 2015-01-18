@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Mozharness
+tags: [mozilla]
 ---
 
 In the recent past most of my work has involved writing code in python. For the most part, I haven't been working on code bases that large to worry about writing a full blown test harness to manage it. But recently working on a network simulator, me and my partner [@clouisa] (https://github.com/clouisa) were faced a problem: how to debug python code that is non-deterministic in nature. 
