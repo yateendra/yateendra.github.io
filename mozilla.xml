@@ -1,0 +1,27 @@
+---
+layout: null
+tags: [mozilla]
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ <title>Simarpreet Singh - Adventures in Mozillaland</title>
+ <link href="{{ site.url }}/mozilla.xml" rel="self"/>
+ <link href="http://simar7.github.io/blog/tag/mozilla"/>
+ <updated>{{ site.time | date_to_xmlschema }}</updated>
+ <id>http://simar7.github.io/blog/tag/mozilla</id>
+ <author>
+   <name>Simarpreet Singh</name>
+ </author>
+
+ {% for post in site.posts %}
+    {% if post.tags contains "mozilla" %}
+     <entry>
+       <title>{{ post.title }}</title>
+       <link href="{{ site.url }}{{ post.url }}"/>
+       <id>{{ site.url }}{{ post.id }}</id>
+       <content type="html">{{ post.content | xml_escape }}</content>
+   </entry>
+    {% endif %}
+ {% endfor %}
+
+</feed>
