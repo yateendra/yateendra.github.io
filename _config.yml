@@ -29,3 +29,14 @@ timezone: America/Toronto
 
 # Custom vars
 version:             1.0.0
+
+# Custom gems
+gems:
+    - jekyll-sitemap
+
+# jekyll-tagging params
+tag_page_layout: blog_by_tag
+tag_page_dir: blog/tag
+tag_feed_layout: blog_by_tag
+tag_feed_dir: blog/tag
+tag_permalink_style: pretty

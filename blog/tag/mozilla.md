@@ -1,5 +1,5 @@
 ---
-layout: blog_by_tag
+layout: tag_cloud_page 
 tag: mozilla
 permalink: mozilla/
 ---
