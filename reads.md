@@ -16,4 +16,5 @@ Here's an ongoing list of noteworthy articles from the web that I found interest
 * [When would you use a Python mixin?](http://ahal.ca/blog/2014/when-would-you-use-python-mixin/) -- Andrew Halberstadt.
 
 ### Miscellaneous
+* [Open Source Report Card] (https://osrc.dfm.io/)
 * [hack.ernews.info] (http://hack.ernews.info)
