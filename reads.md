@@ -8,6 +8,7 @@ Here's an ongoing list of noteworthy articles from the web that I found interest
 ### Git
 * [How to write the perfect PR (social)] (https://github.com/blog/1943-how-to-write-the-perfect-pull-request) -- GitHub.
 * [A better pull request (technical)] (https://developer.atlassian.com/blog/2015/01/a-better-pull-request/) -- Atlassian.
+* [Merging vs Rebase] (https://www.atlassian.com/git/tutorials/merging-vs-rebasing/)
 
 ### Systems Engineering
 * [Comparison between FreeBSD and Linux] (https://www.digitalocean.com/community/tutorials/a-comparative-introduction-to-freebsd-for-linux-users) -- Digital Ocean Inc.
