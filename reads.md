@@ -19,3 +19,4 @@ Here's an ongoing list of noteworthy articles from the web that I found interest
 ### Miscellaneous
 * [Open Source Report Card] (https://osrc.dfm.io/)
 * [hack.ernews.info] (http://hack.ernews.info)
+* [The ``I want to do everything but end up doing nothing`` dilemma] (https://news.ycombinator.com/item?id=9049208)
