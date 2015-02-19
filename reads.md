@@ -17,6 +17,10 @@ Here's an ongoing list of noteworthy articles from the web that I found interest
 * [When would you use a Python mixin?](http://ahal.ca/blog/2014/when-would-you-use-python-mixin/) -- Andrew Halberstadt.
 * [Logging in Python] (http://victorlin.me/posts/2012/08/26/good-logging-practice-in-python) -- Victor Lin.
 
+### Infrastructure
+* [ELI5 to MapReduce] (http://ksat.me/map-reduce-a-really-simple-introduction-kloudo/)
+
 ### Miscellaneous
 * [Open Source Report Card] (https://osrc.dfm.io/)
 * [hack.ernews.info] (http://hack.ernews.info)
+* [The ``I want to do everything but end up doing nothing`` dilemma] (https://news.ycombinator.com/item?id=9049208)
