@@ -13,6 +13,7 @@ Here's an ongoing list of noteworthy articles from the web that I found interest
 ### Systems Engineering
 * [Comparison between FreeBSD and Linux] (https://www.digitalocean.com/community/tutorials/a-comparative-introduction-to-freebsd-for-linux-users) -- Digital Ocean Inc.
 * [Understanding Linux CPU stats] (http://blog.scoutapp.com/articles/2015/02/24/understanding-linuxs-cpu-stats)
+* [Backspace vs Delete in Theory] (http://www.macfreek.nl/memory/Backspace_and_Delete_key_reversed)
 
 ### Python
 * [When would you use a Python mixin?](http://ahal.ca/blog/2014/when-would-you-use-python-mixin/) -- Andrew Halberstadt.
@@ -24,4 +25,4 @@ Here's an ongoing list of noteworthy articles from the web that I found interest
 ### Miscellaneous
 * [Open Source Report Card] (https://osrc.dfm.io/)
 * [hack.ernews.info] (http://hack.ernews.info)
-* [The ``I want to do everything but end up doing nothing`` dilemma] (https://news.ycombinator.com/item?id=9049208)
+* [The "I want to do everything but end up doing nothing" dilemma] (https://news.ycombinator.com/item?id=9049208)
