@@ -14,6 +14,7 @@ Here's an ongoing list of noteworthy articles from the web that I found interest
 * [Comparison between FreeBSD and Linux] (https://www.digitalocean.com/community/tutorials/a-comparative-introduction-to-freebsd-for-linux-users) -- Digital Ocean Inc.
 * [Understanding Linux CPU stats] (http://blog.scoutapp.com/articles/2015/02/24/understanding-linuxs-cpu-stats)
 * [Backspace vs Delete in Theory] (http://www.macfreek.nl/memory/Backspace_and_Delete_key_reversed)
+* [Scheduling algorithms compared] (http://spin.atomicobject.com/2015/04/27/uniprocessor-scheduling-policy-comparison/)
 
 ### Python
 * [When would you use a Python mixin?](http://ahal.ca/blog/2014/when-would-you-use-python-mixin/) -- Andrew Halberstadt.
