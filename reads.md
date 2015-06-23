@@ -21,7 +21,7 @@ Here's an ongoing list of noteworthy articles from the web that I found interest
 * [Logging in Python] (http://victorlin.me/posts/2012/08/26/good-logging-practice-in-python) -- Victor Lin.
 
 ### Infrastructure
-* [ELI5 to MapReduce] (http://ksat.me/map-reduce-a-really-simple-introduction-kloudo/)
+* [ELI5 to MapReduce] (http://ksat.me/map-reduce-a-really-simple-introduction-kloudo/).
 
 ### Miscellaneous
 * [Open Source Report Card] (https://osrc.dfm.io/)
