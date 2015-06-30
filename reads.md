@@ -20,6 +20,9 @@ Here's an ongoing list of noteworthy articles from the web that I found interest
 * [When would you use a Python mixin?](http://ahal.ca/blog/2014/when-would-you-use-python-mixin/) -- Andrew Halberstadt.
 * [Logging in Python] (http://victorlin.me/posts/2012/08/26/good-logging-practice-in-python) -- Victor Lin.
 
+### Java
+* [How HashMaps work in Java?] (http://javarevisited.blogspot.ca/2011/02/how-hashmap-works-in-java.html)
+
 ### Infrastructure
 * [ELI5 to MapReduce] (http://ksat.me/map-reduce-a-really-simple-introduction-kloudo/).
 
