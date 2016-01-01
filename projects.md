@@ -7,17 +7,26 @@ Here's a list of projects I've contributed to. If you would like to contribute t
 
 ### Active Projects
 
-* **singh-kernel** [hammerhead] (https://github.com/simar7/singh-kernel-hammerhead) and [shamu] (https://github.com/simar7/singh-kernel-shamu)   
+* **singh-kernel**    
+[hammerhead] (https://github.com/simar7/singh-kernel-hammerhead)    
+[shamu] (https://github.com/simar7/singh-kernel-shamu)        
+[angler] (https://github.com/simar7/singh-kernel-angler)
+
 singh-kernel is my implementation of making a custom kernel for the Android Nexus device line. My work mostly involves backporting patches from either [mainline arm tree] (http://ftp.arm.linux.org.uk/cgit/linux-arm.git) or sideporting from other developers out there.
+
+* **singh-droid**      
+[angler] (https://github.com/simar7/angleroid)    
+
+singh-droid is my implementation of making a custom AOSP build for the Android Nexus device line.
+
+* **[lemming] (https://github.com/simar7/lemming)**    
+Lemming is an open source MySQL data team automation framework built at Vancouver with love.
+
+* **[terraform] (https://github.com/simar7/terraform)**
+Terraform is a tool for building, changing, and versioning infrastructure safely and efficiently. I maintain my personal fork and contribute back to the upstream repository.
 
 * **[gitty] (https://github.com/engineeringX/gitty)**    
 gitty is an Android app that lets you compete with your friends on GitHub.
-
-* **[mozharness] (https://github.com/mozilla/build-mozharness)**    
-mozharness is a python harness that can be used to automate testing.
-
-* **[moz-git-tools] (https://github.com/simar7/moz-git-tools)**    
-moz-git-tools are a collection of some neat hg-git-bzr-svn VCS tools.
 
 ### Latent Projects
 (I don't work on these unless I need to use them)
@@ -29,6 +38,13 @@ A ramdisk image built on top of Google sources. Mostly still stock due to the la
 Kernel dev tools collected from the internet.
 
 ### Retired Projects
+
+* **[mozharness] (https://github.com/mozilla/build-mozharness)**    
+mozharness is a python harness that can be used to automate testing.
+
+* **[moz-git-tools] (https://github.com/simar7/moz-git-tools)**    
+moz-git-tools are a collection of some neat hg-git-bzr-svn VCS tools.
+
 * **[iTerm2NB] (https://github.com/simar7/iTerm2)**    
 iTerm2NB is a modification to the open sourced [iTerm] (http://iterm2.com/) software with a borderless interface (hence the postfix NB).
 
