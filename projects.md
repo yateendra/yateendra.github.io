@@ -10,13 +10,11 @@ Here's a list of projects I've contributed to. If you would like to contribute t
 * **singh-kernel**    
 [hammerhead] (https://github.com/simar7/singh-kernel-hammerhead)    
 [shamu] (https://github.com/simar7/singh-kernel-shamu)        
-[angler] (https://github.com/simar7/singh-kernel-angler)
-
+[angler] (https://github.com/simar7/singh-kernel-angler)    
 singh-kernel is my implementation of making a custom kernel for the Android Nexus device line. My work mostly involves backporting patches from either [mainline arm tree] (http://ftp.arm.linux.org.uk/cgit/linux-arm.git) or sideporting from other developers out there.
 
 * **singh-droid**      
-[angler] (https://github.com/simar7/angleroid)    
-
+[angler] (https://github.com/simar7/angleroid)        
 singh-droid is my implementation of making a custom AOSP build for the Android Nexus device line.
 
 * **[lemming] (https://github.com/simar7/lemming)**    
