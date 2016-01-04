@@ -28,6 +28,9 @@ Here's an ongoing list of noteworthy articles from the web that I found interest
 ### Infrastructure
 * [ELI5 to MapReduce] (http://ksat.me/map-reduce-a-really-simple-introduction-kloudo/).
 
+### Databases
+* [Object Relational Mapping] (https://en.wikipedia.org/wiki/Object-relational_mapping)
+
 ### Miscellaneous
 * [Open Source Report Card] (https://osrc.dfm.io/)
 * [hack.ernews.info] (http://hack.ernews.info)
