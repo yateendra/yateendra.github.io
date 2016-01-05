@@ -18,7 +18,7 @@ singh-kernel is my implementation of making a custom kernel for the Android Nexu
 singh-droid is my implementation of making a custom AOSP build for the Android Nexus device line.
 
 * **[lemming] (https://github.com/simar7/lemming)**    
-Lemming is an open source MySQL data team automation framework built at Vancouver with love.
+Lemming is an open source MySQL data team automation framework built in Vancouver with love.
 
 * **[terraform] (https://github.com/simar7/terraform)**
 Terraform is a tool for building, changing, and versioning infrastructure safely and efficiently. I maintain my personal fork and contribute back to the upstream repository.
