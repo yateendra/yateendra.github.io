@@ -17,6 +17,7 @@ Here's an ongoing list of noteworthy articles from the web that I found interest
 * [Scheduling algorithms compared] (http://spin.atomicobject.com/2015/04/27/uniprocessor-scheduling-policy-comparison/)
 * [Major Linux Problems 2016 edition] (http://linuxfonts.narod.ru/why.linux.is.not.ready.for.the.desktop.current.html)
 * [Linux Tracing Compared] (http://www.brendangregg.com/blog/2015-07-08/choosing-a-linux-tracer.html)
+* [How to C in 2016] (https://matt.sh/howto-c)
 
 ### Python
 * [When would you use a Python mixin?](http://ahal.ca/blog/2014/when-would-you-use-python-mixin/) -- Andrew Halberstadt.
