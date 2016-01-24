@@ -28,7 +28,7 @@ Here's an ongoing list of noteworthy articles from the web that I found interest
 * [How HashMaps work in Java?] (http://javarevisited.blogspot.ca/2011/02/how-hashmap-works-in-java.html)
 
 ### Infrastructure
-* [ELI5 to MapReduce] (http://ksat.me/map-reduce-a-really-simple-introduction-kloudo/).
+* [ELI5 to MapReduce] (http://ksat.me/map-reduce-a-really-simple-introduction-kloudo/)
 
 ### Databases
 * [Object Relational Mapping] (https://en.wikipedia.org/wiki/Object-relational_mapping)
