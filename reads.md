@@ -19,6 +19,7 @@ Here's an ongoing list of noteworthy articles from the web that I found interest
 * [Linux Tracing Compared] (http://www.brendangregg.com/blog/2015-07-08/choosing-a-linux-tracer.html)
 * [How to C in 2016] (https://matt.sh/howto-c)
 * [How to C in 2016 (critic)] (https://github.com/Keith-S-Thompson/how-to-c-response)
+* [Stack smashing, for fun and profit (re-write)] (https://avicoder.me/2016/02/01/smashsatck-revived/)
 
 ### Python
 * [When would you use a Python mixin?](http://ahal.ca/blog/2014/when-would-you-use-python-mixin/)
