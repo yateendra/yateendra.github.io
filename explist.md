@@ -13,10 +13,9 @@ I've **interned** at the following companies (chronological order):
   * Worked on Systems and Production Engineering teams.
 * [Nymi] (https://www.nymi.com/)
   * Worked on the Embedded Design team.
+* [OpenDNS] (https//www.opendns.com/)
+  * Worked on the Systems Engineering team.
 
 I've worked **full time** at the following companies:
 
 * None. Be the first one to [hire] (mailto:simar@linux.com?subject=Resume Request) me!
-
-
-[![Analytics](https://ga-beacon.appspot.com/UA-58200910-1/simar7.github.io/explist.md?pixel)](https://github.com/igrigorik/ga-beacon)
