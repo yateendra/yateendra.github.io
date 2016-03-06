@@ -13,7 +13,7 @@ I've **interned** at the following companies (chronological order):
   * Worked on Systems and Production Engineering teams.
 * [Nymi] (https://www.nymi.com/)
   * Worked on the Embedded Design team.
-* [OpenDNS] (https//www.opendns.com/)
+* [OpenDNS] (https://www.opendns.com/)
   * Worked on the Systems Engineering team.
 
 I've worked **full time** at the following companies:
