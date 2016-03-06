@@ -9,8 +9,8 @@ I'm currently in my 4th year of Computer Engineering degree (Class of 2016) at t
 
 * Embedded Design
 * Distributed Computing
-* Scalable Computing
 * Systems Security
+* Cryptography
 
 Besides the nerdy stuff, I also enjoy the following:
 
@@ -24,6 +24,3 @@ This blog was created using open source software and is freely available [here] 
 <div class="message" style="font-size:11px">
   The views expressed on this blog are solely personal and have no binding, relation or influence with my current and/or past employers.
 </div>
-
-[![Analytics](https://ga-beacon.appspot.com/UA-58200910-1/simar7.github.io/about.md?pixel)](https://github.com/igrigorik/ga-beacon)
-
