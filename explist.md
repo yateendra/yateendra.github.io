@@ -4,6 +4,7 @@ title: Experience
 ---
 
 I've worked **full time** at the following companies:
+
 * [OpenDNS](https://www.opendns.com/)
   * Working on the next-generation Compute Platform.    
 
