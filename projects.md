@@ -3,18 +3,18 @@ layout: page
 title: Projects
 ---
 
-Here's a list of projects I've contributed to. If you would like to contribute to any of these, feel free to either [email] (mailto:simar@linux.com) or send me a Pull Request with your patch on GitHub and I'll look into it.
+Here's a list of projects I've contributed to. If you would like to contribute to any of these, feel free to either [email](mailto:simar@linux.com) or send me a Pull Request with your patch on GitHub and I'll look into it.
 
 ### Active Projects
 
-* **[afero] (https://github.com/simar7/afero)**
+* **[afero](https://github.com/simar7/afero)**
 Afero is a FileSystem Abstraction System written in Go. I've forked the project and have since contributed the feature completion of the golang [os](https://golang.org/pkg/os) package.
 
 * **singh-kernel**    
-[hammerhead] (https://github.com/simar7/singh-kernel-hammerhead)    
-[shamu] (https://github.com/simar7/singh-kernel-shamu)        
-[angler] (https://github.com/simar7/singh-kernel-angler)    
-singh-kernel is my implementation of making a custom kernel for the Android Nexus device line. My work mostly involves backporting patches from either [mainline arm tree] (http://ftp.arm.linux.org.uk/cgit/linux-arm.git) or sideporting from other developers out there.
+[hammerhead](https://github.com/simar7/singh-kernel-hammerhead)    
+[shamu](https://github.com/simar7/singh-kernel-shamu)        
+[angler](https://github.com/simar7/singh-kernel-angler)    
+singh-kernel is my implementation of making a custom kernel for the Android Nexus device line. My work mostly involves backporting patches from either [mainline arm tree](http://ftp.arm.linux.org.uk/cgit/linux-arm.git) or sideporting from other developers out there.
 
 ### Latent Projects
 (I don't work on these unless I need to use them)
@@ -47,7 +47,7 @@ mozharness is a python harness that can be used to automate testing.
 moz-git-tools are a collection of some neat hg-git-bzr-svn VCS tools.
 
 * **[iTerm2NB] (https://github.com/simar7/iTerm2)**    
-iTerm2NB is a modification to the open sourced [iTerm] (http://iterm2.com/) software with a borderless interface (hence the postfix NB).
+iTerm2NB is a modification to the open sourced [iTerm](http://iterm2.com/) software with a borderless interface (hence the postfix NB).
 
 * **[powerline] (https://github.com/simar7/powerline)**     
 powerline is a neater way to display useful info on the terminal. This is my local fork of the upstream repo.
