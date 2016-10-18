@@ -1,11 +1,14 @@
 ---
 layout: page
-title: Projects 
+title: Projects
 ---
 
-Here's a list of projects I've contributed to. If you would like to contribute to any of these, feel free to either [email] (mailto:simar@linux.com) or send me a Pull Request with your patch on github and I'll look into it.
+Here's a list of projects I've contributed to. If you would like to contribute to any of these, feel free to either [email] (mailto:simar@linux.com) or send me a Pull Request with your patch on GitHub and I'll look into it.
 
 ### Active Projects
+
+* **[afero] (https://github.com/simar7/afero)**
+Afero is a FileSystem Abstraction System written in Go. I've forked the project and have since contributed the feature completion of the golang [os](https://golang.org/pkg/os) package.
 
 * **singh-kernel**    
 [hammerhead] (https://github.com/simar7/singh-kernel-hammerhead)    
@@ -13,21 +16,14 @@ Here's a list of projects I've contributed to. If you would like to contribute t
 [angler] (https://github.com/simar7/singh-kernel-angler)    
 singh-kernel is my implementation of making a custom kernel for the Android Nexus device line. My work mostly involves backporting patches from either [mainline arm tree] (http://ftp.arm.linux.org.uk/cgit/linux-arm.git) or sideporting from other developers out there.
 
-* **singh-droid**      
-[angler] (https://github.com/simar7/angleroid)        
-singh-droid is my implementation of making a custom AOSP build for the Android Nexus device line.
+### Latent Projects
+(I don't work on these unless I need to use them)
 
 * **[lemming] (https://github.com/simar7/lemming)**    
 Lemming is an open source MySQL data team automation framework built in Vancouver with love.
 
-* **[terraform] (https://github.com/simar7/terraform)**
-Terraform is a tool for building, changing, and versioning infrastructure safely and efficiently. I maintain my personal fork and contribute back to the upstream repository.
-
 * **[gitty] (https://github.com/engineeringX/gitty)**    
 gitty is an Android app that lets you compete with your friends on GitHub.
-
-### Latent Projects
-(I don't work on these unless I need to use them)
 
 * **[singh-ramdisk] (https://github.com/simar7/singh-ramdisk)**    
 A ramdisk image built on top of Google sources. Mostly still stock due to the lack of time.
@@ -35,7 +31,14 @@ A ramdisk image built on top of Google sources. Mostly still stock due to the la
 * **[kernel-tools] (https://github.com/simar7/kernel-tools)**    
 Kernel dev tools collected from the internet.
 
+* **singh-droid**      
+[angler] (https://github.com/simar7/angleroid)        
+singh-droid is my implementation of making a custom AOSP build for the Android Nexus device line.
+
 ### Retired Projects
+
+* **[terraform] (https://github.com/simar7/terraform)**
+Terraform is a tool for building, changing, and versioning infrastructure safely and efficiently. I maintain my personal fork and contribute back to the upstream repository.
 
 * **[mozharness] (https://github.com/mozilla/build-mozharness)**    
 mozharness is a python harness that can be used to automate testing.
