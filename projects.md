@@ -7,7 +7,7 @@ Here's a list of projects I've contributed to. If you would like to contribute t
 
 ### Active Projects
 
-* **[afero](https://github.com/simar7/afero)**
+* **[afero](https://github.com/simar7/afero)**    
 Afero is a FileSystem Abstraction System written in Go. I've forked the project and have since contributed the feature completion of the golang [os](https://golang.org/pkg/os) package.
 
 * **singh-kernel**    
@@ -19,55 +19,55 @@ singh-kernel is my implementation of making a custom kernel for the Android Nexu
 ### Latent Projects
 (I don't work on these unless I need to use them)
 
-* **[lemming] (https://github.com/simar7/lemming)**    
+* **[lemming](https://github.com/simar7/lemming)**    
 Lemming is an open source MySQL data team automation framework built in Vancouver with love.
 
-* **[gitty] (https://github.com/engineeringX/gitty)**    
+* **[gitty](https://github.com/engineeringX/gitty)**    
 gitty is an Android app that lets you compete with your friends on GitHub.
 
-* **[singh-ramdisk] (https://github.com/simar7/singh-ramdisk)**    
+* **[singh-ramdisk](https://github.com/simar7/singh-ramdisk)**    
 A ramdisk image built on top of Google sources. Mostly still stock due to the lack of time.
 
-* **[kernel-tools] (https://github.com/simar7/kernel-tools)**    
+* **[kernel-tools](https://github.com/simar7/kernel-tools)**    
 Kernel dev tools collected from the internet.
 
 * **singh-droid**      
-[angler] (https://github.com/simar7/angleroid)        
+[angler](https://github.com/simar7/angleroid)        
 singh-droid is my implementation of making a custom AOSP build for the Android Nexus device line.
 
 ### Retired Projects
 
-* **[terraform] (https://github.com/simar7/terraform)**
+* **[terraform](https://github.com/simar7/terraform)**
 Terraform is a tool for building, changing, and versioning infrastructure safely and efficiently. I maintain my personal fork and contribute back to the upstream repository.
 
-* **[mozharness] (https://github.com/mozilla/build-mozharness)**    
+* **[mozharness](https://github.com/mozilla/build-mozharness)**    
 mozharness is a python harness that can be used to automate testing.
 
-* **[moz-git-tools] (https://github.com/simar7/moz-git-tools)**    
+* **[moz-git-tools](https://github.com/simar7/moz-git-tools)**    
 moz-git-tools are a collection of some neat hg-git-bzr-svn VCS tools.
 
-* **[iTerm2NB] (https://github.com/simar7/iTerm2)**    
+* **[iTerm2NB](https://github.com/simar7/iTerm2)**    
 iTerm2NB is a modification to the open sourced [iTerm](http://iterm2.com/) software with a borderless interface (hence the postfix NB).
 
-* **[powerline] (https://github.com/simar7/powerline)**     
+* **[powerline](https://github.com/simar7/powerline)**     
 powerline is a neater way to display useful info on the terminal. This is my local fork of the upstream repo.
 
-* **[tmux-for-mac-powerline] (https://github.com/simar7/tmux-for-mac-powerline)**     
+* **[tmux-for-mac-powerline](https://github.com/simar7/tmux-for-mac-powerline)**     
 Some of my work in implementing tmux to run nicely alongwith powerline on Macintosh machines.
 
-* **[networking-python] (https://github.com/simar7/networking-python)**    
+* **[networking-python](https://github.com/simar7/networking-python)**    
 networking-python is a network simulator written in purely in python. It simulates CSMA/CD and Ethernet networks.
 
-* **[digital-design-vhdl] (https://github.com/simar7/digital-design-vhdl)**     
+* **[digital-design-vhdl](https://github.com/simar7/digital-design-vhdl)**    
 digital-design-vhdl is a bunch of hardware componenets written in VHDL. These include some math utilties like the ALU and shift reg, a heating system state machine and a Kirsch Edge detector system.
 
-* **[yocto-project] (https://github.com/simar7/yocto-project)**    
+* **[yocto-project](https://github.com/simar7/yocto-project)**    
 I've worked on Yocto quite a lot so it's hard to describe in a few sentences. Most of my work was on the BeagleBoard BSP and Raspberry Pi integration work. Some parts also involved working with oVirt and QEMU work.
 
-* **[firmware-hackery] (https://github.com/simar7/firmware-hackery)**    
+* **[firmware-hackery](https://github.com/simar7/firmware-hackery)**    
 Some of the reverse engineering binary blobs of firmware found on the internet. I do this purely for fun and educational purposes; the rights are reserved for the copyright owners.
 
-* **[RasTop] (https://plus.google.com/photos/113314680959125706225/albums/5827461406250990737?authkey=CNKmy9TCq76FmQE)**    
+* **[RasTop](https://plus.google.com/photos/113314680959125706225/albums/5827461406250990737?authkey=CNKmy9TCq76FmQE)**    
 Built RasTop, a fully functional ARM laptop built on top of a Raspberry Pi and Yocto Project.
 
 
