@@ -14,7 +14,8 @@ I graduated from the [University of Waterloo](http://uwaterloo.ca) (Class of 201
 
 Besides my day job, I mix tracks for fun. I currently run the following podcasts available publicly on mainstream media:
 
-* Focus Sessions - A monthly podcast featuring the world's finest music to get in the zone.([iTunes] (itunes.apple.com/ca/podcast/focussessions/id1111860460?mt=2) [SoundCloud] (https://soundcloud.com/dj5abi/sets/focus-sessions))
+* Focus Sessions - A monthly podcast featuring the world's finest music to get in the zone.
+[iTunes](itunes.apple.com/ca/podcast/focussessions/id1111860460?mt=2) [SoundCloud](https://soundcloud.com/dj5abi/sets/focus-sessions)
 
 I'm currently **working** as a Systems Software Engineer at [OpenDNS](https://www.opendns.com/) in Vancouver, BC. I write production level code that helps us resolve your DNS queries. Here's a [list] (/explist) of companies I've worked at before. My detailed resume is available upon [request] (mailto:simar@linux.com?subject=Resume-Request).
 
