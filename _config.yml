@@ -9,23 +9,22 @@ permalink:           pretty
 #relative_permalinks: true
 
 # Setup
-title:               Simarpreet Singh 
-#tagline:             'Singh'
-description:          
+title:               Yateendra 
+#tagline:             'Sahu'
+description:         Yateendra sahu's officil website 
 url:                 http://simar7.github.io
 baseurl:             /
 paginate:            5
 
 # About/contact
 author:
-  name:              Simarpreet Singh 
-  url:               http://git.io/simar 
-  email:             simar@linux.com 
-  linkedin:          https://ca.linkedin.com/in/simar7
-  googleplus:        https://plus.google.com/+SimarpreetSingh/
+  name:              Yateendra 
+  url:               http://yateendra.net 
+  email:             yateendra.sahu@gmail.com 
+  googleplus:        https://plus.google.com/+yateendrasahu/
 
 # Timezone
-timezone: America/Toronto
+timezone: Asia/Kolkata
 
 # Custom vars
 version:             1.0.0
