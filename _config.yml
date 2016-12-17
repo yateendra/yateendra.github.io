@@ -5,7 +5,7 @@ highlighter:         rouge
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
+permalink:           
 #relative_permalinks: true
 
 # Setup
@@ -14,7 +14,10 @@ title:               Yateendra Sahu
 description:         Yateendra sahu's official website 
 url:                 http://yateendra.net
 baseurl:             /
-paginate:            5
+paginate:            15
+
+tagline: A log of everyday life
+disqus_shortname: yateendra
 
 # About/contact
 author:
