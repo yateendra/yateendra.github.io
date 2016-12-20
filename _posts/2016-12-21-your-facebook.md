@@ -1,4 +1,9 @@
+---
+published: true
 title: How To Unfollow All Friends On Facebook At Once
+layout: post
+---
+
 
 Hello everyone! You automatically follow people who you're friends with. If you want to Unfollow all friends at once, this trick will surely work for you. This trick works only on desktop view of Facebook.
 
