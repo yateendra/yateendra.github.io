@@ -1,28 +1,31 @@
 ---
 layout: nil
 ---
-
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
- {{ page.title | xml_escape }}
- <title>{{ site.title }}</title>
- <link href="{{ site.url }}/atom.xml" rel="self"/>
- <link href="{{ site.url }}/"/>
- <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>{{ site.url }}</id>
- <author>
-   <name>{{ site.author.name }}</name>
-   <email>{{ site.author.email }}</email>
- </author>
+ 
+  <title>yateendra.net</title>
+  <link href="http://www.batsov.com/"/>
+  <link type="application/atom+xml" rel="self" href="http://www.batsov.com/atom.xml"/>
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>http://www.yateendra.net/</id>
+  <author>
+    <name>Yateendra Sahu</name>
+    <email>yateendra.sahu@gmail.com</email>
+  </author>
 
- {% for post in site.posts %}
- <entry>
-   <title>{{ post.title }}</title>
-   <link href="{{ site.url }}{{ post.url }}"/>
-   <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>{{ site.url }}{{ post.id }}</id>
-   <content type="html">{{ post.content | xml_escape }}</content>
- </entry>
- {% endfor %}
-
+  {% for post in site.posts %}
+  <entry>
+    <id>http://yateendra.net{{ post.id }}</id>
+    <link type="text/html" rel="alternate" href="http://yateendra.net{{ post.url }}"/>
+    <title>{{ post.title | xml_escape }}</title>
+    <updated>{{ post.date | date_to_xmlschema }}</updated>
+    <author>
+      <name>Yateendra sahu</name>
+      <uri>http://yateendra.net/</uri>
+    </author>
+    <content type="html">{{ post.content | xml_escape }}</content>
+  </entry>
+  {% endfor %}
+ 
 </feed>
