@@ -44,4 +44,4 @@ layout: post
 ![](http://3.bp.blogspot.com/-xkPOLVVzlXw/UVb4jqobT1I/AAAAAAAAQJY/yjjAh8UfyY0/s640/07.+ORIGIN+OF+MAHANADI.jpg)*सोण्ढूर बांध से आता रजवाहा*
 ![](http://4.bp.blogspot.com/-uaLXqAcDQBg/UVb5pu5pEVI/AAAAAAAAQKo/je7uP7bRY7Y/s640/17.+ORIGIN+OF+MAHANADI.jpg)*कर्णेश्वर*
 ![](http://4.bp.blogspot.com/-BVB5pI85eec/UVb533Oc3oI/AAAAAAAAQK8/fmnH2NaMWms/s640/20.+ORIGIN+OF+MAHANADI.jpg)*ऊपर पहाडी पर जलयुक्त दरार*
-![](http://1.bp.blogspot.com/-HcYuioZmW6w/UVb6ac6FgrI/AAAAAAAAQLo/pj3jA-aM0gM/s640/25.+ORIGIN+OF+MAHANADI.jpg)*श्रृंगी आश्रम के पास से बहती महानदी*
+![](http://1.bp.blogspot.com/-HcYuioZmW6w/UVb6ac6FgrI/AAAAAAAAQLo/pj3jA-aM0gM/s640/25.+ORIGIN+OF+MAHANADI.jpg)*श्रृंगी आश्रम के पास से बहती महानदी* 
