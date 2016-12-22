@@ -35,6 +35,7 @@ version:             1.0.0
 # Custom gems
 gems:
     - jekyll-sitemap
+    - jekyll-seo-tag
 
 # jekyll-tagging params
 tag_page_layout: blog_by_tag
