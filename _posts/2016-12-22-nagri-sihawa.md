@@ -44,3 +44,6 @@ layout: post
 ![](http://4.bp.blogspot.com/-uaLXqAcDQBg/UVb5pu5pEVI/AAAAAAAAQKo/je7uP7bRY7Y/s640/17.+ORIGIN+OF+MAHANADI.jpg)*कर्णेश्वर*
 ![](http://4.bp.blogspot.com/-BVB5pI85eec/UVb533Oc3oI/AAAAAAAAQK8/fmnH2NaMWms/s640/20.+ORIGIN+OF+MAHANADI.jpg)*ऊपर पहाडी पर जलयुक्त दरार*
 ![](http://1.bp.blogspot.com/-HcYuioZmW6w/UVb6ac6FgrI/AAAAAAAAQLo/pj3jA-aM0gM/s640/25.+ORIGIN+OF+MAHANADI.jpg)*श्रृंगी आश्रम के पास से बहती महानदी* 
+![](http://2.bp.blogspot.com/-fOKGzRBjiqQ/UVc3Qd9aE5I/AAAAAAAAQMg/l1d7sPeULz0/s640/01.+KARK+RISHI+ASHRAM.jpg)*कर्क ऋषि आश्रम*
+![](http://1.bp.blogspot.com/-TcUen91cjMU/UVc3iw1U8iI/AAAAAAAAQNA/10biyPrVAEY/s640/04.+KARK+RISHI+ASHRAM.jpg)**
+
