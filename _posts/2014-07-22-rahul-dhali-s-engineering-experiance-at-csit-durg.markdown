@@ -1,12 +1,13 @@
 ---
 published: true
 title: Rahul Dhali's Engineering Experiance at CSIT DURG
+description: Written by Rahu Dhali talking about my engineering life....!" It was aaawesomeee....! -I was so exited to attend the first day of college, that I reached one hour before time. We were already given all the instructions, dress code, etc. at time of admission. So, I always kept that in mind. - I was new to Durg, had never stayed away from home before, the climate of Durg was different as compared to kondagaon, everything was new, so it just didn't suit me. I attended the few days of college and got fever. So I had to take a long leave to recover. - I wanted to join the association (COMET), but I was bad at the interview.
 layout: post
-tags: [dhali]
 ---
 `Written by Rahu Dhali`
 
-talking about my engineering life....!" It was aaawesomeee....!
+talking about my engineering life....!" It was aaawesomeee....!-I was so exited to attend the first day of college, that I reached one hour before time. We were already given all the instructions, - We were taken for the college tour on the first day. It was really exciting and fun moving around with new classmates. - I feel very lucky to have met Pushkar and Yateendra in the beginning of second year. Pushkar is a brilliant student and had helped us a lot in our studies. We happened to become bench mates and gradually we made the best of friends.
+
 
 starting chronologically......
 
