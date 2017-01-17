@@ -1,6 +1,7 @@
 ---
 published: true
 title: Rahul Dhali explains how he caught a Pikachu
+description: All of us know mumbaikar Rahul Dhali is very busy now a days, but still he managed to catch a Pikachu. He don't have time to write a blog on it so explained through whatsapp. So here is how he caught a pika. Pushkar Chawda takes a jibe
 layout: post
 ---
 All of us know mumbaikar Rahul Dhali is very busy now a days, but still he managed to catch a Pikachu. He don't have time to write a blog on it so explained through whatsapp. So here is how he caught a pika.
