@@ -1,6 +1,7 @@
 ---
 published: true
 title: Songs by Rahul Dhali
+description: Here is a small collection of songs by my friend rockstar Rahul Dhali, embedded from my youtube channel. He is very good at singing and that guitar stuff though. Have a watch!
 layout: post
 tags: [Dhali]
 ---
