@@ -1,6 +1,7 @@
 ---
 published: true
 title: Taking care of a Pitbull Puppy
+description: Pitbull is not good for a first time owner it's not about taking care it's about telling him who's the boss. From young age let him know you are the alpha male, treat when he behaves well and scold him when he's not. 
 layout: post
 ---
 Pitbull is not good for a first time owner it's not about taking care it's about telling him who's the boss. 
