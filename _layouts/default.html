@@ -3,6 +3,12 @@
 
   {% include head.html %}
   {% seo %}
+  
+  {% if page.description %}
+<meta name="description" content="{{ page.description }}">
+{% else %}
+<meta name="description" content= "Anything" >
+{% endif %}
 
   <body class="theme-base-07">
 
