@@ -2,6 +2,8 @@
 published: true
 layout: post
 title: How to root Phoenix OS 1.0.9 & Install Super SU
+description: Phoenix OS is an Android operating system for computers, it is based on X86 project. It is similar to Remix OS both have same functions but Phoenix works super fast and doesn't lag while playing games, the window can be resized UI is also good, and no doubt that rooting will add more functionalities.
+
 ---
 Phoenix OS is an Android operating system for computers, it is based on X86 project. It is similar to Remix OS both have same functions but Phoenix works super fast and doesn't lag while playing games, the window can be resized UI is also good, and no doubt that rooting will add more functionalities.
 
