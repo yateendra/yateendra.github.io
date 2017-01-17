@@ -2,7 +2,6 @@
 published: true
 title: How to stay on H+ rather than H connection
 description: The best thing to do and it worked for me is download the [HSPA+] Tweaker from google play store.
-I dont know for sure but i it works by sending extra data packages to trick the provider into thinking you are in need of a higher and faster connection, thus making your phone stay on H+ rather than dropping down to 3g or less.
 layout: post
 ---
 
