@@ -1,6 +1,7 @@
 ---
 published: true
 title: How To Apply For PAN Card Online
+description: Open https://tin.tin.nsdl.com/pan/form49A.html or [Click Here
 layout: post
 ---
 #1 : Open https://tin.tin.nsdl.com/pan/form49A.html or [Click Here](https://tin.tin.nsdl.com/pan/form49A.html)
