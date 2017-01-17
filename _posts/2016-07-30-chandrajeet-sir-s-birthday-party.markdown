@@ -1,6 +1,7 @@
 ---
 published: true
 title: Chandrajeet Sir's Birthday Party
+description: On 27th of june Chandrajeet sir turned 27. Some photos from his birthday party -
 layout: post
 tags: [jeet]
 ---
