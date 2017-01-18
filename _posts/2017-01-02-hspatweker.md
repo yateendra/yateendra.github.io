@@ -8,10 +8,11 @@ The best thing to do and it worked for me is download the [HSPA+](https://play.g
 ![](https://pbs.twimg.com/media/CcTM1AqUMAAh-z7.jpg)
 I dont know for sure but i it works by sending extra data packages to trick the provider into thinking you are in need of a higher and faster connection, thus making your phone stay on H+ rather than dropping down to 3g or less.
 
-=Go to Settings -
+> Go to Settings -
 Set "Service type" to "file load"
 Set Command retry interval to 1sec.
 Now tap on H button and it's done.
+
 ![](https://pbs.twimg.com/media/Cp1e_3RWYAA_qrL.jpg)
 I had the exact same problem and it is now sorted with this app.
 
