@@ -14,3 +14,5 @@ title: Projects
 -Tech blog
 [csitetc.mobie.in](csitetc.mobie.in)
 -Website for my ET&T batchmates.
+
+<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fya3dra&width=76&layout=button_count&action=like&size=small&show_faces=true&share=false&height=21&appId=239992719524816" width="76" height="21" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
