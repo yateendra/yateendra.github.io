@@ -10,5 +10,4 @@ Yateendra Sahu is a Web Developer from India with a keen interest in Website Dev
 - [Google plus](https://plus.google.com/110781854300344384592)
 - 
 
-<iframe src="http://www.facebook.com/plugins/like.php?href=http://facebook.com/ya3dra&amp;send=false&#10;&amp;layout=button_count&amp;width=450&amp;show_faces=false&amp;&#10;action=like&amp;colorscheme=light&amp;font&amp;height=35" scrolling="no" frameborder="0" style="border:none;
-overflow:hidden;width:450px; height:23px;" allowtransparency="true"></iframe>
+<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fya3dra&width=76&layout=button_count&action=like&size=small&show_faces=true&share=false&height=21&appId=239992719524816" width="76" height="21" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
