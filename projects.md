@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 ---
-[yateendra.net](https://yateendra.net)
+[yateendra.net](http://yateendra.net)
 -My website.
 [pushkarchawda.com](https://pushkarchawda.com)
 -Pushkar's website.
