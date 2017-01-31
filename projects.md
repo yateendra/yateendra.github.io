@@ -4,9 +4,9 @@ title: Projects
 ---
 [yateendra.net](http://yateendra.net)
 -My website.
-[pushkarchawda.com](https://pushkarchawda.com)
+[pushkarchawda.com](http://pushkarchawda.com)
 -Pushkar's website.
-[rahuldhali.org](https://rahuldhali.org)
+[rahuldhali.org](http://rahuldhali.org)
 -Dhali's website.
 [csslord.blogspot.com](https://csslord.blogspot.com) 
 -Bank preparation blog.
