@@ -3,6 +3,8 @@ layout: page
 title: Pricing
 ---
 
+![](https://pbs.twimg.com/media/DAk1_3nXcAAnApn?format=jpg)
+
 **Mobile App Development - 2999rs**
 
 **Simple Website** -  This type of website with simple and basic functionality, providing information about your business and just giving you an “online presence.” You’ll typically get a Home page, an About page, a Services/Products page, and a Contact page.Such a website costs somewhere between **3,000rs**
