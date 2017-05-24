@@ -7,15 +7,15 @@ description: Web development pricings. Complex Website -  This type of website u
 
 
 
-**Mobile App Development -  ~~**4999**~~ 2999 rs**
+Mobile App Development - **2999 rs**
 
-**Simple Website** - This type of website with simple and basic functionality, providing information about your business and just giving you an “online presence.” You’ll typically get a Home page, an About page, a Services / Products page, and a Contact page. Such a website costs somewhere between ~~**3999**~~ **3,000 rs**.
+**Simple Website** - This type of website with simple and basic functionality, providing information about your business and just giving you an “online presence.” You’ll typically get a Home page, an About page, a Services / Products page, and a Contact page. Such a website costs somewhere between **3,000 rs**.
 
 <img border="0" style="width: 100%;" alt="Contact for web development" src="https://pbs.twimg.com/media/DAk1_3nXcAAnApn?format=jpg" >
 
-**Complex Website** - This type of website usually incorporates a database and/or dynamic content. In addition, though, you get a CMS-integrated design (like WordPress) which gives you an easier option for “logging in” and making changes to the content of the site.Such a website costs somewhere between ~~**5999**~~ **5,000 rs**.
+**Complex Website** - This type of website usually incorporates a database and/or dynamic content. In addition, though, you get a CMS-integrated design (like WordPress) which gives you an easier option for “logging in” and making changes to the content of the site.Such a website costs somewhere between **5,000 rs**.
 
-**eCommerce Website** - This is your shopping cart-enabled site, You get basic eCommerce functionality with a shopping cart and the ability to add and update products, accept and process payments, etc. Such a website costs somewhere between ~~**15999**~~**15,000 rs**.
+**eCommerce Website** - This is your shopping cart-enabled site, You get basic eCommerce functionality with a shopping cart and the ability to add and update products, accept and process payments, etc. Such a website costs somewhere between **15,000 rs**.
 
 **Check some of my projects here** ~ [yateendra.net/projects](http://yateendra.net/projects.html "yateendra.net/projects")
 
