@@ -4,6 +4,7 @@ title: Pricing
 ---
 
 ![](https://pbs.twimg.com/media/DAk1_3nXcAAnApn?format=jpg)
+<img border="0" style="width: 100%;" alt="Contact for web development" src="https://pbs.twimg.com/media/DAk1_3nXcAAnApn?format=jpg" >
 
 **Mobile App Development - 2999rs**
 
