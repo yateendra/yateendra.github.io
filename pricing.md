@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Pricing
+title: Web Development Pricings
 description: Web development pricings. Complex Website -  This type of website usually incorporates a database and/or dynamic content. In addition, though, you get a CMS-integrated design (like WordPress) which gives you an easier option for “logging in” and making changes to the content of the site.Such a website costs somewhere between
 ---
 
