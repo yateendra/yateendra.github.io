@@ -1,0 +1,69 @@
+---
+title: 'Using Chart.js library to make charts on web pages'
+description: 'When we offer web pages to web surfers, sometimes we need to present the information in a slightly different and dynamic way than just text or an image. This is the case, for example, when you want to explain figures clearly, highlight statistics and everything you can imagine and which would lead you here to find information on the subject.'
+layout: post
+---
+
+When we offer web pages to web surfers, sometimes we need to present the information in a slightly different and dynamic way than just text or an image. This is the case, for example, when you want to explain figures clearly, highlight statistics and everything you can imagine and which would lead you here to find information on the subject.
+
+Besides I would suggest in the future a page to follow the statistics of this site and there is a good chance that I use this bookstore that I will also detail you a little here, it is Chart .js . When it is online I could use this as an example so that you can see what it looks like in practice before you start this tutorial.
+
+We start from the beginning , and we will have to go to the [official site](http://www.chartjs.org/) of Chart.js to retrieve the library that will be necessary to display your chart. My choice has quickly turned to this solution because you do not have to use jQuery so in my examples it will be a use of Chart.js without this jQuery library but you can also use it , The choice belongs to you.
+
+This does not change much at the end but it would be a shame to force to integrate and load jQuery to generate your graphics when it is possible to do without it and that the rest of the project does not use jQuery.
+
+Once you have retrieved the library, just create a folder, with a classic HTML page as well as the library chart.js that you just recovered and finally to inform the reference to the library chart.js very Simple:
+
+
+```javascript
+< Script src = "Chart.js" > < script >
+```
+It was the very simple part but as you will quickly see it, the rest will not be much more complicated in the end. Now, we have to give a container for our future graphic because it is in this small area that it will display. For this nothing crazy, we add the following small piece of HTML:
+
+
+```.HTML
+< Span class = "row" >
+< Div class = "text-center" >
+< Canvas id = "graphic" width = "1000" height = "350" > < / canvas >
+< / Div >
+< / Span >
+```
+It is in this part that we are going to display our graph, you can of course size it to your liking using the two variables width and height for the length and width of your chart. Now, at this stage, we only have to use data to make our graph useful. In this example it is a graph of the type "Line Chart" which therefore has an axis of the abscissa, it will be necessary to think so that the graph makes sense. Here, to make it clear, I have used time as a value for the abscissa. Here is the JavaScript code that handles the chart data:
+
+
+```javascript
+< Script >
+Var chartdata = {
+Labels : [ "2016-02-29 11:02:06" , "2016-02-29 12:01:54" , "2016-02-29 13:02:09" , "2016-02-29 14: 02:10 " , " 2016-02-29 15:02:08 " , " 2016-02-29 16:02:10 " , " 2016-02-29 17:02:09 " ] ,
+Datasets : [ {
+FillColor : "rgba (7,75,234,0.5)" ,
+StrokeColor : "# 074bea" ,
+PointColor : "#fff" ,
+PointStrokeColor : "# 074bea" ,
+Data : [ 0 , 862 , 1899 , 2430 , 2768 , 2958 , 3124 ]
+} ,
+ 
+{
+FillColor : "rgba (23,234,7,0.5)" ,
+StrokeColor : "# 17ea07" ,
+PointColor : "#fff" ,
+PointStrokeColor : "# 17ea07" ,
+Data : [ 0 , 64 , 128 , 256 , 512 , 1024 , 2048 ]
+} ,
+ 
+{
+FillColor : "rgba (231,26,13,0.75)" ,
+StrokeColor : "# e71a0d" ,
+PointColor : "#fff" ,
+PointStrokeColor : "# e71a0d" ,
+Data : [ 0 , 4200 , 3000 , 2000 , 200 , 500 , 5 ]
+}
+ 
+]
+}
+ 
+Var chart = document. GetElementById ( 'chart' ) . GetContext ( '2d' ) ;
+New Chart ( chart ) . Line ( chartdata ) ;
+</ Script >
+```
+In this example, the data is hard in the tables, so it will be necessary to feed them dynamically via PHP for example to have a truly alive graph. Do not hesitate to ask your questions in case of problem but as you can see it is really easy to use, thank you Chart.js!
