@@ -8,7 +8,7 @@ Google continues to put more and more websites that are mobile compatible and th
 
 In fact Google has been talking about it for some time and it really started last year. Now, it seems that Google wants to speed things up further on this subject. I'm not the one who says it, so it's really going to have to adapt. Thus, from May onwards, the mobile friendly criterion risks having a much greater impact in the SERPs (research results).
 
-![Test your site on the Google tool to find out if it is mobile friendly](https://search.google.com/search-console/mobile-friendly)
+[Test your site on the Google tool to find out if it is mobile friendly](https://search.google.com/search-console/mobile-friendly)
 
 If you do not worry about it, this could have a negative impact on your SEO on the search engine. Normally the impact will not be very important for the results of research on classical computer but on the other hand the data will not be the same for the searches carried out on a mobile.
 
