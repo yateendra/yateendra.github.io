@@ -1,0 +1,12 @@
+---
+title: 'Happy Birthday to my brother and me'
+description: 'I usually had a joint birthday with my brother.'
+layout: post
+---
+
+It's just a coincidence that birthday of mine and my brother's falls on same day, however my brother is 2 years older than me. My family always celebrated our birthdays together cutting same cake, so I usually had a joint birthday with my brother. My parents were really good about it and always made us feel special on our birthday they have always been supportive to us
+
+![](https://media.giphy.com/media/PAgzChMNPymha/giphy.gif)
+
+
+So Happy birthday to both of us!!
