@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Live tv</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+<script type='text/javascript'>//<![CDATA[ 
+$(function(){
+$('.activator').click(function(e){
+        e.preventDefault();
+
+  
+  $('.frame').attr("src", this.href);
+ 
+  $('.overlay').fadeIn('fast', function(){
+            $('.box').show('fast');
+        });
+       
+    });
+
+  $('.boxclose').click(function(){
+        $('.box').hide('fast',function(){
+            $('.overlay').fadeOut('fast');
+        });
+    });
+
+    
+});//]]>  
+
+</script>
+
+    <style>
+        body {
+            max-width: 720px;
+            margin: 50px auto;
+        }
+
+        #test_video {
+            width: 720px;
+        }
+
+        .controls {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        input.input, .form-inline .input-group>.form-control {
+            width: 300px;
+        }
+    </style>
+    
+</head>
+<body>
+
+<a class="activator" href="http://cdn.crichd.info//embed.php?id=nba">nba</a>
+<a class="activator" href="http://cricfree.sc/update/euro.php">euro</a>
+
+<div class="overlay" style="display:none;"></div>
+<div class="box" style="display: none;">
+    <a class="boxclose">X</a>
+    <iframe id="test_video" class="frame" style="position: absolute; top: 0px; right: 0px; left: 0px; bottom: 0px;> </iframe>
+</div>
+
+
+
+
+
+
+</body>
+</html>
