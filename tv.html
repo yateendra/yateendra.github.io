@@ -4,6 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <title>Live tv</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <style>		
+         body {		
+             max-width: 720px;		
+             margin: 50px auto;		
+         }		
+ 		
+         #test_video {		
+             width: 720px;		
+        }		
+ 		
+    </style>
 
 <script type='text/javascript'>//<![CDATA[ 
 $(function(){
@@ -38,7 +50,7 @@ $('.activator').click(function(e){
 <div class="overlay" style="display:none;"></div>
 <div class="box" style="display: none;">
     <a class="boxclose">X</a>
-    <iframe class="frame" style="position: absolute; top: 0px; right: 0px; left: 0px; bottom: 0px;> </iframe>
+    <iframe  id="test_video" class="frame" style="position: absolute; top: 0px; right: 0px; left: 0px; bottom: 0px;> </iframe>
 </div>
 
 
