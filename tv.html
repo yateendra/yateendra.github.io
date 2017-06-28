@@ -1,58 +1,76 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Live tv</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <style>		
-         body {		
-             max-width: 720px;		
-             margin: 50px auto;		
-         }		
- 		
-         #test_video {		
-             width: 720px;		
-        }		
- 		
-    </style>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, nofollow">
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="http://fiddle.jshell.net/css/normalize.css">
+  
+<link rel="stylesheet" type="text/css" href="http://fiddle.jshell.net/css/result-light.css">
+  
 
-<script type='text/javascript'>//<![CDATA[ 
+  
+
+  <style type="text/css">
+    
+  </style>
+
+  <title>Tv 1.0324</title>
+
+  
+    
+
+
+
+
+<script type='text/javascript'>//<![CDATA[
 $(function(){
 $('.activator').click(function(e){
         e.preventDefault();
+        alert(this.href);
+        $('.frame').attr("src", this.href);
 
-  
-  $('.frame').attr("src", this.href);
- 
-  $('.overlay').fadeIn('fast', function(){
+        $('.overlay').fadeIn('fast', function(){
             $('.box').show('fast');
         });
-       
     });
 
-  $('.boxclose').click(function(){
+
+    $('.boxclose').click(function(){
         $('.box').hide('fast',function(){
             $('.overlay').fadeOut('fast');
         });
     });
-
-    
-});//]]>  
+});//]]> 
 
 </script>
-</head>
-<body>
 
-<a class="activator" href="http://cdn.crichd.info//embed.php?id=nba">nba</a>
-<a class="activator" href="http://cricfree.sc/update/euro.php">euro</a>
+  
+</head>
+
+<body>
+  <a class="activator" href="http://cdn.crichd.info//embed.php?id=nba">google</a>
+<a class="activator" href="http://cricfree.sc/update/euro.php">bing</a>
 
 <div class="overlay" style="display:none;"></div>
 <div class="box" style="display: none;">
     <a class="boxclose">X</a>
-    <iframe  id="test_video" class="frame" style="position: absolute; top: 0px; right: 0px; left: 0px; bottom: 0px;> </iframe>
+    <iframe class="frame" src="" style="position: absolute; top: 50px; right: 0px; left: 0px; bottom: 0px;"> </iframe>
 </div>
-
+  
+  <script>
+  // tell the embed parent frame the height of the content
+  if (window.parent && window.parent.parent){
+    window.parent.parent.postMessage(["resultsFrame", {
+      height: document.body.getBoundingClientRect().height,
+      slug: "XcxYP"
+    }], "*")
+  }
+</script>
 
 </body>
+
 </html>
+
