@@ -1,1 +1,76 @@
 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SKPlayer</title>
+    <meta name="viewport" content="width=440,user-scalable=no">
+    <style>
+        body{
+            font-family:Arial,Helvetica,sans-serif;
+            color:#6A6B6F;
+            text-align:center;
+            padding-top:17px;
+            width:470px;
+            margin:0 auto;
+        }
+        h1{
+            font-size:36px;
+        }
+        h2{
+            font-size:24px;
+        }
+        p{
+            font-size:18px;
+        }
+        #skPlayer{
+            margin:27px auto 0;
+        }
+        .container{
+            margin-top:200px;
+        }
+        .doc{
+            text-align:left;
+        }
+        pre{
+            padding-left:2em;
+            font-size:16px;
+            line-height:24px;
+            color:#fff;
+            background-color:#272822;
+            border-radius:3px;
+        }
+        @media screen and (max-width:768px){
+            body{
+                width:100%;
+            }
+            .doc{
+                display:none;
+            }
+        }
+    </style>
+</head>
+<body>
+  
+    <h1>Player 3.0</h1>
+    <p>一款简约好看的HTML5音乐播放器</p>
+    
+    <div id="skPlayer"></div>
+    <div class="container">
+        Container
+    </div>
+        
+    </div>
+    <script src="http://www.chengfeilong.com/skPlayer/dist/skPlayer.min.js"></script>
+    <script>
+        var player = new skPlayer({
+            autoplay: true,
+            music: {
+                type: 'cloud',
+                source: 317921676
+            }
+        });
+    </script>
+</body>
+</html>
