@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<script type="text/javascript" src="//code.jquery.com/jquery-1.7.js"></script>
+
+<script>
+     function audioPlayer(){
+            var currentSong = 0;
+            $("#audioPlayer")[0].src = $("#playlist li a")[0];
+            $("#audioPlayer")[0].play();
+            $("#playlist li a").click(function(e){
+               e.preventDefault(); 
+               $("#audioPlayer")[0].src = this;
+               $("#audioPlayer")[0].play();
+               $("#playlist li").removeClass("current-song");
+                currentSong = $(this).parent().index();
+                $(this).parent().addClass("current-song");
+            });
+            
+            $("#audioPlayer")[0].addEventListener("ended", function(){
+               currentSong++;
+                if(currentSong == $("#playlist li a").length)
+                    currentSong = 0;
+                $("#playlist li").removeClass("current-song");
+                $("#playlist li:eq("+currentSong+")").addClass("current-song");
+                $("#audioPlayer")[0].src = $("#playlist li a")[currentSong].href;
+                $("#audioPlayer")[0].play();
+            });
+        }
+</script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+    </script>
+
+    <meta charset="UTF-8">
+    <title>HTML5 Audio Player</title>
+    <style>
+        #playlist{
+            list-style: none;
+        }
+        #playlist li a{
+            color:black;
+            text-decoration: none;
+        }
+        #playlist .current-song a{
+             background-color: #fafafa;
+    border-left: 1px solid #ccc;
+
+    font-weight: 500; 
+        }
+
+    a.activator:hover {
+    background-color: #fafafa;
+    border-left: 1px solid #ccc;
+}
+body,h1,h2,h3,p,td,quote,small,form,input,ul,li,ol,label{
+  margin:0px;
+	padding:0px; 
+}
+
+body{
+	margin-top:5px;
+	color:#51555C;
+}
+
+#twitter-container{
+  
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 0 4px 6px 1px rgba(50, 50, 50, 0.14);
+    box-sizing: border-box;
+    color: black;
+    line-height: 1.5;
+    margin: 0.5em auto 0;
+
+    Max-width:440px;
+    padding: 30px 35px 30px 37px;word-wrap: break-word;
+    
+}
+
+label{
+	font-size:20px;
+	display:block;
+}
+
+
+  #twitter-container {
+    padding:0px;
+  }
+a {
+    display: list-item;
+    word-wrap: break-word;
+    padding: 2px 2px 3px 11px;
+    color: #7d7d7d; 
+    list-style-type: none;
+    font-size: 19px;
+    text-decoration: none;
+}
+label {
+    text-align: center;
+
+    font-size: -webkit-xxx-large;
+}
+    </style>
+</head>
+
+
+
+
+
+<body> <div id="twitter-container">
+<label for="inputField">🎼 Audio Player</label>
+<br>
+
+    <audio style="width: 100%; src="" controls id="audioPlayer"></audio>
+<br><br>
+    <ul id="playlist">
+
+<li class="current-song"><a href="http://stream1.ndtv.com:8080/on-ndtvindia">Ndtv India</a></li>
+<li><a href="http://stream1.ndtv.com:8080/on-ndtv24x7">Ndtv 24x7</a></li>
+<li><a href="http://stream1.ndtv.com:8080/on-ndtvprofit">Ndtv Profit</a></li>
+<li><a href="http://204.93.192.135/wnycfm">Wnycfm</a></li>
+<li><a href="http://wshu.streamguys.org/wshu-news">Wshu</a></li>
+<li><a href="http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-eieuk">BBCW</a></li>                                                  
+<li><a href="http://19353.live.streamtheworld.com/977_HITS_SC">.977 - Today's Hits</a></li>
+<li><a href="http://sc.hot108.com:4020/;279088515502421stream.nsv">Hot jamz</a></li>
+<li><a href="http://7619.live.streamtheworld.com/977_JAMZ_SC">977 jamz</a></li>
+<li><a href="http://uplink.duplexfx.com:8054/">181.fm</a></li>
+<li><a href="http://fm939.wnyc.org/wnycfm-tunein.aac">Wnyc 939fm</a></li>
+<li><a href="http://am820.wnyc.org/wnycam-tunein.aac">Wnyc 820am</a></li>
+<li><a href="http://vr-live-mp3-128.scdn.arkena.com/virginradio.mp3">Virginradio</a></li>
+<li><a href="http://njpr.wnyc.org/njprweb">Njprweb</a></li>
+<li><a href="http://sc.powerhitz.com:5000/">Powerhitz</a></li>
+<li><a href="http://kcrw.streamguys1.com/kcrw_128k_aac_on_air_tunein">Kcrw</a></li>
+<li><a href="http://ice8.securenetsystems.net/KNRJ">Knrj</a></li>
+<li><a href="http://ice66.securenetsystems.net/KMLB2">KMLB2</a></li>
+<li><a href="http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio1_mf_p">BBC - Radio 1</a></li>
+<li><a href="http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio5live_mf_p">BBC5</a></li>
+<li><a href="http://bbcmedia.ic.llnwd.net/stream/bbcmedia_asianet_mf_p">BBC Radio Asian Network</a></li>
+<li><a href="http://media-ice.musicradio.com/CapitalMP3">Capital</a></li>
+<li><a href="http://bbcmedia.ic.llnwd.net/stream/bbcmedia_lrldn_mf_p?s=1425137091&e=1425151491&h=00f8cac17e3e3942cea94365c81d0dad">MAGIC 105.4</a></li>
+<li><a href=""></a></li>
+<li><a href=""></a></li>
+<li><a href=""></a></li>
+<li><a href=""></a></li>
+<li><a href=""></a></li>
+<li><a href=""></a></li>
+<li><a href=""></a></li>
+<li><a href=""></a></li>
+<li><a href=""></a></li>
+    </ul>
+    
+
+
+</div>
+</body>
+</html>
+    
+    
+    
