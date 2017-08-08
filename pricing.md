@@ -17,7 +17,7 @@ Mobile App Development - **2999 rs**
 
 **eCommerce Website** - This is your shopping cart-enabled site, You get basic eCommerce functionality with a shopping cart and the ability to add and update products, accept and process payments, etc. Such a website costs somewhere between **15,000 rs**.
 
-**Check some of my projects here** ~ [yateendra.net/projects](http://yateendra.net/projects.html "yateendra.net/projects")
+**Check some of my projects here** ~ [yateender.com/projects](http://yateender.com/projects.html "yateender.com/projects")
 
 More Queries? mail me at **yateendra.sahu@gmail.com**
 
