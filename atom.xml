@@ -4,11 +4,11 @@ layout: nil
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
-  <title>yateendra.net</title>
-  <link href="http://yateendra.net"/>
+  <title>yateender.com</title>
+  <link href="http://yateender.com"/>
   <link type="application/atom+xml" rel="self" href="http://www.batsov.com/atom.xml"/>
   <updated>{{ site.time | date_to_xmlschema }}</updated>
-  <id>http://www.yateendra.net/</id>
+  <id>http://www.yateender.com/</id>
   <author>
     <name>Yateendra Sahu</name>
     <email>yateendra.sahu@gmail.com</email>
@@ -16,13 +16,13 @@ layout: nil
 
   {% for post in site.posts %}
   <entry>
-    <id>http://yateendra.net{{ post.id }}</id>
-    <link type="text/html" rel="alternate" href="http://yateendra.net{{ post.url }}"/>
+    <id>http://yateender.com{{ post.id }}</id>
+    <link type="text/html" rel="alternate" href="http://yateender.com{{ post.url }}"/>
     <title>{{ post.title | xml_escape }}</title>
     <updated>{{ post.date | date_to_xmlschema }}</updated>
     <author>
       <name>Yateendra sahu</name>
-      <uri>http://yateendra.net/</uri>
+      <uri>http://yateender.com/</uri>
     </author>
     <content type="html">{{ post.content | xml_escape }}</content>
   </entry>
