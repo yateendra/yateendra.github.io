@@ -12,8 +12,8 @@ permalink:
 title:               Yateendra Sahu
 #tagline:             'Sahu'
 description:         Yateendra sahu's official website 
-#url:                 http://yateender.com
-baseurl:             /
+url:                 http://yateender.com
+baseurl:             
 paginate:            15
 
 tagline: A log of everyday life
