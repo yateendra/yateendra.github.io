@@ -13,7 +13,7 @@ title:               Yateendra Sahu
 #tagline:             'Sahu'
 description:         Yateendra sahu's official website 
 url:                 http://yateender.com
-baseurl:             
+baseurl:             /
 paginate:            15
 
 tagline: A log of everyday life
