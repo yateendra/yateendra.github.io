@@ -3,7 +3,7 @@ layout: page
 title: Projects
 Discription: My Web development projects
 ---
-[yateendra.net](http://yateendra.net)
+[yateender.com](http://yateender.com)
 -My website.
 [pushkarchawda.com](http://pushkarchawda.com)
 -Pushkar's website.
