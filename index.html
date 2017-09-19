@@ -15,6 +15,11 @@ description: Official Website of Yateendra Sahu
         </a>
       </h1>
       <span class="post-date">{{ post.date | date: "%e %b %Y" }}</span>
+      
+      <p class="meta">
+                {{ post.content | strip_html | escape | truncatewords: 80 }}
+            </p>
+      
     </div>
 
   {% endfor %}
