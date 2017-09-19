@@ -1,1 +1,1 @@
-Yateendra.net
+Yateender.com
