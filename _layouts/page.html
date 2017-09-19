@@ -6,3 +6,59 @@ layout: default
   <h1 class="page-title">{{ page.title }}</h1>
   {{ content }}
 </div>
+
+
+
+<a href="https://www.facebook.com/plugins/like.php?href=http://yateendra.github.io{{ page.url }}" style="
+    padding: 3px 8px 3px 8px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: cursive;
+    background-color: #3b5998;
+    border-radius: 3px;
+" target="_blank">Like</a>
+
+<a href="http://www.facebook.com/sharer.php?u=http://yateendra.github.io{{ page.url }}" style="
+    padding: 3px 8px 3px 8px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: cursive;
+    background-color: #3b5998;
+    border-radius: 3px;
+" target="_blank">Share</a>
+
+ <a href="http://twitter.com/share?text={{ page.title }}&url=http://yateendra.github.io{{ page.url }}" style="
+    padding: 3px 8px 3px 8px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: cursive;
+    background-color: #00aced;
+    border-radius: 3px;
+" target="_blank">tweet</a>
+
+<a href="whatsapp://send?text={{ page.title }} http://yateender.com{{ page.url }}" style="
+    padding: 3px 8px 3px 8px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: cursive;
+    background-color: #009688;
+    border-radius: 3px;
+">Whatsapp</a>
+
+<a href="https://plus.google.com/share?url=http://yateender.com{{ page.url }}" style="
+    padding: 3px 8px 3px 8px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: cursive;
+    background-color: #b1002c;
+    border-radius: 3px;
+" target="_blank">Google+</a>
+
+
+
+{% include disqus.html %}
