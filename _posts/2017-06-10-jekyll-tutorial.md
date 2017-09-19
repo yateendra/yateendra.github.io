@@ -38,14 +38,14 @@ $ git clone https://github.com/username/username.github.io`
 - Clone the theme
 - Put the theme in your repository (do not forget that username is your username in GitHub).
 
-`$ git clone https://github.com/rosario/kasper #baixa o tema kasper`
-`$ mv kasper/* username.github.io #coloca o tema no seu repositório`
+`$ git clone https://github.com/rosario/kasper `
+`$ mv kasper/* username.github.io `
 `$ cd username.github.io`
 
 Upload the files to your repository in GitHub it will ask for your username and password
 
 `$ git add --all`
-`$ git commit -m "novo post: Hello World!"`
+`$ git commit -m "post: Hello World!"`
 `$ git push origin master`
 
  Access your new website The URL is exactly the name of the repository you created. Then, go to: username.github.io . If it is not yet available, wait a few minutes.
@@ -68,7 +68,7 @@ layout: post
 title:  Hello World!
 date:   2015-01-14 15:00:00
 ---
-<h2>Jekyllti</h2>
+<h2>Jekyll</h2>
 <p>Y Love You World s3</p>
 ```
 To see how your page will be online, start a Jekyll server
