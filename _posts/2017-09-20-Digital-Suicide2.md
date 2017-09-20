@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Where does the "Blue Whale" come from? "
-description: The "Blue Whale" game - which is also known as the Blue Whale Challenge - started because of an article in a Russian newspaper about a year ago, says El Pais. The article, published in Novaya Gazeta, analyzed a series of teen suicides in Russia and revealed that young people who committed suicide had previously participated in forums on the social network VKontakte (VK.com) - a kind of Russian Facebook - which contained information about the "Blue Whale". This is where the term first appears.
+title:  "Where does the Blue Whale come from? "
+description: The Blue Whale game  which is also known as the Blue Whale Challenge  started because of an article in a ..
 
 ---
 
