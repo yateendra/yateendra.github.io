@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Complete List Of Blue Whale Challenges"
+title:  "Complete List of Blue Whale Challenge Tasks"
 description: A Reddit user posted a completed list of tasks which were supposedly posted in a comment on a story about the game on a Russian news website. The list of challenges has been translated from Russian.
 
 ---
@@ -40,3 +40,6 @@ A Reddit user posted a completed list of tasks which were supposedly posted in a
 1. Jump off a high building. Take your life.
 
 The game is all about the stupidity and also how we have become the slaves of the digital media. 
+
+Meanwhile here is another victim of blue whale challenge 
+![](https://pbs.twimg.com/media/DJW6KCEW0AAxYKC?format=jpg)
