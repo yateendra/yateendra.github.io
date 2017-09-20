@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Where does the Blue Whale come from? "
+title:  "Blue Whale: Digital Suicide"
 description: The Blue Whale game  which is also known as the Blue Whale Challenge  started because of an article in a ..
 
 ---
