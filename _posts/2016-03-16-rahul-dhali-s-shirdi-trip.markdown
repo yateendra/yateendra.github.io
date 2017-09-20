@@ -4,7 +4,6 @@ title: Rahul Dhali's Shirdi Trip
 description: Posted by Rahul Dhali. I was wondering what to write in this blog for past few days. Suddenly today morning the idea popped out. I went for a trip to Shirdi today. I thought why not write about the travel experiences. This way, it will act as reference to others for better travel and it will help me remember the destinations I’ve covered.
 
 layout: post
-tags: [dhali]
 ---
 Posted by Rahul Dhali.
 
