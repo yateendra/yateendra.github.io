@@ -1,4 +1,6 @@
 <div id="fb-root"></div>
+
+<!--
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
@@ -6,6 +8,31 @@
   js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.10&appId=239992719524816";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
+-->
+
+<script>
+    window.fbAsyncInit = function () {
+        FB.init({appId: '239992719524816', version: 2.4, xfbml: true});
+
+        if (typeof facebookInit == 'function') {
+            facebookInit();
+        }
+    };
+
+    (function () {
+        var e = document.createElement('script');
+        e.src = document.location.protocol + '//connect.facebook.net/en_US/all.js';
+        e.async = true;
+        document.getElementById('fb-root').appendChild(e);
+    }());
+
+
+    function facebookInit() {
+        console.log('Loading comments...');
+        FB.XFBML.parse();
+    }
+</script>
+
 
 <div class="fb-comments"></div>
 
