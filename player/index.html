@@ -75,13 +75,11 @@ label {
 }
       
  #productMenuBar {
- width: 100%;position: fixed; 
- Max-width: 440px; 
- box-shadow: -5px 6px 8px 0px rgba(0,0,0,0.16), 4px -4px 4px 1px rgba(0,0,0,0.08);
+ position: fixed; 
     }      
       
       
-    </style>
+ </style>
   
   
   
@@ -100,7 +98,7 @@ label {
 
         if(pageYOffset>startProductBarPos){
             bar.style.position='fixed';
-            bar.style.top=0;
+            bar.style.bottom=0;
         }else{
             bar.style.position='relative';
         }
@@ -142,7 +140,7 @@ label {
 <br>
 
   
-<div id="productMenuBar" class="productMenuBar"><audio style="" src="" controls id="audioPlayer"></audio></div>
+<div style="position: relative; top: 0px;" id="productMenuBar" class="productMenuBar"><audio style="width: 100%;position: fixed;Max-width: 440px;" src="" controls id="audioPlayer"></audio></div>
   
 <br><br>
     <ul id="playlist">
