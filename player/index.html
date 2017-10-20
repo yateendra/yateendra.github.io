@@ -79,23 +79,23 @@ label {
     }      
       
       
-      #sticky {
-    
-    width: 100%;position: fixed; Max-width: 440px;
-    
+#sticky {
+width: 100%;
+position: fixed; 
+Max-width: 440px;    
 }
       
  </style>
   
-   <script>
-        $(document).scroll(function() {
+<script>
+$(document).scroll(function() {
   //detect when user scroll to top and set position to relative else sets position to fixed
   $("#sticky").css({
-    "top": "0",
+    "top": "0px",
     "position": $(this).scrollTop() > 140 ? "fixed" : "relative"
   });
 });
-    </script>
+</script>
   
 </head>
 
