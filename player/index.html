@@ -72,26 +72,8 @@ label {
     text-align: center;
 
     font-size: -webkit-xxx-large;
-}
-      
-#sticky {
-width: 100%;
-position: fixed; 
-Max-width: 440px;    
-}
-      
+}     
  </style>
-  
-<script>
-$(document).scroll(function() {
-  //detect when user scroll to top and set position to relative else sets position to fixed
-  $("#sticky").css({
-    "top": "0px",
-    "position": $(this).scrollTop() > 140 ? "fixed" : "relative"
-  });
-});
-</script>
-  
 </head>
 
 
@@ -99,13 +81,12 @@ $(document).scroll(function() {
 
 
 <body> <div id="twitter-container">
+<audio width: 100%;position: fixed; Max-width: 440px;  src="" controls id="audioPlayer"></audio>
 <label for="inputField">🎼 Audio Player</label>
 <br>
 
-  
-<div id="sticky">
-<audio  src="" controls id="audioPlayer"></audio>
-</div>
+
+
   
 <br><br>
     <ul id="playlist">
