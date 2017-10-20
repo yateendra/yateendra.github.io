@@ -98,7 +98,7 @@ label {
 
         if(pageYOffset>startProductBarPos){
             bar.style.position='fixed';
-            bar.style.bottom=0;
+            bar.style.top=0;
         }else{
             bar.style.position='relative';
         }
@@ -140,7 +140,7 @@ label {
 <br>
 
   
-<div style="position: relative; bottom: 0px;" id="productMenuBar" class="productMenuBar"><audio style="width: 100%;position: fixed;Max-width: 440px;" src="" controls id="audioPlayer" autoplay></audio></div>
+<div style="position: relative; top: 0px;" id="productMenuBar" class="productMenuBar"><audio style="width: 100%;position: fixed;Max-width: 440px; -webkit-transition: width 2s; transition: width 2s;" src="" controls id="audioPlayer" autoplay></audio></div>
   
 <br><br>
     <ul id="playlist">
