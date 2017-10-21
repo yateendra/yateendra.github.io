@@ -13,15 +13,18 @@
             color:black;
             text-decoration: none;
         }
-        #playlist .current-song a{
-             
+      
+        #playlist .current-song a{ 
         list-style: inside;
     font-weight: 500; 
         }
+      #playlist .current-song a:before { content: "Playing "; }
+      
     a.activator:hover {
       background-color: #fafafa;
     border-left: 1px solid #ccc;
 }
+      
 body,h1,h2,h3,p,td,quote,small,form,input,ul,li,ol,label{
   margin:0px;
 	padding:0px; 
@@ -67,10 +70,11 @@ label {
       
       
 summary {
-    font-size: 20px;
-    background-color: #fafafa;
-      font-weight: bold;
+  font-size: 20px;
+  background-color: #fafafa;
+  font-weight: bold;
   cursor:pointer;
+  color: #a2a2a2;
       }
       
  </style>
