@@ -6,109 +6,100 @@
     <meta charset="UTF-8">
     <title>Audio Player</title>
     <style>
-        #playlist{
-            list-style: none;
-        }
-        #playlist li a{
-           
-            text-decoration: none; font-weight: 500;
-        }
-      
-        #playlist .current-song a{ font-weight: bold; }
-      #playlist .current-song a:before { content: "🔊  "; }
-      
-    a.activator:hover {background-color: #f4f4f4; border-left: 1px solid #ccc; }
-      
-body,h1,h2,h3,p,td,quote,small,form,input,ul,li,ol,label{
-  margin:0px;
-	padding:0px; 
+#playlist {
+list-style:none;
 }
-body{
-	margin-top:5px;
-	color:#51555C;
+
+#playlist li a {
+text-decoration:none;
+font-weight:500;
 }
-#twitter-container{
-  
-    font-family: 'Segoe UI', Tahoma, sans-serif;
-    background-color: white;
-    border-radius: 2px;
-    box-shadow: 0 4px 6px 1px rgba(50, 50, 50, 0.14);
-    box-sizing: border-box;
-    color: black;
-    line-height: 1.5;
-    margin: 0.5em auto 0;
-    Max-width:440px;
-    padding: 30px 35px 30px 37px;word-wrap: break-word;
-    
+
+#playlist .current-song a {
+font-weight:700;
 }
-label{
-	font-size:20px;
-	display:block; 
-  font-family: unset;
-  font-weight: 100;
+
+#playlist .current-song a:before {
+content:"🔊  ";
 }
-  #twitter-container {
-    padding:0px;
-  }
-a {
-    display: list-item;
-    word-wrap: break-word;
-    padding: 2px 2px 3px 11px;
-    color: #a2a2a2; 
-    list-style-type: none;
-    text-decoration: none;
+
+a.activator:hover {
+background-color:#f4f4f4;
+border-left:1px solid #ccc;
 }
-      
-      a:before {
-    content: "› ";
+
+body,h1,h2,h3,p,td,quote,small,form,input,ul,li,ol,label {
+margin:0;
+padding:0;
 }
- 
-      a:hover {background-color: #fffcf5;}
-      
+
+body {
+margin-top:5px;
+color:#51555C;
+}
+
+#twitter-container {
+font-family:'Segoe UI', Tahoma, sans-serif;
+background-color:#FFF;
+border-radius:2px;
+box-shadow:0 4px 6px 1px rgba(50,50,50,0.14);
+box-sizing:border-box;
+color:#000;
+line-height:1.5;
+max-width:440px;
+word-wrap:break-word;
+margin:.5em auto 0;
+padding:0;
+}
+
 label {
-    text-align: center;
-    font-size: 30px;
-    color: #ccc;
-}     
-      
-      
-summary {
-  font-size: 20px;
-  background-color: #fafafa;
-  font-weight: bold;
-  cursor:pointer;
-  color: #a2a2a2;
-      }
-      
-
-      
-      
-      
-  details[open] summary::-webkit-details-marker {
-  color: #fafafa;
-  background: #fafafa;}
- 
-  
-      
-      
-DETAILS[open] SUMMARY ~ * 
-{
- animation: sweep .5s ease-in-out; text-transform: uppercase;
+display:block;
+font-family:unset;
+font-weight:100;
+text-align:center;
+font-size:30px;
+color:#ccc;
 }
 
-@keyframes sweep 
-{
- 0%    {opacity: 0; margin-left: -10px}
- 100%  {opacity: 1; margin-left: 0px}
-}      
-      
-      
-      
-      
-      
-      
-      
+a {
+display:list-item;
+word-wrap:break-word;
+color:#a2a2a2;
+list-style-type:none;
+text-decoration:none;
+padding:2px 2px 3px 11px;
+}
 
+a:before {
+content:"› ";
+}
+
+a:hover {
+background-color:#fffcf5;
+}
+
+summary {
+font-size:20px;
+background-color:#fafafa;
+font-weight:700;
+cursor:pointer;
+color:#a2a2a2;
+}
+
+details[open] summary::-webkit-details-marker {
+color:#fafafa;
+background:#fafafa;
+}
+
+DETAILS[open] SUMMARY ~ * {
+animation:sweep .5s ease-in-out;
+text-transform:uppercase;
+}
+
+100% {
+opacity:1;
+margin-left:0;
+}
  </style>
 </head>
 
