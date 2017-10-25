@@ -9,318 +9,148 @@
     <title>Audio Player
     </title>
     <style>
-      #playlist {
-        list-style:none;
-      }
-      #playlist li a {
-        text-decoration:none;
-      }
-      #playlist .current-song a {
-        font-weight:700;
-      }
-      #playlist .current-song a:before {
-        content:"🔊  ";
-      }
-      a.activator:hover {
-        background-color:#f4f4f4;
-        border-left:1px solid #ccc;
-      }
-      body,h1,h2,h3,p,td,quote,small,form,input,ul,li,ol,label {
-        margin:0;
-        padding:0;
-      }
-      body {
-        margin-top:5px;
-        color:#51555C;
-        background-color: rgba(245, 245, 245, 0.12);
-      }
-      #twitter-container {
-        font-family:'Segoe UI', Tahoma, sans-serif;
-        background-color:#FFF;
-        border-radius:2px;
-        box-shadow:0 4px 6px 1px rgba(50,50,50,0.14);
-        box-sizing:border-box;
-        color:#000;
-        line-height:1.5;
-        max-width:440px;
-        word-wrap:break-word;
-        margin:.5em auto 0;
-        padding:0;
-      }
-      label {
-        display:block;
-        font-family:unset;
-        font-weight:100;
-        text-align:center;
-        font-size:30px;
-        color:#a2a2a2;
-      }
-      a {
-        display:list-item;
-        word-wrap:break-word;
-        color:#777777;
-        list-style-type:none;
-        text-decoration:none;
-        padding:5px 5px 5px 13px;
-      }
-      a:before {
-        content:"› ";
-      }
-      a:hover {
-        background-color:#fffcf5;
-      }
-      summary {
-        font-size:20px;
-        background-color:#fafafa;
-        font-weight:700;
-        cursor:pointer;
-        color:#a2a2a2;
-        border-top: 1px solid #e9e9ea;
-      }
-      details[open] summary::-webkit-details-marker {
-        color:#fafafa;
-        background:#fafafa;
-      }
-      DETAILS[open] SUMMARY ~ * {
-        animation:sweep .5s ease-in-out;
-        text-transform:uppercase;
-        border-top: 1px solid #e9e9ea;
-      }
-      100% {
-        opacity:1;
-        margin-left:0;
-      }
+#playlist{list-style:none;}
+#playlist li a{text-decoration:none;}
+#playlist .current-song a{font-weight:700;}
+#playlist .current-song a:before{content:"🔊  ";}
+a.activator:hover{background-color:#f4f4f4;border-left:1px solid #ccc;}
+body,h1,h2,h3,p,td,quote,small,form,input,ul,li,ol,label{margin:0;padding:0;}
+body{margin-top:5px;color:#51555C;background-color:rgba(245,245,245,0.12);}
+#twitter-container{font-family:'Segoe UI', Tahoma, sans-serif;background-color:#FFF;border-radius:2px;box-shadow:0 4px 6px 1px rgba(50,50,50,0.14);box-sizing:border-box;color:#000;line-height:1.5;max-width:440px;word-wrap:break-word;margin:.5em auto 0;padding:0;}
+label{display:block;font-family:unset;font-weight:100;text-align:center;font-size:30px;color:#a2a2a2;}
+a{display:list-item;word-wrap:break-word;color:#777;list-style-type:none;text-decoration:none;padding:5px 5px 5px 13px;}
+a:before{content:"› ";}
+a:hover{background-color:#fffcf5;}
+summary{font-size:20px;background-color:#fafafa;font-weight:700;cursor:pointer;color:#a2a2a2;border-top:1px solid #e9e9ea;}
+details[open] summary::-webkit-details-marker{color:#fafafa;background:#fafafa;}
+DETAILS[open] SUMMARY ~ *{animation:sweep .5s ease-in-out;text-transform:uppercase;border-top:1px solid #e9e9ea;}
+100%{opacity:1;margin-left:0;}
     </style>
   </head>
   <body> 
-    <div id="twitter-container">
-      <label for="inputField">🎼 Yateender.com/Player
-      </label>
-      <p style="text-align: center;font-size: 17px;color: #a2a2a2;">Streaming player</p>  
-      <br>
-      <br>
-      <br>
-      <ul id="playlist">
-        <li style="display:none;">
-          <a href="http://54.251.50.138:8080/on-ndtvprofit">
-          </a>
-        </li>
-        <details open>
-          <summary>Rahul Dhali
-          </summary>      
-          <li>
-            <a href="https://static.starmakerstudios.com/production/uploading/recordings/6192449380877073/master.mp4">Janam Janam(Short)
-            </a>
-          </li>
-        </details>     
-        <details open>
-          <summary>News
-          </summary>
-          <li>
-            <a href="http://54.251.50.138:8080/on-ndtvindia">Ndtv India
-            </a>
-          </li>
-          <li class="current-song">
-            <a href="http://54.251.50.138:8080/on-ndtv24x7">Ndtv 24x7
-            </a>
-          </li>
-          <li>
-            <a href="http://54.251.50.138:8080/on-ndtvprofit">Ndtv Profit
-            </a>
-          </li>
-          <li>
-            <a href="http://fm939.wnyc.org/wnycfm-tunein.aac">Wnyc 939fm
-            </a>
-          </li>
-          <li>
-            <a href="http://am820.wnyc.org/wnycam-tunein.aac">Wnyc 820am
-            </a>
-          </li>
-          <li>
-            <a href="http://nprdmp-live01-mp3.akacast.akamaistream.net/7/998/364916/v1/npr.akacast.akamaistream.net/nprdmp_live01_mp3">Npr
-            </a>
-          </li>
-          <li>
-            <a href="http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-eieuk">BBCW
-            </a>
-          </li> 
-          <li>
-            <a href="http://wshu.streamguys.org/wshu-news">Wshu
-            </a>
-          </li>
-          <li>
-            <a href="http://ice2.securenetsystems.net/WDAY">Wday
-            </a>
-          </li>
-          <li>
-            <a href="http://ktswlive.txstate.edu/">Ktsw
-            </a>
-          </li>
-          <li>
-            <a href="http://stream.infowars.com/;756196035362226stream.nsv">Alex js
-            </a>
-          </li>
-          <li>
-            <a href="http://wbur-sc.streamguys.com/wbur">Wbur
-            </a>
-          </li>
-          <li>
-            <a href="http://65.19.131.138/sinclair-komoammp3-ibc2">Komo
-            </a>
-          </li>
-          <li>
-            <a href="http://14983.live.streamtheworld.com/KTTHAM_SC">Ktth
-            </a>
-          </li>
-        </details>
-        <details open>
-          <summary>Music
-          </summary>
-          <li>
-            <a href="http://115.113.203.146:8364/;stream.nsv">Evergreen Bollywood
-            </a>
-          </li>
-          <li>
-            <a href="http://bbcmedia.ic.llnwd.net/stream/bbcmedia_asianet_mf_p">BBC Radio Asian Network
-            </a>
-          </li>
-          <li>
-            <a href="http://115.113.203.146:8556/;stream.nsv">90s
-            </a>
-          </li>
-          <li>
-            <a href="http://103.16.47.70:9777/;stream.nsv">Gazal
-            </a>
-          </li>
-          <li>
-            <a href="http://103.16.47.70:9888/;stream.nsv">Punjabi
-            </a>
-          </li>
-          <li>
-            <a href="http://103.16.47.70:7111/;stream.nsv">Indie Pop
-            </a>
-          </li>
-          <li>
-            <a href="http://103.16.47.70:8333/;stream.nsv">Instrumental
-            </a>
-          </li>
-          <li><a href="http://prclive1.listenon.in:8834/">Kishore Kumar Radio</a></li>
-          <li>
-            <a href="http://185.52.127.132/fr/31067/aac_64.mp3?origine=fluxradios">One Direction radio
-            </a>
-          </li>
-          <li><a href="http://mp3.ffh.de/ffhchannels/hqtop40.mp3">iTunes Top 40</a></li>
-          <li><a href="http://gfm.rastream.com/gfm-todaysmix">Billboard Radio Hot 100</a></li>
-          <li>
-            <a href="http://19353.live.streamtheworld.com/977_HITS_SC">.977 - Today's Hits
-            </a>
-          </li>
-          <li>
-            <a href="http://sc.hot108.com:4020/;279088515502421stream.nsv">Hot jamz
-            </a>
-          </li>
-          <li>
-            <a href="http://7619.live.streamtheworld.com/977_JAMZ_SC">977 jamz
-            </a>
-          </li>
-          <li>
-            <a href="http://uplink.duplexfx.com:8054/">181.fm
-            </a>
-          </li>
-          <li>
-            <a href="http://njpr.wnyc.org/njprweb">Njprweb
-            </a>
-          </li>
-          <li>
-            <a href="http://sc.powerhitz.com:5000/">Powerhitz
-            </a>
-          </li>
-          <li>
-            <a href="http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio1_mf_p">BBC - Radio 1
-            </a>
-          </li>
-          <li>
-            <a href="http://media-ice.musicradio.com/CapitalMP3">Capital
-            </a>
-          </li>
-          <li>
-            <a href="http://bbcmedia.ic.llnwd.net/stream/bbcmedia_lrldn_mf_p?s=1425137091&e=1425151491&h=00f8cac17e3e3942cea94365c81d0dad">MAGIC 105.4
-            </a>
-          </li>
-          <li>
-            <a href="https://prod-54-80-122-207.wostreaming.net/entercom-wnvzfmmp3-64">z104 top10
-            </a>
-          </li>
-          <li>
-            <a href="http://media-ice.musicradio.com/PopBuzzMP3">Pop Buzz
-            </a>
-          </li>
-          <li>
-            <a href="http://80.157.149.238/7/572/19773/v1/auth.akacast.akamaistream.net/kiis-fm">Kiis la
-            </a>
-          </li>
-          <li>
-            <a href="http://whtz-fm.akacast.iheart.com/7/579/19972/v1/auth.akacast.akamaistream.net/whtz-fm">Z100
-            </a>
-          </li>
-          <li>
-            <a href="http://wktu-fm.akacast.akamaistream.net/7/110/19973/v1/auth.akacast.akamaistream.net/wktu-fm">Wktu top10
-            </a>
-          </li>
-          <li>
-            <a href="http://sc-t40.1.fm:8075/">1.fm top10
-            </a>
-          </li>
-          <li>
-            <a href="http://ice8.securenetsystems.net/KNRJ">Knrj
-            </a>
-          </li>
-          <li>
-            <a href="http://ice66.securenetsystems.net/KMLB2">KMLB2
-            </a>
-          </li>
-          <li>
-            <a href="http://nis.stream.publicradio.org/nis.mp3">Kccd
-            </a>
-          </li>
-          <li>
-            <a href="http://vr-live-mp3-128.scdn.arkena.com/virginradio.mp3">Virginradio
-            </a>
-          </li>
-        </details>
-        <details open>
-          <summary>Devotional
-          </summary>
-          <li>
-            <a href="http://54.251.50.138:8080/on-ndtvbhaktiradio">Ndtv Bhakti
-            </a>
-          </li>
-          <li>
-            <a href="http://115.113.203.146:8232/;stream.nsv">Bhakti
-            </a>
-          </li>
-          <li>
-            <a href="http://103.16.47.70:7000/;stream.nsv">Spiritual
-            </a>
-          </li> 
-        </details>
-        <details open>
-          <summary>Sport
-          </summary>
-          <li>
-            <a href="http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio5live_mf_p">BBC5
-            </a>
-          </li>
-          <li>
-            <a href="http://16883.live.streamtheworld.com/WFANAMMOBILEAAC_SC">Wfan
-            </a>
-          </li>
-        </details>
-        <!--
+<div id="twitter-container">
+<label for="inputField">🎼 Yateender.com/Player</label>
+
+<p style="text-align: center;font-size: 17px;color: #a2a2a2;">Streaming player</p><br>
+<br>
+<br>
+
+<ul id="playlist">
+<li style="display:none;"><a href="http://54.251.50.138:8080/on-ndtvprofit"></a></li>
+
+<li style="list-style: none">Rahul Dhali</li>
+
+<li><a href="https://static.starmakerstudios.com/production/uploading/recordings/6192449380877073/master.mp4">Janam Janam(Short)</a></li>
+
+<li style="list-style: none">News</li>
+
+<li><a href="http://54.251.50.138:8080/on-ndtvindia">Ndtv India</a></li>
+
+<li class="current-song"><a href="http://54.251.50.138:8080/on-ndtv24x7">Ndtv 24x7</a></li>
+
+<li><a href="http://54.251.50.138:8080/on-ndtvprofit">Ndtv Profit</a></li>
+
+<li><a href="http://fm939.wnyc.org/wnycfm-tunein.aac">Wnyc 939fm</a></li>
+
+<li><a href="http://am820.wnyc.org/wnycam-tunein.aac">Wnyc 820am</a></li>
+
+<li><a href="http://nprdmp-live01-mp3.akacast.akamaistream.net/7/998/364916/v1/npr.akacast.akamaistream.net/nprdmp_live01_mp3">Npr</a></li>
+
+<li><a href="http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-eieuk">BBCW</a></li>
+
+<li><a href="http://wshu.streamguys.org/wshu-news">Wshu</a></li>
+
+<li><a href="http://ice2.securenetsystems.net/WDAY">Wday</a></li>
+
+<li><a href="http://ktswlive.txstate.edu/">Ktsw</a></li>
+
+<li><a href="http://stream.infowars.com/;756196035362226stream.nsv">Alex js</a></li>
+
+<li><a href="http://wbur-sc.streamguys.com/wbur">Wbur</a></li>
+
+<li><a href="http://65.19.131.138/sinclair-komoammp3-ibc2">Komo</a></li>
+
+<li><a href="http://14983.live.streamtheworld.com/KTTHAM_SC">Ktth</a></li>
+
+<li style="list-style: none">Music</li>
+
+<li><a href="http://115.113.203.146:8364/;stream.nsv">Evergreen Bollywood</a></li>
+
+<li><a href="http://bbcmedia.ic.llnwd.net/stream/bbcmedia_asianet_mf_p">BBC Radio Asian Network</a></li>
+
+<li><a href="http://115.113.203.146:8556/;stream.nsv">90s</a></li>
+
+<li><a href="http://103.16.47.70:9777/;stream.nsv">Gazal</a></li>
+
+<li><a href="http://103.16.47.70:9888/;stream.nsv">Punjabi</a></li>
+
+<li><a href="http://103.16.47.70:7111/;stream.nsv">Indie Pop</a></li>
+
+<li><a href="http://103.16.47.70:8333/;stream.nsv">Instrumental</a></li>
+
+<li><a href="http://prclive1.listenon.in:8834/">Kishore Kumar Radio</a></li>
+
+<li><a href="http://185.52.127.132/fr/31067/aac_64.mp3?origine=fluxradios">One Direction radio</a></li>
+
+<li><a href="http://mp3.ffh.de/ffhchannels/hqtop40.mp3">iTunes Top 40</a></li>
+
+<li><a href="http://gfm.rastream.com/gfm-todaysmix">Billboard Radio Hot 100</a></li>
+
+<li><a href="http://19353.live.streamtheworld.com/977_HITS_SC">.977 - Today's Hits</a></li>
+
+<li><a href="http://sc.hot108.com:4020/;279088515502421stream.nsv">Hot jamz</a></li>
+
+<li><a href="http://7619.live.streamtheworld.com/977_JAMZ_SC">977 jamz</a></li>
+
+<li><a href="http://uplink.duplexfx.com:8054/">181.fm</a></li>
+
+<li><a href="http://njpr.wnyc.org/njprweb">Njprweb</a></li>
+
+<li><a href="http://sc.powerhitz.com:5000/">Powerhitz</a></li>
+
+<li><a href="http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio1_mf_p">BBC - Radio 1</a></li>
+
+<li><a href="http://media-ice.musicradio.com/CapitalMP3">Capital</a></li>
+
+<li><a href="http://bbcmedia.ic.llnwd.net/stream/bbcmedia_lrldn_mf_p?s=1425137091&e=1425151491&h=00f8cac17e3e3942cea94365c81d0dad">MAGIC 105.4</a></li>
+
+<li><a href="https://prod-54-80-122-207.wostreaming.net/entercom-wnvzfmmp3-64">z104 top10</a></li>
+
+<li><a href="http://media-ice.musicradio.com/PopBuzzMP3">Pop Buzz</a></li>
+
+<li><a href="http://80.157.149.238/7/572/19773/v1/auth.akacast.akamaistream.net/kiis-fm">Kiis la</a></li>
+
+<li><a href="http://whtz-fm.akacast.iheart.com/7/579/19972/v1/auth.akacast.akamaistream.net/whtz-fm">Z100</a></li>
+
+<li><a href="http://wktu-fm.akacast.akamaistream.net/7/110/19973/v1/auth.akacast.akamaistream.net/wktu-fm">Wktu top10</a></li>
+
+<li><a href="http://sc-t40.1.fm:8075/">1.fm top10</a></li>
+
+<li><a href="http://ice8.securenetsystems.net/KNRJ">Knrj</a></li>
+
+<li><a href="http://ice66.securenetsystems.net/KMLB2">KMLB2</a></li>
+
+<li><a href="http://nis.stream.publicradio.org/nis.mp3">Kccd</a></li>
+
+<li><a href="http://vr-live-mp3-128.scdn.arkena.com/virginradio.mp3">Virginradio</a></li>
+
+<li style="list-style: none">Devotional</li>
+
+<li><a href="http://54.251.50.138:8080/on-ndtvbhaktiradio">Ndtv Bhakti</a></li>
+
+<li><a href="http://115.113.203.146:8232/;stream.nsv">Bhakti</a></li>
+
+<li><a href="http://103.16.47.70:7000/;stream.nsv">Spiritual</a></li>
+
+<li style="list-style: none">Sport</li>
+
+<li><a href="http://radio.talksport.com/stream?awparams=platform:ts-tunein;lang:en">talkSPORT</a></li>
+
+<li><a href="http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio5live_mf_p">BBC5</a></li>
+
+<li><a href="http://16883.live.streamtheworld.com/WFANAMMOBILEAAC_SC">Wfan</a></li><!--
 
 
-
-<li><a href=""></a></li>
 <li><a href=""></a></li>
 <li><a href=""></a></li>
 <li><a href=""></a></li>
@@ -333,18 +163,14 @@
 <li><a href=""></a></li>
 <li><a href=""></a></li>
 -->
-        <audio style="width: 100%;position: fixed;Max-width: 440px;bottom: 0px;margin-bottom: 0px;padding-bottom: opx;border-top: 2px solid #e9e9ea;"  src="" controls id="audioPlayer">
-        </audio>
-      </ul> 
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <script src="https://code.jquery.com/jquery-2.2.0.js">
-      </script>
-      <script>
+</ul><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<script src="https://code.jquery.com/jquery-2.2.0.js" type="text/javascript">
+</script> <script type="text/javascript">
         function audioPlayer(){
           var currentSong = 0;
           $("#audioPlayer")[0].src = $("#playlist li a")[0];
@@ -369,11 +195,10 @@
           }
                                                );
         }
-      </script>
-      <script>
+</script> <script type="text/javascript">
         // loads the audio player
         audioPlayer();
-      </script>
-    </div>
-  </body>
+</script>
+</div>
+</body>
 </html>
