@@ -18,7 +18,9 @@ Discription: My Web development projects
 [csitetc.mobie.in](https://csitetc.mobie.in)
 -Website for my ET&T batchmates.
 
-- Android app for Pushkar: [App Link](https://github.com/pushkarrr/pushkarrr.github.io/raw/master/PushkarC_1.0.apk)
+
+- Personal streaming player: [yateender.com/player](http://yateender.com/player)
+- Yplayer: [App Link](https://github.com/yateendra/yateendra.github.io/releases/download/%233/Yplayer_1.0.apk)
 
 - Pricings: [yateendra.net/pricing](http://yateendra.net/pricing.html)
 
