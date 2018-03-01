@@ -5,10 +5,12 @@ Discription: My Web development projects
 ---
 [yateender.com](http://yateender.com)
 -My website.
+[Investeasy.in.net](http://investeasy.in.net)
+-Vipin Dixena's website.
 [pushkarchawda.com](http://pushkarchawda.com)
--Pushkar's website.
+-Pushkar's website.(Dead)
 [rahuldhali.org](http://rahuldhali.org)
--Dhali's website.
+-Dhali's website.(Dead)
 [csslord.blogspot.com](https://csslord.blogspot.com) 
 -Bank preparation blog.
 [tweetpur.blogspot.com](https://hamarkhabar.blogspot.com)
@@ -16,7 +18,7 @@ Discription: My Web development projects
 [tweetpur.blogspot.com](https://tweetpur.blogspot.com)
 -Tech blog
 [csitetc.mobie.in](https://csitetc.mobie.in)
--Website for my ET&T batchmates.
+-Website for my ET&T 2014 batchmates.
 
 
 - Personal streaming player: [yateender.com/player](http://yateender.com/player)
