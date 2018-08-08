@@ -12,7 +12,7 @@ permalink:
 title:               Yateendra
 #tagline:             'Sahu'
 description:         Yateendra sahu's official website 
-url:                 http://yateender.com
+url:                 http://yateendra.github.io
 baseurl:             
 paginate:            15
 
@@ -22,7 +22,7 @@ disqus_shortname: yateendra
 # About/contact
 author:
   name:              Yateendra 
-  url:               http://yateender.com 
+  url:               http://yateendra.github.io 
   email:             yateendra.sahu@gmail.com 
   googleplus:        https://plus.google.com/+yateendrasahu/
 
