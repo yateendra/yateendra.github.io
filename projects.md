@@ -3,7 +3,7 @@ layout: page
 title: Projects
 Discription: My Web development projects
 ---
-[yateender.com](http://yateender.com)
+[yateendra.ooo](http://yateendra.ooo)
 -My website.
 [Investeasy.in.net](http://investeasy.in.net)
 -Vipin Dixena's website.
@@ -21,10 +21,10 @@ Discription: My Web development projects
 -Website for my ET&T 2014 batchmates.
 
 
-- Personal streaming player: [yateender.com/player](http://yateender.com/player)
+- Personal streaming player: [yateendra.ooo/player](http://yateendra.ooo/player)
 - Yplayer: [App Link](https://github.com/yateendra/yateendra.github.io/releases/download/%233/Yplayer_1.0.apk)
 
-- Pricings: [yateendra.net/pricing](http://yateendra.net/pricing.html)
+- Pricings: [yateendra.ooo/pricing](http://yateendra.ooo/pricing.html)
 
 
 
