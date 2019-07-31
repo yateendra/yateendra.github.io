@@ -6,6 +6,14 @@
     <meta name="description" content="Very simple audio player with playlist">
     <meta name="keywords" content="Music, player, playlist, HTML,CSS,XML,JavaScript">
     <meta name="author" content="Yateendra"> 
+    
+    <script src="/audio.min.js"></script>
+    <script>
+    audiojs.events.ready(function() {
+    var as = audiojs.createAll();
+    });
+    </script>
+    
     <script src="https://code.jquery.com/jquery-2.2.0.js"></script>  
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     
