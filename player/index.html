@@ -144,6 +144,17 @@
         margin-left:0;
       }
       
+      #disqus_thread{
+      display: block;
+      padding: 15px 0;
+      text-align: center;
+      width: 100%;
+      color: #fff;
+      text-transform: uppercase;
+      cursor: pointer;
+      margin: 10px 0;
+      background: #7A9DFF;
+      }
 
       
     </style>
@@ -572,7 +583,29 @@
     color: #a2a2a2;
     padding-bottom: 54px;
     ">
-    <p><i class="fas fa-globe"></i> www.yateendra.me</p>
+    
+      <div id="disqus_thread">
+      <a href="#" class="comments-holder" onclick="loadDisqus();return false;">Show/Post Comments</a> 
+      </div>
+      <script>
+ 
+    var disqus_shortname = "ygit";
+    var disqus_config = function () {
+        this.page.url = 'http://www.yateendra.me/player';  
+        this.page.identifier = 'http://www.yateendra.me/player';
+    };
+    var is_disqus_loaded = false;
+    function loadDisqus() {  
+      if (!is_disqus_loaded){
+        is_disqus_loaded = true;
+        var d = document, s = d.createElement('script');        
+        s.src = '//' + disqus_shortname +'.disqus.com/embed.js';        
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+      }
+        
+    };
+    </script>
        
     </footer>
       
