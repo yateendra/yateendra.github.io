@@ -58,7 +58,6 @@
      .mejs__playlist li {
       color: #777777;
       font-size: 16px;
-      /* padding: 11px 0px; */
       padding: 5px 5px 5px 13px;
       border-top: 1px solid rgb(245, 245, 245);
       list-style-type: none;
@@ -76,8 +75,9 @@
 }
      
      .mejs__playlist li:hover, .mejs__playlist li.current {
+    color: hsla(0,0%,8%,.5);
     cursor: pointer;
-    background-color: rgba(240, 248, 255, 0.55);
+    font-weight: 700;
 }
      
      .mejs__playlist ul {
@@ -101,7 +101,7 @@
            
             <audio class="mediaElementPlaylist" data-showplaylist="true" preload="none" controls>
               
-              <ul style=" font-size: 20px; background-color: #fafafa; font-weight: 500; cursor: pointer; color: #a2a2a2; padding-left: 10px; border-top: 1px solid #e9e9ea; "><p>Music</p></ul>
+             <p style=" font-size: 20px; background-color: #fafafa; font-weight: 500; cursor: pointer; color: #a2a2a2; padding-left: 10px; border-top: 1px solid #e9e9ea; ">Music</p>
               
                <source src="http://vividhbharati-lh.akamaihd.net/i/vividhbharati_1@507811/master.m3u8" type="audio/mp3" title="Vividh Bharati">
                <source src="http://airfmgold-lh.akamaihd.net/i/fmgold_1@507591/master.m3u8" type="audio/mp3" title="FM Gold" >
