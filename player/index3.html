@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>MediaElement.js Playlist</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    
+    <link rel="stylesheet" href="https://rawgit.com/r4fx/mate/master/dist/assets/styles/mate.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mediaelement@4.2.7/build/mediaelementplayer.min.css">
+    <link rel="stylesheet" href="https://r4fx.github.io/mediaelement-playlist/src/styles/css/mep-feature-playlist.css">
+    
+    <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mediaelement@4.2.7/build/mediaelement-and-player.min.js"></script>
+    <script src="https://r4fx.github.io/mediaelement-playlist/src/mep-feature-playlist.js"></script>
+</head>
+<body>
+    <main class="box margin-bottom--x2">
+
+        
+        <section>
+            <h2>Audio playlist</h2>
+            <audio class="mediaElementPlaylist" data-showplaylist="true" preload="none" controls>
+                <source src="http://51.15.208.163:8081/radio/vividhbharati/icecast.audio" type="audio/mp3" title="Ashbory Bass" data-mep-description="Sample from ''Ain't Misbehavin'' (Courtesy of Tantara Records)">
+                <source src="http://103.16.47.70:7555/;stream.nsv" type="audio/mp3" title="Soundcloud" data-mep-description="source streamed from soundcloud">
+                <source src="http://51.15.208.163:8081/radio/fmgold/icecast.audio" type="audio/mp3" title="Demo HLS">
+            </audio>
+        </section>
+    </main>
+    
+    <footer class="box">
+        <hr>
+        <ul class="list-inline inline-center">
+            <li>
+                <a href="https://r4fx.github.io/mediaelement-playlist/" class="link-neutral"><span class="icon-github"></span> GitHub</a>
+            </li>
+        </ul>
+    </footer>
+
+    <script>
+        if ($.fn.mediaelementplayer) {
+            $('audio.mediaElementPlaylist').mediaelementplayer({
+                audioWidth: '100%',
+                alwaysShowControls: true,
+                error: function (media, node) {
+                    $(media).parents('.mediaElementPlaylist').addClass('playlist_cannotplay');
+                },
+                features: ['playlistfeature', 'prevtrack', 'playpause', 'nexttrack', 'loop', 'playlist', 'current', 'progress', 'duration', 'volume']
+            });
+
+            $('video.mediaElementPlaylist').mediaelementplayer({
+                stretching: 'responsive',
+                playlistposition: 'bottom',
+                alwaysShowControls: false,
+                alwaysShowPlaylist: true,
+                features: ['playlistfeature', 'prevtrack', 'playpause', 'nexttrack', 'loop', 'playlist', 'current', 'progress', 'duration', 'volume', 'fullscreen']
+            });
+        }
+    </script>
+</body>
+</html>
