@@ -1,0 +1,99 @@
+
+<!DOCTYPE html><html lang='en' class=''>
+<head>
+<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/mediaelement@4.2.7/build/mediaelementplayer.min.css'>
+<style class="cp-pen-styles">body{
+  font-family:verdana, arial;
+}    
+.mejs-list li:hover {
+        background: #ffa;
+        cursor: pointer;
+    }
+    .mejs-list li.current {
+        background: #cddfff;
+    }
+.mejs-container{
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#wrapper{
+  width:490px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:50px;
+  padding:15px;
+
+  
+  -webkit-box-shadow: 0px 1px 71px 15px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 1px 71px 15px rgba(0,0,0,0.75);
+
+}</style></head><body>
+
+
+
+<div id="wrapper">
+<audio id="mejs" src="http://51.15.208.163:8081/radio/vividhbharati/icecast.audio" type="audio/mp3" controls="controls"></audio>
+<ul class="mejs-list">
+<li data-url="http://51.15.208.163:8081/radio/vividhbharati/icecast.audio">Chasing Cars (Piano)</li>
+<li data-url="http://51.15.208.163:8081/radio/vividhbharati/icecast.audio">SmallCityLights - New Distance</li>
+<li data-url="http://51.15.208.163:8081/radio/vividhbharati/icecast.audio">Sunny Day</li>
+</ul>
+</div>
+
+
+
+<script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script src='https://cdn.jsdelivr.net/npm/mediaelement@4.2.7/build/mediaelement-and-player.min.js'></script>
+
+
+<script id="rendered-js">
+          $(function () {
+  $('video,audio').mediaelementplayer({
+    success: function (mediaElement, domObject) {
+      var audio_src = $("li.current").attr("data-url");
+      mediaElement.setSrc(audio_src);
+      mediaElement.addEventListener('ended', function (e) {
+        mejsPlayNext(e.target);
+      }, false);
+
+    },
+    keyActions: [] });
+
+
+  $('.mejs-list li').click(function () {
+    $(this).addClass('current').siblings().removeClass('current');
+    var audio_src = $(this).attr("data-url");
+    $('audio#mejs:first').each(function () {
+      this.player.pause();
+      this.player.setSrc(audio_src);
+      this.player.play();
+    });
+  });
+
+});
+
+function mejsPlayNext(currentPlayer) {
+  if ($('.mejs-list li.current').length > 0) {// get the .current song
+    var current_item = $('.mejs-list li.current:first'); // :first is added if we have few .current classes
+    var audio_src = $(current_item).next().text();
+    $(current_item).next().addClass('current').siblings().removeClass('current');
+    console.log('if ' + audio_src);
+  } else {// if there is no .current class
+    var current_item = $('.mejs-list li:first'); // get :first if we don't have .current class
+    var audio_src = $(current_item).next().text();
+    $(current_item).next().addClass('current').siblings().removeClass('current');
+    console.log('elseif ' + audio_src);
+  }
+
+  if ($(current_item).is(':last-child')) {// if it is last - stop playing
+    $(current_item).removeClass('current');
+  } else {
+    currentPlayer.setSrc(audio_src);
+    currentPlayer.play();
+  }
+}
+          //# sourceURL=pen.js
+        </script>
+		
+		
+</body></html>
