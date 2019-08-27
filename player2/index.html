@@ -170,7 +170,7 @@
                  error: function (media, node) {
                      $(media).parents('.mediaElementPlaylist').addClass('playlist_cannotplay');
                  },
-                 features: ['playlistfeature', 'prevtrack', 'playpause', 'nexttrack', 'currentMessage', 'progress', 'volume']
+                 features: ['playpause', 'current', 'progress', 'duration', 'volume', 'chromecast', 'fullscreen']
              });
          
              $('video.mediaElementPlaylist').mediaelementplayer({
