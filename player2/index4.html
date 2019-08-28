@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>OpenPlayerJS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../dist/openplayer.css">
+    <style>
+        body {
+            max-width: 700px;
+        }
+        select {
+            margin-top: 20px;
+        }
+        select:last-child {
+            margin-bottom: 20px;
+        }
+        #stream-info {
+            min-height: 300px;
+        }
+        #stream-info.hidden {
+            min-height: 0;
+        }
+        #stream-info > img {
+            float: left;
+            width: 300px;
+        }
+        #stream-info > p {
+            margin-left: 315px;
+        }
+        .op-controls__test > img {
+            max-height: 18px;
+        }
+    </style>
+</head>
+<body>
+   
+
+    <div class="players audio-player">
+        <h1>Audio Sample</h1>
+        <div id="stream-info" class="hidden"></div>
+        <audio class="op-player__media" id="audio" controls>
+            <source src="https://ccrma.stanford.edu/~jos/mp3/Latin.mp3" type="audio/mp3">
+        </audio>
+        <div>
+            <label>Change source <select name="sources">
+                <option value="https://ccrma.stanford.edu/~jos/mp3/Latin.mp3" selected>MP3</option>
+                <option value="https://db2.indexcom.com/bucket/ram/00/05/05.m3u8">HLS</option>
+            </select>
+            </label>
+            <button class="destroy-player">Destroy player</button>
+            <button class="load-caption">Load caption</button>
+            <button class="add-control">Add control</button>
+        </div>
+    </div>
+
+    <script>
+        var script = document.createElement('script');
+        script.src = '../dist/openplayer.js?rand=' + new Date().getTime();
+        script.async = true;
+        script.onload = function () {
+            var script = document.createElement('script');
+            script.src = 'demo.js?rand=' + new Date().getTime();
+            script.async = true;
+            document.head.appendChild(script);
+        };
+        document.head.appendChild(script);
+    </script>
+</body>
+</html>
