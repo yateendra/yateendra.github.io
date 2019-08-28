@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Player v4</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/4.2.6/mediaelementplayer.css">
+    <link rel="stylesheet" href="../dist/playlist/playlist.css">
+    <link rel="stylesheet" href="demo.css">
+</head>
+<body>
+<div id="container">
+
+
+
+    <h2>Audio Player</h2>
+
+    <div class="media-wrapper">
+        <audio id="player2" preload="none" controls width="750">
+        
+        
+              
+               <source src="http://nondelhi-lh.akamaihd.net/i/raipurair_1@832723/master.m3u8" type="audio/mp3" title="Raipur AIR">
+               <source src="http://esdcdn2-lh.akamaihd.net/i/esdcdn2_1@528073/master.m3u8" type="audio/mp3" title="AIR News">              
+               <source src="http://vividhbharati-lh.akamaihd.net/i/vividhbharati_1@507811/master.m3u8" type="audio/mp3" title="Vividh Bharati">
+               <source src="http://airfmgold-lh.akamaihd.net/i/fmgold_1@507591/master.m3u8" type="audio/mp3" title="FM Gold" >
+               <source src="http://fmrainbow-lh.akamaihd.net/i/fmrainbow_1@507812/master.m3u8" type="audio/mp3" title="FM Rainbow">
+               <source src="http://103.16.47.70:7555/;stream.nsv" type="audio/mp3" title="Evergreen Bollywood">
+               <source src="http://109.169.46.197:8011/stream" type="audio/mp3" title="Diverse FM">
+               <source src="https://repblicwld.s.llnwi.net/live/hls1/master_chunklist2.m3u8" type="audio/mp3" title="Republic Tv">
+               <source src="https://timesnow-lh.akamaihd.net/i/TNA_1@129288/index_100_a-p.m3u8?sd=10&rebase=on" type="audio/mp3" title="Times Now">
+               <source src="http://stream.zenolive.com/zhsvaa5ts0quv" type="audio/mp3" title="Shreya Ghosal Radio">
+               <source src="http://southradios.net:9090/arrahmanhindiradio" type="audio/mp3" title="AR Rahman Radio">
+               <source src="http://prclive1.listenon.in:9960/" type="audio/mp3" title="Radio City">
+               <source src="http://103.16.47.70:7333/;stream.nsv" type="audio/mp3" title="Bollywood Dil Se">
+               <source src="http://51.15.208.163:8081/radio/mt20live_11/icecast.audio" type="audio/mp3" title="Radio Mirchi Top 20">
+           
+               <source src="https://str.pcradio.ru/bbc_asian-hi" type="audio/mp3" title="BBC Radio Asian Network">
+               <source src="http://sc-t40.1.fm:8075/" type="audio/mp3" title="1.fm top10">
+               <source src="http://185.33.21.112/x_128" type="audio/mp3" title="1.fm Rock X">
+               <source src="http://listen.011fm.com/stream13" type="audio/mp3" title="Hip Hops hits">
+               
+
+
+               <source src="https://puranijeanshdliv-lh.akamaihd.net/i/PuraniJeansHDLive_1_1@334555/master.m3u8" type="audio/mp3" title="PuraniJeans">
+               <source src="https://filmymirchihdliv-lh.akamaihd.net/i/FilmyMirchiHDLive_1_1@336266/master.m3u8" type="audio/mp3" title="FilmyMirchi">
+               <source src="https://meethimirchihdl-lh.akamaihd.net/i/MeethiMirchiHDLive_1_1@320572/master.m3u8" type="audio/mp3" title="MeethiMirchi">
+               <source src="https://pehlanashahdlive-lh.akamaihd.net/i/PehlaNashaHDLive_1_1@335229/master.m3u8" type="audio/mp3" title="PehlaNasha">
+              
+   
+               <source src="https://meethimirchihdl-lh.akamaihd.net/i/MirchiEdgeHDLive_1_1@336272/master.m3u8" type="audio/mp3" title="MirchiEdge">
+               <source src="https://clubmirchihdlive-lh.akamaihd.net/i/ClubMirchiHDLive_1_1@336269/master.m3u8" type="audio/mp3" title="ClubMirchi">
+               <source src="https://mirchimahfil-lh.akamaihd.net/i/MirchiMehfl_1@120798/master.m3u8" type="audio/mp3" title="MirchiMehfil">
+               <source src="https://wmirchi-lh.akamaihd.net/i/WMIRCHI_1@75780/master.m3u8" type="audio/mp3" title="WMIRCHI">
+              
+   
+               <source src="https://www.youtube.com/watch?v=arhjhHeuRUc" type="audio/mp3" title="India today">
+               <source src="" type="audio/mp3" title="">
+               <source src="" type="audio/mp3" title="">
+               
+   
+               <source src="" type="audio/mp3" title="">
+               <source src="" type="audio/mp3" title="">
+               <source src="" type="audio/mp3" title="">
+               <source src="" type="audio/mp3" title="">
+              
+        
+        
+        
+        
+        
+        </audio>
+    </div>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/4.2.6/mediaelement-and-player.min.js"></script>
+<script src="../dist/playlist/playlist.js"></script>
+<script>
+  var mediaElements = document.querySelectorAll('video, audio');
+
+	for (var i = 0, total = mediaElements.length; i < total; i++) {
+		new MediaElementPlayer(mediaElements[i], {
+			features: ['prevtrack', 'playpause', 'nexttrack', 'current', 'progress', 'duration', 'volume', 'playlist', 'shuffle', 'loop', 'fullscreen'],
+		});
+	}
+</script>
+</body>
+</html>
