@@ -52,21 +52,14 @@
         margin-left: 7px;
       }
     </style>
-    <script>
-      window.onload = function(){
-        setTimeout(loadAfterTime, 2000)
-      };
-      function loadAfterTime() {
-        document.getElementById("myButton").click();
-      }
-    </script>
+	
   </head>
   <body> 
     <div id="twitter-container">
       <div id="player">
       </div>
       <span style="text-align: CENTER; display: flex;">
-        <a id="myButton"  href="javascript:jwplayer().play(true);">
+        <a  href="javascript:jwplayer().play(true);">
           <input type="button" value="Play" title="Play" style="
                                                                 color: #5a5a5a;
                                                                 width: 100%;
