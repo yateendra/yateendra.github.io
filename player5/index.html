@@ -46,7 +46,7 @@
       BACKGROUND-COLOR: antiquewhite;
       font-weight: 600;
       }
-      a:before {
+      div>a:before {
         content: "› ";
         margin-left: 7px;
       }
@@ -56,6 +56,43 @@
     <div id="twitter-container">
       <div id="player">
       </div>
+	  
+	  	 <span style="text-align: CENTER; display: flex;">
+<a  href="javascript:jwplayer().play(true);"><input type="button" value="Play" title="Play" style="
+    padding: 3px 8px 3px 8px;
+    color: #5a5a5a;
+    font-size: 12px;
+    font-weight: bold;
+    display: inline;
+    font-family: sans-serif;
+    background-color: transparent;
+    border: 0;                                     
+" target="_blank"><i class="fas fa-home"></i></a>
+ 
+<a href="javascript:jwplayer().setMute(false);"><input type="button" value="unMute" title="unMute" style="
+    padding: 3px 8px 3px 8px;
+    color: #5a5a5a;                                                                                       
+    display: inline;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: sans-serif;
+    border: 0;                        
+    background-color: transparent;
+" ><i class="fas fa-share-square"></i></a>
+        
+        
+<a  href="javascript:jwplayer().setMute(true);"><input type="button" value="Mute" title="Mute" style="
+    padding: 3px 8px 3px 8px;
+    color: #5a5a5a;                                                                                       
+    display: inline;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: sans-serif;
+    border: 0;                        
+    background-color: transparent;
+" ><i class="fas fa-comments"></i></a>
+      </span>
+	  
       <a href="javascript:loadPlaylist(aa)">Fm Gold
       </a>
       <br/>
@@ -92,6 +129,10 @@
       </a>
       <br/>
     </div>
+	
+
+	
+
   </body>
   <script>
     var player = jwplayer('player');
@@ -168,4 +209,21 @@
 
 			 
   </script>
+  
+  
+  <script>
+ window.onload = function(){
+
+        setTimeout(loadAfterTime, 1000)
+};
+
+
+function loadAfterTime() { 
+// code you need to execute goes here. 
+  jwplayer().setMute(false);
+
+}
+</script>
+  
+  
 </html>
