@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>sdfasdasd</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  
+  <script src="//content.jwplatform.com/libraries/ElBXYHpj.js"></script>
+
+<script>
+
+  var player = jwplayer('player');
+
+  // Set up the player with an HLS stream that includes timed metadata
+  player.setup({
+    file: 'https://vividhbharati-lh.akamaihd.net/i/vividhbharati_1@507811/master.m3u8',
+    'autostart': 'true',
+  });
+
+
+function loadPlaylist(thePlaylist) {
+	jwplayer().load(thePlaylist);
+}
+
+
+
+var playlistOne = [{
+"file": "https://puranijeanshdliv-lh.akamaihd.net/i/PuraniJeansHDLive_1_1@334555/master.m3u8",
+"title": "Road Trip"
+}];
+
+var playlistTwo = [{
+"file": "https://esdcdn2-lh.akamaihd.net/i/esdcdn2_1@528073/master.m3u8",
+"title": "Hiking on the Edge"
+}];
+
+
+
+
+
+</script>
+
+  
+  
+    <style>
+
+      
+      body {
+    margin-top: 0px;
+    color: #51555C;
+    background-color: #fafafa;
+}
+      
+      .players.audio-player {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background-color: #FFF;
+    border-radius: 2px;
+    box-shadow: 0 0.625rem 3.5rem 0 rgba(198,203,222,.45);
+    box-sizing: border-box;
+    color: #000;
+    line-height: 1.5;
+    max-width: 440px;
+    word-wrap: break-word;
+    margin: .5em auto 0;
+    padding: 0;
+}
+      
+      
+    </style>
+</head>
+<body>
+   
+  
+<div id="player"></div>
+
+
+<a href="javascript:loadPlaylist(playlistOne)">Road Trip</a><br/>
+<a href="javascript:loadPlaylist(playlistTwo)">Hiking on the Edge</a><br/>
+<a href="javascript:loadPlaylist(playlistThree)">Multi-Item Playlist</a>
+
+
+
+</body>
+</html>
