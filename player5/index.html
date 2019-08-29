@@ -2,20 +2,17 @@
 <html lang="en">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<script src="https://content.jwplatform.com/libraries/ElBXYHpj.js"></script>
-
+    <script src="https://content.jwplatform.com/libraries/ElBXYHpj.js">
+    </script>
     <title>Online Radio
     </title>
     <style>
- 
-    
       body,h1,h2,h3,p,td,quote,small,form,input,ul,li,ol,label {
         margin:0;
         padding:0;
       }
       body {
         margin-top:0px;
-        color:#51555C;
         background-color: #fafafa;
       }
       #twitter-container {
@@ -30,133 +27,127 @@
         word-wrap:break-word;
         margin:.5em auto 0;
         padding:0;
+        height: -webkit-fill-available;
       }
-
-     a {
-    display: inline-block;
-    width: 100%;
-    word-wrap: break-word;
-    color: #777777;
-    list-style-type: none;
-    text-decoration: none;
-    border-top: 1px solid rgb(245, 245, 245);
-    padding: 7px 0px 5px 0px;
-}
-      
-      
-     #player {
-    width: auto !important;
-}
-
-      
+      a {
+        display: inline-block;
+        width: 100%;
+        word-wrap: break-word;
+        color: #777777;
+        list-style-type: none;
+        text-decoration: none;
+        border-top: 1px solid rgb(245, 245, 245);
+        padding: 7px 0px 5px 0px;
+      }
+      #player {
+        width: auto !important;
+      }
+      a:before {
+        content: "› ";
+        margin-left: 7px;
+      }
     </style>
   </head>
   <body> 
     <div id="twitter-container">
-     
-	
-<div id="player"></div>
-
-
-<a href="javascript:loadPlaylist(aa)">AIR Raipur</a><br/>
-<a href="javascript:loadPlaylist(bb)">AIR News</a><br/>
-<a href="javascript:loadPlaylist(cc)">FM Gold</a>
-<a href="javascript:loadPlaylist(dd)">Times Now</a><br/>
-<a href="javascript:loadPlaylist(ee)">Republic Tv</a><br/>
-<a href="javascript:loadPlaylist(ff)">Devraag</a><br/>
-<a href="javascript:loadPlaylist(gg)">Pehla Nasha</a><br/>
-<a href="javascript:loadPlaylist(hh)">Mehfil</a><br/>
-<a href="javascript:loadPlaylist(ii)">Road</a><br/>
-<a href="javascript:loadPlaylist(jj)">Road</a><br/>
-<a href="javascript:loadPlaylist(kk)">Road</a><br/>
-<a href="javascript:loadPlaylist(ll)">Road</a><br/>
- 
-
-  
+      <div id="player">
+      </div>
+      <a href="javascript:loadPlaylist(aa)">AIR Raipur
+      </a>
+      <br/>
+      <a href="javascript:loadPlaylist(bb)">AIR News
+      </a>
+      <br/>
+      <a href="javascript:loadPlaylist(cc)">FM Gold
+      </a>
+      <a href="javascript:loadPlaylist(dd)">Times Now
+      </a>
+      <br/>
+      <a href="javascript:loadPlaylist(ee)">Republic Tv
+      </a>
+      <br/>
+      <a href="javascript:loadPlaylist(ff)">Devraag
+      </a>
+      <br/>
+      <a href="javascript:loadPlaylist(gg)">Pehla Nasha
+      </a>
+      <br/>
+      <a href="javascript:loadPlaylist(hh)">Mehfil
+      </a>
+      <br/>
+      <a href="javascript:loadPlaylist(ii)">Road
+      </a>
+      <br/>
+      <a href="javascript:loadPlaylist(jj)">Road
+      </a>
+      <br/>
+      <a href="javascript:loadPlaylist(kk)">Road
+      </a>
+      <br/>
+      <a href="javascript:loadPlaylist(ll)">Road
+      </a>
+      <br/>
     </div>
   </body>
-  
-  
-  
-<script>
-
-  var player = jwplayer('player');
-  
-  function loadPlaylist(thePlaylist) {
-	jwplayer().load(thePlaylist);
-}
-
-
-
-  // Set up the player with an HLS stream that includes timed metadata
-  player.setup({
-    file: 'https://vividhbharati-lh.akamaihd.net/i/vividhbharati_1@507811/master.m3u8',
-    'autostart': 'true',
-    'volume': '100',
-  });
-
-
-
-
-var aa = [{
-"file": "http://nondelhi-lh.akamaihd.net/i/raipurair_1@832723/master.m3u8",
-}];
-
-var bb = [{
-"file": "http://esdcdn2-lh.akamaihd.net/i/esdcdn2_1@528073/master.m3u8",
-}];
-
-var cc = [{
-"file": "http://airfmgold-lh.akamaihd.net/i/fmgold_1@507591/master.m3u8",
-}];
-
-var dd = [{
-"file": "https://timesnow-lh.akamaihd.net/i/TNA_1@129288/index_100_a-p.m3u8?sd=10&rebase=on",
-}];
-
-var ee = [{
-"file": "https://repblicwld.s.llnwi.net/liveorigin/republictv/masterlive_180p.m3u8",
-}];
-
-var ff = [{
-"file": "http://devraaghdlive-lh.akamaihd.net/i/DevraagHDLive_1_1@336268/index_1_a-p.m3u8?sd=10&rebase=on",
-}];
-
-var gg = [{
-"file": "http://pehlanashahdlive-lh.akamaihd.net/i/PehlaNashaHDLive_1_1@335229/index_1_a-b.m3u8?sd=10&rebase=on",
-}];
-
-var hh = [{
-"file": "https://mirchimahfil-lh.akamaihd.net/i/MirchiMehfl_1@120798/master.m3u8",
-}];
-
-var ii = [{
-"file": "https://esdcdn2-lh.akamaihd.net/i/esdcdn2_1@528073/master.m3u8",
-}];
-
-var jj = [{
-"file": "https://esdcdn2-lh.akamaihd.net/i/esdcdn2_1@528073/master.m3u8",
-}];
-
-var kk = [{
-"file": "https://esdcdn2-lh.akamaihd.net/i/esdcdn2_1@528073/master.m3u8",
-}];
-
-var ll = [{
-"file": "https://esdcdn2-lh.akamaihd.net/i/esdcdn2_1@528073/master.m3u8",
-}];
-
-
-
-
-
-
-
-
-</script>
-
-
-
-  
-  
+  <script>
+    var player = jwplayer('player');
+    function loadPlaylist(thePlaylist) {
+      jwplayer().load(thePlaylist);
+    }
+    // Set up the player with an HLS stream that includes timed metadata
+    player.setup({
+      file: 'https://vividhbharati-lh.akamaihd.net/i/vividhbharati_1@507811/master.m3u8',
+      'autostart': 'true',
+      'volume': '100',
+    }
+                );
+    var aa = [{
+      "file": "http://nondelhi-lh.akamaihd.net/i/raipurair_1@832723/master.m3u8",
+    }
+             ];
+    var bb = [{
+      "file": "http://esdcdn2-lh.akamaihd.net/i/esdcdn2_1@528073/master.m3u8",
+    }
+             ];
+    var cc = [{
+      "file": "http://airfmgold-lh.akamaihd.net/i/fmgold_1@507591/master.m3u8",
+    }
+             ];
+    var dd = [{
+      "file": "https://timesnow-lh.akamaihd.net/i/TNA_1@129288/index_100_a-p.m3u8?sd=10&rebase=on",
+    }
+             ];
+    var ee = [{
+      "file": "https://repblicwld.s.llnwi.net/liveorigin/republictv/masterlive_180p.m3u8",
+    }
+             ];
+    var ff = [{
+      "file": "http://devraaghdlive-lh.akamaihd.net/i/DevraagHDLive_1_1@336268/index_1_a-p.m3u8?sd=10&rebase=on",
+    }
+             ];
+    var gg = [{
+      "file": "http://pehlanashahdlive-lh.akamaihd.net/i/PehlaNashaHDLive_1_1@335229/index_1_a-b.m3u8?sd=10&rebase=on",
+    }
+             ];
+    var hh = [{
+      "file": "https://mirchimahfil-lh.akamaihd.net/i/MirchiMehfl_1@120798/master.m3u8",
+    }
+             ];
+    var ii = [{
+      "file": "https://esdcdn2-lh.akamaihd.net/i/esdcdn2_1@528073/master.m3u8",
+    }
+             ];
+    var jj = [{
+      "file": "https://esdcdn2-lh.akamaihd.net/i/esdcdn2_1@528073/master.m3u8",
+    }
+             ];
+    var kk = [{
+      "file": "https://esdcdn2-lh.akamaihd.net/i/esdcdn2_1@528073/master.m3u8",
+    }
+             ];
+    var ll = [{
+      "file": "https://esdcdn2-lh.akamaihd.net/i/esdcdn2_1@528073/master.m3u8",
+    }
+             ];
+  </script>
 </html>
