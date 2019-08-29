@@ -1,5 +1,13 @@
 <script src="//content.jwplatform.com/libraries/ElBXYHpj.js"></script>
 
+
+<div id="player"></div>
+
+
+<style>
+ 
+</style>
+
 <script>
 
   var player = jwplayer('player');
@@ -11,41 +19,4 @@
   });
 
 
-function loadPlaylist(thePlaylist) {
-	jwplayer().load(thePlaylist);
-}
-
-
-
-var playlistOne = [{
-"file": "https://puranijeanshdliv-lh.akamaihd.net/i/PuraniJeansHDLive_1_1@334555/master.m3u8",
-"title": "Road Trip"
-}];
-
-var playlistTwo = [{
-"file": "https://esdcdn2-lh.akamaihd.net/i/esdcdn2_1@528073/master.m3u8",
-"title": "Hiking on the Edge"
-}];
-
-
-
-
-
 </script>
-
-
-
-<style>
- 
-</style>
-
-
-<div id="player"></div>
-
-
-<a href="javascript:loadPlaylist(playlistOne)">Road Trip</a><br/>
-<a href="javascript:loadPlaylist(playlistTwo)">Hiking on the Edge</a><br/>
-<a href="javascript:loadPlaylist(playlistThree)">Multi-Item Playlist</a>
-
-
-
