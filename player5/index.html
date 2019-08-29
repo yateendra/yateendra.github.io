@@ -2,7 +2,8 @@
 <html lang="en">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <script src="http://yateendra.me/player5/script.js"></script>
+    <script src="http://yateendra.me/player5/script.js">
+    </script>
     <title>Online Radio
     </title>
     <style>
@@ -40,11 +41,10 @@
       }
       #player {
         width: auto !important;
-       
       }
       a:hover {
-      BACKGROUND-COLOR: antiquewhite;
-      font-weight: 600;
+        BACKGROUND-COLOR: antiquewhite;
+        font-weight: 600;
       }
       div>a:before {
         content: "› ";
@@ -56,43 +56,64 @@
     <div id="twitter-container">
       <div id="player">
       </div>
-	  
-	  	 <span style="text-align: CENTER; display: flex;">
-<a  href="javascript:jwplayer().play(true);"><input type="button" value="Play" title="Play" style="
-    padding: 3px 8px 3px 8px;
-    color: #5a5a5a;
-    font-size: 12px;
-    font-weight: bold;
-    display: inline;
-    font-family: sans-serif;
-    background-color: transparent;
-    border: 0;                                     
-" target="_blank"><i class="fas fa-home"></i></a>
- 
-<a href="javascript:jwplayer().setMute(false);"><input type="button" value="unMute" title="unMute" style="
-    padding: 3px 8px 3px 8px;
-    color: #5a5a5a;                                                                                       
-    display: inline;
-    font-size: 12px;
-    font-weight: bold;
-    font-family: sans-serif;
-    border: 0;                        
-    background-color: transparent;
-" ><i class="fas fa-share-square"></i></a>
-        
-        
-<a  href="javascript:jwplayer().setMute(true);"><input type="button" value="Mute" title="Mute" style="
-    padding: 3px 8px 3px 8px;
-    color: #5a5a5a;                                                                                       
-    display: inline;
-    font-size: 12px;
-    font-weight: bold;
-    font-family: sans-serif;
-    border: 0;                        
-    background-color: transparent;
-" ><i class="fas fa-comments"></i></a>
+      <span style="text-align: CENTER; display: flex;">
+        <a  href="javascript:jwplayer().play(true);">
+          <input type="button" value="Play" title="Play" style="
+                                                                padding: 3px 8px 3px 8px;
+                                                                color: #5a5a5a;
+                                                                font-size: 12px;
+                                                                font-weight: bold;
+                                                                display: inline;
+                                                                font-family: sans-serif;
+                                                                background-color: transparent;
+                                                                border: 0;                                     
+                                                                " target="_blank">
+          <i class="fas fa-home">
+          </i>
+        </a>
+        <a href="javascript:jwplayer().setMute(false);">
+          <input type="button" value="unMute" title="unMute" style="
+                                                                    padding: 3px 8px 3px 8px;
+                                                                    color: #5a5a5a;                                                                                       
+                                                                    display: inline;
+                                                                    font-size: 12px;
+                                                                    font-weight: bold;
+                                                                    font-family: sans-serif;
+                                                                    border: 0;                        
+                                                                    background-color: transparent;
+                                                                    " >
+          <i class="fas fa-share-square">
+          </i>
+        </a>
+        <a  href="javascript:jwplayer().pause(true);">
+          <input type="button" value="Pause" title="ause" style="
+                                                                 padding: 3px 8px 3px 8px;
+                                                                 color: #5a5a5a;
+                                                                 font-size: 12px;
+                                                                 font-weight: bold;
+                                                                 display: inline;
+                                                                 font-family: sans-serif;
+                                                                 background-color: transparent;
+                                                                 border: 0;                                     
+                                                                 " target="_blank">
+          <i class="fas fa-home">
+          </i>
+        </a>
+        <a  href="javascript:jwplayer().setMute(true);">
+          <input type="button" value="Mute" title="Mute" style="
+                                                                padding: 3px 8px 3px 8px;
+                                                                color: #5a5a5a;                                                                                       
+                                                                display: inline;
+                                                                font-size: 12px;
+                                                                font-weight: bold;
+                                                                font-family: sans-serif;
+                                                                border: 0;                        
+                                                                background-color: transparent;
+                                                                " >
+          <i class="fas fa-comments">
+          </i>
+        </a>
       </span>
-	  
       <a href="javascript:loadPlaylist(aa)">Fm Gold
       </a>
       <br/>
@@ -129,10 +150,6 @@
       </a>
       <br/>
     </div>
-	
-
-	
-
   </body>
   <script>
     var player = jwplayer('player');
@@ -142,7 +159,7 @@
     // Set up the player with an HLS stream that includes timed metadata
     player.setup({
       file: 'https://vividhbharati-lh.akamaihd.net/i/vividhbharati_1@507811/master.m3u8',
-       autostart: true,
+      autostart: true,
     }
                 );
     var aa = [{
@@ -187,43 +204,28 @@
              ];
     var kk = [{
       "file": "https://meethimirchihdl-lh.akamaihd.net/i/MeethiMirchiHDLive_1_1@320572/master.m3u8",
-	
     }
              ];
     var ll = [{
       "file": "https://esdcdn2-lh.akamaihd.net/i/esdcdn2_1@528073/master.m3u8",
     }
              ];
-
     var ll = [{
       "file": "https://esdcdn2-lh.akamaihd.net/i/esdcdn2_1@528073/master.m3u8",
     }
              ];
-
     var ll = [{
       "file": "https://esdcdn2-lh.akamaihd.net/i/esdcdn2_1@528073/master.m3u8",
     }
              ];
-
-
-
-			 
   </script>
-  
-  
   <script>
- window.onload = function(){
-
-        setTimeout(loadAfterTime, 1000)
-};
-
-
-function loadAfterTime() { 
-// code you need to execute goes here. 
-  jwplayer().setMute(false);
-
-}
-</script>
-  
-  
+    window.onload = function(){
+      setTimeout(loadAfterTime, 1000)
+    };
+    function loadAfterTime() {
+      // code you need to execute goes here. 
+      jwplayer().setMute(false);
+    }
+  </script>
 </html>
