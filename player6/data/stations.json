@@ -1,6 +1,6 @@
 [
   {
-    "DisplayName": "vivid",
+    "DisplayName": "Vivid  Bharti",
     "audioURL": "https://vividhbharati-lh.akamaihd.net/i/vividhbharati_1@507811/master.m3u8"
   },
   {
@@ -8,26 +8,26 @@
     "audioURL": "http://devraaghdlive-lh.akamaihd.net/i/DevraagHDLive_1_1@336268/index_1_a-p.m3u8?sd=10&rebase=on"
   },
   {
-    "DisplayName": "Kiss FM",
-    "audioURL": "https://stream-kiss.planetradio.co.uk/kissnational.aac"
+    "DisplayName": "Air Raipur",
+    "audioURL": "http://nondelhi-lh.akamaihd.net/i/raipurair_1@832723/master.m3u8"
   },
   {
-    "DisplayName": "Kisstory",
-    "audioURL": "https://stream-al.planetradio.co.uk/kisstory.aac"
+    "DisplayName": "Diverse FM",
+    "audioURL": "http://109.169.46.197:8011/stream"
   },  
   {
-    "DisplayName": "BBC 1",
-    "audioURL": "http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio1_mf_p",
+    "DisplayName": "Republic Tv",
+    "audioURL": "https://repblicwld.s.llnwi.net/live/hls1/master_chunklist2.m3u8",
     "cors": false
   },
   {
-    "DisplayName": "BBC 1 Xtra",
-    "audioURL": "http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio1xtra_mf_p",
+    "DisplayName": "Ndtv India",
+    "audioURL": "http://54.251.50.138:8080/on-ndtvindia",
     "cors": false
   },
   {
-    "DisplayName": "BBC 2",
-    "audioURL": "http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio2_mf_p",
+    "DisplayName": "Ndtv 24x7",
+    "audioURL": "http://54.251.50.138:8080/on-ndtv24x7",
     "cors": false
   },
   {
