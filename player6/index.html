@@ -83,8 +83,8 @@
         </button>        
       </span>
       <br>
-	  <button onclick="jwplayer().pause(true), cs_change_music('http://51.15.208.163:8081/radio/vividhbharati/icecast.audio');">Play music 1</button>
-<button onclick="jwplayer().pause(true), cs_change_music('http://109.169.46.197:8011/stream');">Play music 2</button>
+	  <button onclick="cs_change_music('http://51.15.208.163:8081/radio/vividhbharati/icecast.audio');">Play music 1</button>
+<button onclick="cs_change_music('http://109.169.46.197:8011/stream');">Play music 2</button>
       <a href="javascript:loadPlaylist(cc), jwplayer().play();">Vivid Bharti
       </a>
       <br/>
@@ -206,7 +206,7 @@
    function cs_change_music(music)
    {
      
-	 jwplayer().pause(true);
+	 jwplayer().pause(true)
      document.getElementById("my-audio").pause();
      document.getElementById("my-audio").setAttribute('src', music);
      document.getElementById("my-audio").load();
