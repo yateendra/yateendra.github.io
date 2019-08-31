@@ -40,13 +40,13 @@
         padding: 7px 0px 5px 0px;
       }
       a:focus {
-    color: hsla(0,0%,8%,.5);
-    cursor: pointer;
-    border-left: 2px solid;
-    font-weight: 700;
-    background-color: #f4f4f4;
-            outline: none;
-}
+        color: hsla(0,0%,8%,.5);
+        cursor: pointer;
+        border-left: 2px solid;
+        font-weight: 700;
+        background-color: #f4f4f4;
+        outline: none;
+      }
       #player {
         display: none;
         width: auto !important;
@@ -66,11 +66,11 @@
         font-weight: bold;
       }
       audio#my-audio {
-    display: none;
-}
+        display: none;
+      }
       a>span {
-    font-size: 8px;
-}
+        font-size: 8px;
+      }
     </style>
   </head>
   <body> 
@@ -97,55 +97,81 @@
         </button>        
       </span>
       <br>
-
-
-<a href="javascript:cs_change_music('http://51.15.208.163:8081/radio/vividhbharati/icecast.audio');">try Bharti
-      </a>
-	  
-	  <a href="javascript:cs_change_music('http://109.169.46.197:8011/stream');">try Bharti
-      </a>
-
-
       <a href="javascript:loadPlaylist(cc), jwplayer().play();">Vivid Bharti
-      <span>m3u8</span></a>
-      <br/>
+        <span>m3u8
+        </span>
+      </a>
       <a href="javascript:loadPlaylist(dd), jwplayer().play();">Air Raipur
-      <span>m3u8</span></a>
-      <br/>
+        <span>m3u8
+        </span>
+      </a>
       <a href="javascript:loadPlaylist(bb), jwplayer().play();">AIR News
-      <span>m3u8</span></a>
-      <br/>
+        <span>m3u8
+        </span>
+      </a>
+      <a href="javascript:cs_change_music('http://54.251.50.138:8080/on-ndtvindia');">Ndtvindia
+      </a>
+      <a href="javascript:cs_change_music('http://54.251.50.138:8080/on-ndtv24x7');">Ndtv 24x7
+      </a>
+      <a href="javascript:cs_change_music('http://54.251.50.138:8080/on-ndtvprofit');">Ndtvprofit
+      </a>
       <a href="javascript:loadPlaylist(ee), jwplayer().play();">Republic Tv
-      <span>m3u8</span></a>
-      <br/>
+        <span>m3u8
+        </span>
+      </a>
+      <a href="javascript:cs_change_music('http://prclive1.listenon.in:9960/');">Radio City
+      </a>
+      <a href="javascript:cs_change_music('http://prclive1.listenon.in:8808/');">Radio City Ishq
+      </a>
       <a href="javascript:loadPlaylist(ff), jwplayer().play();">Devraag
-      <span>m3u8</span></a>
-      <br/>
+        <span>m3u8
+        </span>
+      </a>
       <a href="javascript:loadPlaylist(gg), jwplayer().play();">Pehla Nasha
-      <span>m3u8</span></a>
-      <br/>
+        <span>m3u8
+        </span>
+      </a>
       <a href="javascript:loadPlaylist(hh), jwplayer().play();">Mehfil
-      <span>m3u8</span></a>
-      <br/>
+        <span>m3u8
+        </span>
+      </a>
       <a href="javascript:loadPlaylist(ii), jwplayer().play();">Purani Jeans
-      <span>m3u8</span></a>
-      <br/>
+        <span>m3u8
+        </span>
+      </a>
       <a href="javascript:loadPlaylist(jj), jwplayer().play();">Filmy Mirchi
-      <span>m3u8</span></a>
-      <br/>
+        <span>m3u8
+        </span>
+      </a>
       <a href="javascript:loadPlaylist(kk), jwplayer().play();">Meethi Mirchi
-      <span>m3u8</span></a>
-      <br/>
-      <a href="javascript:loadPlaylist(ll), jwplayer().play();">
-      <span>m3u8</span></a>
-      <br/>
+        <span>m3u8
+        </span>
+      </a>
+      <a href="javascript:cs_change_music('http://109.169.46.197:8011/stream');">Diverse FM
+      </a>
+      <a href="javascript:cs_change_music('http://sc-t40.1.fm:8075/');">1.fm top10
+      </a>
+      <a href="javascript:cs_change_music('http://listen.011fm.com/stream13');">Hip Hops hits
+      </a>
+      <a href="javascript:cs_change_music('http://stream.zenolive.com/saztm64ts0quv');">Udit Narayan Radio
+      </a>
+      <a href="javascript:cs_change_music('http://stream.zenolive.com/zhsvaa5ts0quv');">Shreya Ghosal Radio
+      </a>
+      <a href="javascript:cs_change_music('http://51.15.208.163:8081/radio/mt20live_11/icecast.audio');">Radio Mirchi Top 20
+      </a>
+      <!--   <a href="javascript:cs_change_music('');">Bharti</a>
+<a href="javascript:cs_change_music('');">Bharti</a>
+<a href="javascript:cs_change_music('');">Bharti</a>
+<a href="javascript:cs_change_music('');">Bharti</a>
+<a href="javascript:cs_change_music('');">Bharti</a>
+<a href="javascript:cs_change_music('');">Bharti</a>   -->
     </div>
   </body>
   <script>
     var player = jwplayer('player');
     function loadPlaylist(thePlaylist) {
       jwplayer().load(thePlaylist);
-	  document.getElementById("my-audio").pause();
+      document.getElementById("my-audio").pause();
     }
     // Set up the player with an HLS stream that includes timed metadata
     player.setup({
@@ -197,11 +223,6 @@
       "file": "https://meethimirchihdl-lh.akamaihd.net/i/MeethiMirchiHDLive_1_1@320572/master.m3u8",
     }
              ];
-    var ll = [{
-      "file": "",
-    }
-             ];
-
   </script>
   <script>
     window.onload = function(){
@@ -212,28 +233,17 @@
       jwplayer().setMute(false);
     }
   </script>
-
-
-
-
-<audio id="my-audio" controls>
-  <source src="assets/music1.mp3" type="audio/mpeg">
-</audio>
-
-<script type="text/javascript">
-  
-   function cs_change_music(music)
-   {
-     
-	 jwplayer().pause(true)
-     document.getElementById("my-audio").pause();
-     document.getElementById("my-audio").setAttribute('src', music);
-     document.getElementById("my-audio").load();
-     document.getElementById("my-audio").play();
-   }
-</script>
-
-
-  
-  
+  <audio id="my-audio" controls>
+    <source src="assets/music1.mp3" type="audio/mpeg">
+  </audio>
+  <script type="text/javascript">
+    function cs_change_music(music)
+    {
+      jwplayer().pause(true)
+      document.getElementById("my-audio").pause();
+      document.getElementById("my-audio").setAttribute('src', music);
+      document.getElementById("my-audio").load();
+      document.getElementById("my-audio").play();
+    }
+  </script>
 </html>
