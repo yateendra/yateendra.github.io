@@ -181,7 +181,7 @@
 
 			// Set tracks
 			for (var track in tracks) {
-				var $thisLi = $('<button><li data-url="' + tracks[track].source + '" title="' + tracks[track].name + '"><span>' + tracks[track].name + '</span> '+ tracks[track].description + ' </li></button>');
+				var $thisLi = $('<li data-url="' + tracks[track].source + '" title="' + tracks[track].name + '"><span>' + tracks[track].name + '</span> '+ tracks[track].description + ' </a>');
                 $playListContainer.find('ul').append($thisLi);
 			}
 
