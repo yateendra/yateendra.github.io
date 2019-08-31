@@ -93,7 +93,7 @@
       <br/>
       <a href="javascript:loadPlaylist(bb), jwplayer().play(),  document.getElementById("my-audio").pause();">AIR News
       </a>
-      <a href="javascript:loadPlaylist(aa), jwplayer().play(),  document.getElementById("my-audio").pause();">Fm Gold
+      <a href="javascript:loadPlaylist(aa), jwplayer().play();">Fm Gold
       </a>
       <br/>
       <a href="javascript:loadPlaylist(ee), jwplayer().play();">Republic Tv
@@ -126,6 +126,7 @@
     var player = jwplayer('player');
     function loadPlaylist(thePlaylist) {
       jwplayer().load(thePlaylist);
+	  document.getElementById("my-audio").pause();
     }
     // Set up the player with an HLS stream that includes timed metadata
     player.setup({
