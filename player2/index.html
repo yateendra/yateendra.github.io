@@ -12,7 +12,7 @@
          integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
          crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/mediaelement@4.2.7/build/mediaelement-and-player.min.js"></script>
-      <script src="http://yateendra.me/player2/mep-feature-playlist.js"></script>
+     <!-- <script src="http://yateendra.me/player2/mep-feature-playlist.js"></script> -->
    </head>
   
    <style>
@@ -192,19 +192,11 @@
          }
       </script>
   
-      <script>
-        if (e.keyCode == 38) { // up
-    var selected = $(".selected");
-    $(".services li").removeClass("selected");
-
-    // if there is no element before the selected one, we select the last one
-    if (selected.prev().length == 0) {
-        selected.siblings().last().addClass("selected");
-    } else { // otherwise we just select the next one
-        selected.prev().addClass("selected");
-    }
-}
+<script>
+  "use strict";!function(t){t.extend(mejs.MepDefaults,{loopText:mejs.i18n.t("Repeat On/Off"),shuffleText:mejs.i18n.t("Shuffle On/Off"),nextText:mejs.i18n.t("Next Track"),prevText:mejs.i18n.t("Previous Track"),playlistText:mejs.i18n.t("Show/Hide Playlist")}),t.extend(MediaElementPlayer.prototype,{buildloop:function(e,i,s,l){var o=t('<div class="mejs__button mejs__loop-button mejs__button-feature '+(e.options.loop?"mejs__loop-on":"mejs__loop-off")+'"><button type="button" aria-controls="'+e.id+'" title="'+e.options.loopText+'"></button></div>').appendTo(i).click(function(){e.options.loop=!e.options.loop,e.options.loop?o.removeClass("mejs__loop-off").addClass("mejs__loop-on"):o.removeClass("mejs__loop-on").addClass("mejs__loop-off")});this.loopToggle=t(this.controls).find(".mejs__loop-button")},loopToggleClick:function(){this.loopToggle.trigger("click")},buildprevtrack:function(e,i,s,l){t('<div class="mejs__button mejs__prevtrack-button mejs__prevtrack mejs__button-feature"><button type="button" aria-controls="'+e.id+'" title="'+e.options.prevText+'"></button></div>').appendTo(i).click(function(){e.playPrevTrack()}),this.prevTrack=t(this.controls).find(".mejs__prevtrack-button")},prevTrackClick:function(){this.prevTrack.trigger("click")},buildnexttrack:function(e,i,s,l){t('<div class="mejs__button mejs__nexttrack-button mejs__nexttrack mejs__button-feature"><button type="button" aria-controls="'+e.id+'" title="'+e.options.nextText+'"></button></div>').appendTo(i).click(function(){e.playNextTrack()}),this.nextTrack=t(this.controls).find(".mejs__nexttrack-button")},nextTrackClick:function(){this.nextTrack.trigger("click")},buildplaylist:function(e,i,s,l){var o=this;t('<div class="mejs__button mejs__playlist-button mejs__button-feature '+(e.options.playlist?"mejs__hide-playlist":"mejs__show-playlist")+'"><button type="button" aria-controls="'+e.id+'" title="'+e.options.playlistText+'"></button></div>').appendTo(i).click(function(){o.togglePlaylistDisplay(e,s,l)}),o.playlistToggle=t(o.controls).find(".mejs__playlist-button")},playlistToggleClick:function(){this.playlistToggle.trigger("click")},buildplaylistfeature:function(e,i,s,l){var o=t('<div class="mejs__playlist active"><ul></ul></div>').insertAfter(e.container);t(l.firstChild).data("showplaylist")&&(e.options.playlist=!0,e.options.loop=!0,t("#"+e.id).find(".mejs__overlay-play").hide()),e.options.playlist||o.hide();var n,a=[],r="";t("#"+e.id).find(".mejs__mediaelement source").each(function(){if(n=t(this).parent()[0].canPlayType(this.type),r||"maybe"!==n&&"probably"!==n||(r=this.type),r&&this.type===r&&""!==t.trim(this.src)){var e={};e.source=t.trim(this.src),""!==t.trim(this.title)?e.name=t.trim(this.title):e.name=(i=e.source,(s=i.split("/")).length>0?decodeURIComponent(s[s.length-1]):""),void 0!==this.dataset.mepDescription?e.description=" - "+t(this).data("mep-description"):e.description="",a.push(e)}var i,s});var p=t(e.container.parentNode).find(".mejs__playlist");for(var c in a){var d=t('<li data-url="'+a[c].source+'" title="'+a[c].name+'"><button type="button" onclick="myFunction()"><span>'+a[c].name+"</button></span> "+a[c].description+" </li>");p.find("ul").append(d)}p.find("li:first").addClass("current played"),p.find("ul li").click(function(){t(this).hasClass("current")?e.media.paused?e.play():e.pause():(t(this).addClass("played"),e.playTrack(t(this)))}),l.addEventListener("ended",function(){e.playNextTrack()},!1)},playNextTrack:function(){var e,i=this,s=t(i.container.parentNode).find(".mejs__playlist > ul > li"),l=s.filter(".current"),o=s.not(".played");if(o.length<1&&(l.removeClass("played").siblings().removeClass("played"),o=s.not(".current")),i.options.shuffle){var n=Math.floor(Math.random()*o.length);e=o.eq(n)}else(e=l.next()).length<1&&i.options.loop&&(e=l.siblings().first());1==e.length&&(e.addClass("played"),i.playTrack(e))},playPrevTrack:function(){var e,i=this,s=t(i.container.parentNode).find(".mejs__playlist > ul > li"),l=s.filter(".current"),o=s.filter(".played").not(".current");if(o.length<1&&(l.removeClass("played"),o=s.not(".current")),i.options.shuffle){var n=Math.floor(Math.random()*o.length);e=o.eq(n)}else(e=l.prev()).length<1&&i.options.loop&&(e=l.siblings().last());1==e.length&&(l.removeClass("played"),i.playTrack(e))},playTrack:function(t){var e=this;e.pause(),e.setSrc(t.data("url")),e.load(),e.play(),t.addClass("current").siblings().removeClass("current")},playTrackURL:function(e){var i=t(this.container.parentNode).find(".mejs__playlist > ul > li").filter('[data-url="'+e+'"]');this.playTrack(i)},togglePlaylistDisplay:function(e,i,s,l){var o=this;e.options.playlist=l?"show"===l:!e.options.playlist,e.options.playlist?(t(o.container.parentNode).find(".mejs__playlist").addClass("active"),o.playlistToggle.removeClass("mejs__show-playlist").addClass("mejs__hide-playlist")):(t(o.container.parentNode).find(".mejs__playlist").removeClass("active"),o.playlistToggle.removeClass("mejs__hide-playlist").addClass("mejs__show-playlist"))}})}(mejs.$);
   </script>
+  
+  
   
    </body>
 </html>
