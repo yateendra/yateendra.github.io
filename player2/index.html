@@ -60,7 +60,7 @@
       color: #777777;
       font-size: 16px;
       padding: 5px 5px 5px 13px;
-      border-top: 1px solid rgb(245, 245, 245);
+      border: 1px solid rgb(245, 245, 245);
       list-style-type: none;
      }
      
@@ -75,9 +75,12 @@
 }
      
      .mejs__playlist li:hover, .mejs__playlist li.current {
-    color: hsla(0,0%,8%,.5);
+       color: hsla(0,0%,8%,.5);
     cursor: pointer;
+    border-left: 2px solid;
     font-weight: 700;
+    background-color: #f4f4f4;
+
 }
      
      .mejs__playlist ul {
@@ -88,13 +91,13 @@
     margin-top: 7px;
 }
      button {
-    display: block;
-           width: -webkit-fill-available;
+     
+         border: 0;
+    background: transparent;
+    color: #808080;  
 }
      
-     .services li.selected {
-    background-color: grey;   
-}
+
      
    </style>
   
