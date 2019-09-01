@@ -72,8 +72,11 @@
         text-decoration:none;
       }
       #playlist .current-song a {
-        font-weight:600;
-        background-color: rgba(240, 248, 255, 0.55);
+        color: hsla(0,0%,8%,.5);
+        cursor: pointer;
+        border-left: 2px solid;
+        font-weight: 700;
+        background-color: #f4f4f4;
       }
       #playlist .current-song a:before {
         font-weight: lighter;
@@ -161,6 +164,16 @@
       width: 97%;
       color: #fff;
       }
+      
+      #playlist li a:focus {
+    color: hsla(0,0%,8%,.5);
+    cursor: pointer;
+    border-left: 4px solid;
+    font-weight: 700;
+    background-color: #f4f4f4;
+    outline: none;
+    transition: border-width 0.1s linear;
+}
 
       
     </style>
