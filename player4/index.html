@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/4.2.6/mediaelementplayer.css">
     <link rel="stylesheet" href="/player4/playlist.css">
     <link rel="stylesheet" href="/player4/demo.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/4.2.6/mediaelement-and-player.min.js"></script>
+<script src="/player4/playlist.js"></script>
   <link rel="icon" type="image/png" href="http://yateendra.me/player/favicon.png" />
   
   <style>
@@ -109,14 +111,13 @@
 
 </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/4.2.6/mediaelement-and-player.min.js"></script>
-<script src="/player4/playlist.js"></script>
+
 <script>
   var mediaElements = document.querySelectorAll('video, audio');
 
 	for (var i = 0, total = mediaElements.length; i < total; i++) {
 		new MediaElementPlayer(mediaElements[i], {
-			features: ['prevtrack', 'playpause', 'nexttrack', 'current', 'progress', 'duration', 'volume', 'playlist', 'shuffle', 'loop', 'fullscreen'],
+			features: ['prevtrack', 'playpause', 'nexttrack', 'current', 'progress', 'duration', 'volume', 'playlist'],
 		});
 	}
 </script>
