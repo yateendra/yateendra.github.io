@@ -93,8 +93,8 @@
 
 .mejs__playlist-selector-list-item:hover,
 .mejs-playlist-selector-list-item:hover {
-    background-color: rgb(200, 200, 200) !important;
-    background-color: rgba(255, 255, 255, 0.4) !important;
+    background-color: #f1f1f1 !important;
+    background-color: #f1f1f1 !important;
 }
 
 .mejs__playlist-selector-list-item:focus,
