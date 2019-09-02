@@ -51,7 +51,7 @@ html, body {
     font-weight: 700;
     color: rgba(0,0,0,.5);
 }
-    
+    * { transition: all 0.1s ease, background-position 1ms;}
     
     
   </style>
@@ -125,7 +125,7 @@ html, body {
 
 	for (var i = 0, total = mediaElements.length; i < total; i++) {
 		new MediaElementPlayer(mediaElements[i], {
-			features: ['prevtrack', 'playpause', 'nexttrack', 'current', 'progress', 'volume', 'playlist'],
+			features: 'playpause', 'current', 'progress', 'volume', 'playlist'],
 		});
 	}
 </script>
