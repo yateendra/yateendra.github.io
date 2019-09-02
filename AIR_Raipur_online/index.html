@@ -58,6 +58,14 @@
   <body>
     <h1 style="text-align: center;color: rgba(50,50,50,.8);font-weight: 100;font-family: 'Open Sans', sans-serif;">AIR RAIPUR LIVE</h1>
     
+    <span style="text-align: CENTER; display: block;">
+        <button onclick="document.querySelector('.mejs__button').click();">Play/Pause
+        </button>
+        
+        
+        <button onclick="location.href='http://yateendra.me/player'">Home</button>        
+      </span>
+    
     <audio autoplay="true" src="http://nondelhi-lh.akamaihd.net/i/raipurair_1@832723/master.m3u8" >
     </audio>
     <br>
@@ -105,18 +113,5 @@ Parliament Review (During Session) - Delhi 08.30 Night - 12.30 Minutes
     // using jQuery
     $('video,audio').mediaelementplayer(/* Options */);
   </script>
-  
-<a href="http://yateendra.me/player/" style="
-    padding: 3px 8px 3px 8px;
-    color: #5a5a5a;
-    font-size: 16px;
-    font-weight: bold;
-    display: block;
-    background-color: hsla(0,0%,100%,.9);
-    border-radius: 3px;
-    border: 1px solid;
-    text-decoration: none;
-    text-align: center;
-"> Home</a>
   
 </html>
