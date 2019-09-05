@@ -1,0 +1,26 @@
+<! DOCTYPE html> 
+<html  lang = "en" > 
+<head> 
+    <meta  charset = "UTF-8" > 
+    <meta  name = "viewport"  content = "width = device-width, initial-scale = 1.0" > 
+    < meta  http-equiv = "X-UA-Compatible"  content = "ie = edge" > 
+    <title> Document </ title> 
+</ head> 
+<body> 
+    <script src = "https://cdn.jsdelivr.net/ npm/hls.js@latest " > </ script> 
+    <!-Or if you want a more recent canary 
+    version- ><!-<script src = "https://cdn.jsdelivr.net/npm/hls.js@canary"> </ script>-> 
+    <video Id = "Video"  Controls  Preload = "None" > </ Video> 
+    <Script> 
+    Var  Video  =  Document . GetElementById ( ' Video ' ); 
+    If ( Hls . isSupported ())  { 
+        Var  Hls  =  New  Hls (); 
+        Hls . loadSource ( 'http://vividhbharati-lh.akamaihd.net/i/vividhbharati_1@507811/master.m3u8' ); 
+        hls . attachMedia ( video ); 
+        hls . on (Hls . Events . MANIFEST_PARSED , function ()  { 
+            video . Play (); 
+        }); 
+    } 
+    </ script> 
+</ body> 
+</ html>
