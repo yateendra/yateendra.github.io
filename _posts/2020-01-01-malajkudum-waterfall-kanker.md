@@ -1,7 +1,7 @@
 ---
 title: 'Our trip to Malanjhkudum Waterfall'
 layout: post
-Description: Malanjhkudum Waterfall is located around 10 kilometers from Kanker city; the road was good enough. I visited there along with my friends on the occasion of Dec. 31st. We reached there in the afternoon; the weather was mild. The place was not overcrowded like other waterfalls.
+description: 'Malanjhkudum Waterfall is located around 10 kilometers from Kanker city; the road was good enough. I visited there along with my friends on the occasion of Dec. 31st.' 
 ---
 
 
