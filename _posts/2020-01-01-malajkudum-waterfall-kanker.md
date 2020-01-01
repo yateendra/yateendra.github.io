@@ -17,8 +17,8 @@ This waterfall is the origin of the Dudh river, which flows through Kanker city.
 This place is a perfect picnic spot. Over the years, it has become a top-rated holiday destination. However, you may want to keep some snacks with you as there is no shop nearby.
 
 The stunning view from the hill will convince you to visit again. We clicked many photos there and lingered there for 4 hours and then headed for Kanker as we were starving.
-![malajkudum](https://raw.githubusercontent.com/yateendra/yateendra.github.io/master/assets/IMG_20200101_211156.jpg)
 ![malajkudum](https://raw.githubusercontent.com/yateendra/yateendra.github.io/master/assets/IMG_20200101_211357.jpg)
 ![malajkudum](https://raw.githubusercontent.com/yateendra/yateendra.github.io/master/assets/IMG_20200101_211505.jpg)
+![malajkudum](https://raw.githubusercontent.com/yateendra/yateendra.github.io/master/assets/IMG_20200101_211156.jpg)
 ![malajkudum](https://raw.githubusercontent.com/yateendra/yateendra.github.io/master/assets/IMG_20200101_211816.jpg)
 
