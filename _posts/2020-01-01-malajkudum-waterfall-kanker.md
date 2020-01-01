@@ -20,5 +20,5 @@ The stunning view from the hill will convince you to visit again. We clicked man
 ![malajkudum](https://raw.githubusercontent.com/yateendra/yateendra.github.io/master/assets/IMG_20200101_211156.jpg)
 ![malajkudum](https://raw.githubusercontent.com/yateendra/yateendra.github.io/master/assets/IMG_20200101_211357.jpg)
 ![malajkudum](https://raw.githubusercontent.com/yateendra/yateendra.github.io/master/assets/IMG_20200101_211505.jpg)
-![malajkudum](https://raw.githubusercontent.com/yateendra/yateendra.github.io/master/assets/IMG_20200101_211357.jpg)
+![malajkudum](https://raw.githubusercontent.com/yateendra/yateendra.github.io/master/assets/IMG_20200101_211816.jpg)
 
