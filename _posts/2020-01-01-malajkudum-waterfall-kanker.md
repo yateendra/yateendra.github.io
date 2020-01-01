@@ -1,5 +1,5 @@
 ---
-title: 'Our trip to Malanjhkudum Waterfall'
+title: 'Our Trip to Malanjhkudum Waterfall'
 layout: post
 description: 'Malanjhkudum Waterfall is located around 10 kilometers from Kanker city; the road was good enough. I visited there along with my friends on the occasion of Dec. 31st.' 
 ---
