@@ -3,9 +3,9 @@ layout: page
 title: Projects
 Discription: My Web development projects
 ---
-[yateendra.ooo](http://yateendra.ooo)
+[yateendra.me](http://yateendra.me)
 -My website.
-[Investeasy.in.net](http://investeasy.in.net)
+[Investeasy.in.net(expired)](http://investeasy.in.net)
 -Vipin Dixena's website.
 [pushkarchawda.com](http://pushkarchawda.com)
 -Pushkar's website.(Dead)
@@ -21,12 +21,12 @@ Discription: My Web development projects
 -Website for my ET&T 2014 batchmates.
 
 
-- Personal streaming player: [yateendra.ooo/player](http://yateendra.ooo/player)
+- Personal streaming player: [yateendra.me/player](http://yateendra.me/player)
 - Yplayer: [App Link](https://github.com/yateendra/yateendra.github.io/releases/download/%233/Yplayer_1.0.apk)
 
-- Pricings: [yateendra.ooo/pricing](http://yateendra.ooo/pricing.html)
+- Pricings: [yateendra.me/pricing](http://yateendra.me/pricing.html)
 
 
 
 
-<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fya3dra&width=76&layout=button_count&action=like&size=small&show_faces=true&share=false&height=21&appId=239992719524816" width="76" height="21" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fya3dra&width=85&layout=button_count&action=like&size=small&show_faces=true&share=false&height=21&appId=239992719524816" width="85" height="21" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
