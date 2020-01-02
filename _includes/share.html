@@ -1,51 +1,28 @@
-<a href="https://www.facebook.com/plugins/like.php?href=http://yateendra.github.io{{ page.url }}" style="
-    padding: 3px 8px 3px 8px;
-    color: #fff;
+<style>
+ #horizontal-style {
+    display: table;
+    width: 100%
+}
+#horizontal-style li {
+    display: table-cell;
+}
+#horizontal-style a {
     font-size: 12px;
     font-weight: bold;
     font-family: sans-serif;
     background-color: #3b5998;
     border-radius: 3px;
-" target="_blank">Like</a>
-
-<a href="http://www.facebook.com/sharer.php?u=http://yateendra.github.io{{ page.url }}" style="
-    padding: 3px 8px 3px 8px;
     color: #fff;
-    font-size: 12px;
-    font-weight: bold;
-    font-family: sans-serif;
-    background-color: #3b5998;
-    border-radius: 3px;
-" target="_blank">Share</a>
-
- <a href="http://twitter.com/share?text={{ page.title }}&url=http://yateendra.github.io{{ page.url }}" style="
     padding: 3px 8px 3px 8px;
-    color: #fff;
-    font-size: 12px;
-    font-weight: bold;
-    font-family: sans-serif;
-    background-color: #00aced;
-    border-radius: 3px;
-" target="_blank">tweet</a>
+}
+</style> 
 
-<a href="whatsapp://send?text={{ page.title }} http://yateendra.github.io{ page.url }}" style="
-    padding: 3px 8px 3px 8px;
-    color: #fff;
-    font-size: 12px;
-    font-weight: bold;
-    font-family: sans-serif;
-    background-color: #009688;
-    border-radius: 3px;
-">Whatsapp</a>
-
-<a href="mailto:?subject={{ page.title }}&amp;body=Check out this site {{ site.url }}{{ site.baseurl }}{{ page.url }}" style="
-    padding: 3px 8px 3px 8px;
-    color: #fff;
-    font-size: 12px;
-    font-weight: bold;
-    font-family: sans-serif;
-    background-color: #b1002c;
-    border-radius: 3px;
-" target="_blank">Mail</a>
-
-
+<div style="width: 100%">
+    <ul id="horizontal-style">
+        <li><a href="https://www.facebook.com/plugins/like.php?href=http://yateendra.github.io{{ page.url }}" style="background-color: #3b5998;" target="_blank">Like</a></li>
+        <li><a href="http://www.facebook.com/sharer.php?u=http://yateendra.github.io{{ page.url }}" style="background-color: #3b5998;" target="_blank">Share</a></li>
+        <li> <a href="http://twitter.com/share?text={{ page.title }}&url=http://yateendra.github.io{{ page.url }}" style="background-color: #00aced;" target="_blank">tweet</a></li>
+        <li><a href="whatsapp://send?text={{ page.title }} http://yateendra.github.io{ page.url }}" style="background-color: #009688;">Whatsapp</a></li>
+        <li><a href="mailto:?subject={{ page.title }}&amp;body=Check out this site {{ site.url }}{{ site.baseurl }}{{ page.url }}" style="background-color: #b1002c;" target="_blank">Mail</a></li>
+    </ul>
+</div>
