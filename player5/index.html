@@ -180,6 +180,26 @@ a:focus {
     font-weight: 700;
     outline: none;
 }
+      summary {
+        font-size:20px;
+        background-color:#fafafa;
+        font-weight:700;
+        cursor:pointer;
+        color:#a2a2a2;
+        border-top: 1px solid #e9e9ea;
+      }
+      details[open] summary::-webkit-details-marker {
+        color:#fafafa;
+        background:#fafafa;
+      }
+      DETAILS[open] SUMMARY ~ * {
+        animation:sweep .5s ease-in-out;
+        border-top: 1px solid rgb(245, 245, 245);
+      }
+      100% {
+        opacity:1;
+        margin-left:0;
+      }
     </style>
 
 </head>
@@ -191,25 +211,28 @@ a:focus {
 <div class="player-wrapper">
 
 <ul class="playlist custom-counter" id="list">
-   <li><div class="track-info" >
-    <a href="#" data-value="https://wmirchi-lh.akamaihd.net/i/WMIRCHI_1@75780/index_1_a-p.m3u8">Rain</a>
-               </div>
-     </li>
+
+
+
+
+
+   <li><a href="#" data-value="http://vividhbharati-lh.akamaihd.net/i/vividhbharati_1@507811/master.m3u8">Vivid Bharti</a></li>
       
-   <li><div class="track-info" >
-    <a href="#" data-value="https://meethimirchihdl-lh.akamaihd.net/i/MeethiMirchiHDLive_1_1@320572/master.m3u8">MeethiMirchi</a>
-               </div>
- </li>
+   <li><a href="#" data-value="https://meethimirchihdl-lh.akamaihd.net/i/MeethiMirchiHDLive_1_1@320572/master.m3u8">MeethiMirchi</a></li>
       
-   <li><div class="track-info" >
-    <a href="#" data-value="https://driveradio-lh.akamaihd.net/i/DriveRadio_1@793591/index_1_a-p.m3u8?sd=10&rebase=on">DriveRadio</a>
-               </div>
-    
-        </li>
+   <li><a href="#" data-value="https://driveradio-lh.akamaihd.net/i/DriveRadio_1@793591/index_1_a-p.m3u8?sd=10&rebase=on">DriveRadio</a></li>
+   <li><a href="#" data-value="http://nondelhi-lh.akamaihd.net/i/raipurair_1@832723/master.m3u8">Raipur AIR</a></li>
+   <li><a href="#" data-value="https://pehlanashahdlive-lh.akamaihd.net/i/PehlaNashaHDLive_1@335229/index_1_a-b.m3u8?sd=10&rebase=on">Mirchi 90's</a></li>
+   <li><a href="#" data-value="https://puranijeanshdliv-lh.akamaihd.net/i/PuraniJeansHDLive_1_1@334555/master.m3u8">Purani Jeans</a></li>
+   <li><a href="#" data-value="https://mbnowweb-lh.akamaihd.net/i/MRNA_1@346545/index_100_a-p.m3u8?sd=10&rebase=on">Mirror Now</a></li>
+   <li><a href="#" data-value="https://sonyvidgyor.akamaized.net/hls/live/2004796/INDIATODAYEVENT/INDIATODAY_1/chunklist.m3u8">India Today</a></li>
+   <li><a href="#" data-value="">Bharti</a></li>
+   <li><a href="#" data-value="">Bharti</a></li>
+   <li><a href="#" data-value="">Bharti</a></li>
       
       
     </ul>
-<audio id="audio" class="mejs__player" controls="controls" src="">
+<audio  id="audio" class="mejs__player" controls="controls" src="">
   Your browser does not support the audio format.
 </audio>
  
