@@ -15,9 +15,8 @@ body{    background: #fafafa;    font-family: 'Segoe UI', Tahoma, sans-serif;
 ul {color:#fff;}
 
 .player-wrapper {  box-shadow: 0 0 8px -1px rgba(0, 0, 0, 0.25);
-    background-image: -webkit-linear-gradient(315deg, #FF5572, #FF7555);
-    background-image: linear-gradient(135deg, #FF5572, #FF7555);
     overflow: hidden;
+	background-color: white;
     width: 100%;
     padding: 0;
     border-radius: 0;
@@ -25,7 +24,7 @@ ul {color:#fff;}
     word-wrap: break-word;
     margin: .5em auto 0;}
 ul.playlist {margin:0;padding:0px 0px 0px 10px}
-ul.playlist a{color: #fff;text-decoration:none;    display: block;}
+ul.playlist a{color: rgb(68, 68, 68);text-decoration:none;    display: block; padding: 0px 0px 0px 5px;}
 ul.playlist li{ overflow: hidden;
 line-height: 20px;
 display: flex;
@@ -34,15 +33,8 @@ border-bottom: 1px solid rgba(230, 211, 211, 0.31);
 }
 
 ul.playlist li::before {
-        content: "\f001";
-    margin-right: 10px;
-    font-size: 120%;
-    background-color: #02020266;
-    font-family: Fontawesome;
-    color: white;
-    padding: 6px 8px;
-    text-align: center;
-    border-radius: 3px;
+    content: "› ";
+	color:black;
 }
 
  .track-info {
@@ -171,6 +163,7 @@ span.mejs__time-loaded {
 
 .mejs__horizontal-volume-current {
 background: rgb(68, 68, 68);
+
 }
 a:focus {
     color: #29cf54;
@@ -180,26 +173,6 @@ a:focus {
     font-weight: 700;
     outline: none;
 }
-      summary {
-        font-size:20px;
-        background-color:#fafafa;
-        font-weight:700;
-        cursor:pointer;
-        color:#a2a2a2;
-        border-top: 1px solid #e9e9ea;
-      }
-      details[open] summary::-webkit-details-marker {
-        color:#fafafa;
-        background:#fafafa;
-      }
-      DETAILS[open] SUMMARY ~ * {
-        animation:sweep .5s ease-in-out;
-        border-top: 1px solid rgb(245, 245, 245);
-      }
-      100% {
-        opacity:1;
-        margin-left:0;
-      }
     </style>
 
 </head>
