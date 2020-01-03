@@ -5,12 +5,13 @@
   <meta charset="UTF-8">
   
   <title>Player5</title>
-
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/mediaelement/4.2.6/mediaelementplayer.css'>
 
       <style>
-body{    background: #fafafa;    font-family: 'Segoe UI', Tahoma, sans-serif;
+	  
+body{    background: #fafafa;    font-family: 'Segoe UI', Tahoma, sans-serif;margin: 0;
 }
 ul {color:#fff;}
 
@@ -20,11 +21,10 @@ ul {color:#fff;}
     width: 100%;
     padding: 0;
     border-radius: 0;
-    max-width: 440px;
     word-wrap: break-word;
-    margin: .5em auto 0;}
+	height: 100%;}
 ul.playlist {margin:0;padding:0px 0px 0px 10px}
-ul.playlist a{color: rgb(68, 68, 68);text-decoration:none;    display: block; padding: 0px 0px 0px 5px;}
+ul.playlist a{color: rgb(68, 68, 68);text-decoration:none;    display: block; padding: 0px 0px 0px 5px;width: -webkit-fill-available;}
 ul.playlist li{ overflow: hidden;
 line-height: 20px;
 display: flex;
@@ -169,7 +169,12 @@ a:focus {
     color: #29cf54;
     font-style: italic;
     cursor: pointer;
-    transition: 0.3s;
+    font-weight: 700;
+    outline: none;
+}
+a:hover {
+    color: #29cf54;
+    cursor: pointer;
     font-weight: 700;
     outline: none;
 }
