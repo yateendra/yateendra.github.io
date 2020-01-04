@@ -13,8 +13,8 @@ The best part is that since these devices are already equipped with the included
 
 ## Install Google Camera (GCam) on Redmi Note 7 and Note 7 Pro
 
--Link for Redmi Note 7 and 7S: [Download](https://f.celsoazevedo.com/file/cfiles/gcm1/MGC_6.2.030_RN7_V1a_FINAL.apk)
--Link for Redmi Note 7 Pro: [Download](https://f.celsoazevedo.com/file/cfiles/gcm1/MGC_6_1_021_xcam6_beta5.apk)
+Link for Redmi Note 7 and 7S: [Download](https://f.celsoazevedo.com/file/cfiles/gcm1/MGC_6.2.030_RN7_V1a_FINAL.apk)
+Link for Redmi Note 7 Pro: [Download](https://f.celsoazevedo.com/file/cfiles/gcm1/MGC_6_1_021_xcam6_beta5.apk)
 
 1. Download the GCam APK and open the APK file. Your device may ask for your permission when installing a third-party application. Just click on **settings and grant permission**.
 2. Go back and click on the **install** button. After the installation is complete, click the "Open" button to start the application.
