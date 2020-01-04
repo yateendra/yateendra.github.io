@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 description: >-
   Jekyll is the most popular static site generator. It takes the source files
