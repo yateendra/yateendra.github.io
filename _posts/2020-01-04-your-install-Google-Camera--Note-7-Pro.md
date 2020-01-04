@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 description: >-
   Google Camera Mod has changed the rules of the game for budget smartphones,
@@ -38,5 +38,3 @@ For ordinary users, the complications of rooting and modding are over.
 Just install the GCam app and you're ready to capture images, as you can do with Google Pixel devices.
 
 We will update the download link in case the best GCam mod is released in the future.
-
-
