@@ -1,5 +1,9 @@
 ---
 published: false
+layout: post
+description: >-
+  Jekyll is the most popular static site generator. It takes the source files
+  and creates a site from static pages that are ready to serve users directly.
 ---
 ## Website Development on Jekyll
 
