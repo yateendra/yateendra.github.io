@@ -28,6 +28,9 @@ author:
 # Timezone
 timezone: Asia/Kolkata
 
+plugins:
+  - jekyll-sitemap
+
 # Custom vars
 version:             1.0.0
 
