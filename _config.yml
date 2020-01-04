@@ -48,11 +48,11 @@ tag_feed_dir: blog/tag
 tag_permalink_style: pretty
 
 compress_html:
-    clippings: []
-    comments: []
-    endings: []
+    clippings: all
+    comments: all
+    endings: all
     ignore:
     envs: []
     blanklines: false
     profile: false
-    startings: []
+    startings: [html, head, body]
