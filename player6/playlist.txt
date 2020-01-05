@@ -1,0 +1,14 @@
+[
+   {"title":"Season 1","folder":
+      [
+      {"title":"Serie 1/1","file":"https://filmymirchihdliv-lh.akamaihd.net/i/FilmyMirchiHDLive_1_1@336266/master.m3u8"},
+      {"title":"Serie 1/2","file":"https://filmymirchihdliv-lh.akamaihd.net/i/FilmyMirchiHDLive_1_1@336266/master.m3u8"}
+      ]
+   },
+   {"title":"Season 2","folder":
+      [
+      {"title":"Serie 2/1","file":"https://filmymirchihdliv-lh.akamaihd.net/i/FilmyMirchiHDLive_1_1@336266/master.m3u8"},
+      {"title":"Serie 2/2","file":"https://filmymirchihdliv-lh.akamaihd.net/i/FilmyMirchiHDLive_1_1@336266/master.m3u8"}
+      ]
+   }
+]
