@@ -1,14 +1,6 @@
-[
-   {"title":"Season 1","folder":
-      [
-      {"title":"Serie 1/1","file":"https://filmymirchihdliv-lh.akamaihd.net/i/FilmyMirchiHDLive_1_1@336266/master.m3u8"},
-      {"title":"Serie 1/2","file":"https://filmymirchihdliv-lh.akamaihd.net/i/FilmyMirchiHDLive_1_1@336266/master.m3u8"}
-      ]
-   },
-   {"title":"Season 2","folder":
-      [
-      {"title":"Serie 2/1","file":"https://filmymirchihdliv-lh.akamaihd.net/i/FilmyMirchiHDLive_1_1@336266/master.m3u8"},
-      {"title":"Serie 2/2","file":"https://filmymirchihdliv-lh.akamaihd.net/i/FilmyMirchiHDLive_1_1@336266/master.m3u8"}
-      ]
-   }
-]
+{"title":"Purani Jeans","file":"https://puranijeanshdliv-lh.akamaihd.net/i/PuraniJeansHDLive_1_1@334555/master.m3u8"},
+{"title":"FilmyMirchi ","file":"https://filmymirchihdliv-lh.akamaihd.net/i/FilmyMirchiHDLive_1_1@336266/master.m3u8"},
+{"title":"Pehla Nasha","file":"https://wmirchi-lh.akamaihd.net/i/WMIRCHI_1@75780/index_1_a-p.m3u8"},
+{"title":"Meethi Mirchi ","file":"https://meethimirchihdl-lh.akamaihd.net/i/MeethiMirchiHDLive_1_1@320572/master.m3u8"},{"title":"DriveRadio","file":"https://driveradio-lh.akamaihd.net/i/DriveRadio_1@793591/index_1_a-p.m3u8?sd=10&rebase=on"},
+{"title":"India Today","file":"https://sonyvidgyor.akamaized.net/hls/live/2004796/INDIATODAYEVENT/INDIATODAY_1/chunklist.m3u8"},
+{"title":"Mirror Now","file":"https://mbnowweb-lh.akamaihd.net/i/MRNA_1@346545/index_100_a-p.m3u8?sd=10&rebase=on"}
