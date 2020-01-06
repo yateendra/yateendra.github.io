@@ -1,4 +1,4 @@
-{
+[{
 	"title": "purani",
 	"file": "https://puranijeanshdliv-lh.akamaihd.net/i/PuraniJeansHDLive_1_1@334555/master.m3u8"
-}
+}]
