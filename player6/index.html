@@ -37,6 +37,13 @@
             pointer-events: auto !important;
             }
     
+    @media only screen and (min-width: 767px) {
+
+  span {
+    display: none;
+  }
+}
+    
 	</style>
   
 	<!-- <script src="http://yateendra.me/player6/playerjs.js" type="text/javascript"></script> -->
@@ -44,6 +51,16 @@
 </head>
 
 <body>
+  
+  <span style="text-align: CENTER; display: block;">
+        <button onclick="player.api('play');">Play</button>
+        <button onclick="player.api('pause');">Pause</button>
+        
+        
+        <button onclick="player.api('prev');">Prev</button> 
+        <button onclick="player.api('next');">Next</button> 
+      </span>
+  
 	<div id="player"></div>
 	<script>
 		var player = new Playerjs({
