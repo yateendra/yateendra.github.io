@@ -25,7 +25,7 @@
 		      	line-height: 1.4em !important;
 		      }
     
-		      @media screen and (max-width: 800px) {
+		      @media screen and (max-width: 100px) {
 		      	Center {
 		      		display: none !important;
 		      	}
@@ -38,7 +38,7 @@
 </head>
 
 <body>
-	<center>
+	<center id="hideme" style="display:none;">
 		<div id="welcomeDiv" style="display:none; color: rgb(191, 191, 191);" class="answer_list"> <span>
         <button onclick="player.api('play');">Play</button>
         <button onclick="player.api('pause');">Pause</button>  
@@ -196,5 +196,11 @@
 	   document.getElementById('welcomeDiv2').style.display = "none";
 	}
 </script>
-
+  
+<script type="text/javascript">  
+  if( /Android|webOS|iPhone|iPad|iPod|Opera Mini/i.test(navigator.userAgent) ) {
+ document.getElementById('hideme').style.display = "block";  
+}
+</script>
+  
 </html>
