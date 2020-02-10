@@ -7,6 +7,22 @@
       html body {height: 100% !important;width: 100%;padding: 0px;max-width: 440px;
     margin: .5em auto 0;} #preview-frame {width: 100%;height: 100% !important;}</style>
 
+      <script>
+         var calcHeight = function() {
+           $('#preview-frame').height($(window).height());
+         }
+
+         $(document).ready(function() {
+           calcHeight();
+         }); 
+
+         $(window).resize(function() {
+           calcHeight();
+         }).load(function() {
+           calcHeight();
+         });
+      </script>     
+     
    </head>
    <body>
       <iframe id="preview-frame" src="https://www.facebook.com/plugins/feedback.php?app_id=239992719524816&href=https://facebook.com/yateendr&locale=en_GB&numposts=5&sdk=joey&version=v6.0" name="preview-frame" frameborder="0" noresize="noresize">
