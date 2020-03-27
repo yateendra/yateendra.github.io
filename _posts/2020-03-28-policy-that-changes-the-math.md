@@ -1,7 +1,4 @@
 ---
-published: false
----
----
 title: 'One policy that puts all Americans at risk'
 layout: post
 description: 'millions of workers at big national chains like McDonalds, Walmart, Kroger, and Pizza Hut still don’t have paid sick days. There are lots of American workers that do have paid sick leave. Many also have the privilege of working from home during the crisis. But coronavirus doesn’t distinguish between people who have that privilege and those who don’t. That means the status quo puts all Americans at risk.  '
