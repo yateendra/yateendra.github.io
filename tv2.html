@@ -3,17 +3,15 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
-html, body, {
-    position:fixed;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
-  margin: 0em auto 0;	
-}  
 
-pjsdiv#player_playlist {
-    overflow: hidden !important;
+#playercss {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;  
 }
 </style>
 </head>
@@ -26,15 +24,13 @@ pjsdiv#player_playlist {
 <script>
    var player = new Playerjs({
       id:"player",
-	  autoplay:1,
+	    autoplay:1,
       file:[
             {"title":"Aajtak Hd","file":"https://feeds.intoday.in/aajtak/api/aajtakhd/master.m3u8", "default_quality":"240p"},
 					  {"title":"India Today","file":"https://feeds.intoday.in/hltapps/api/master.m3u8"},
 					  {"title":"Times Now hd","file":"https://timesnow-lh.akamaihd.net/i/TNHD_1@129288/master.m3u8"},		              
 					  {"title":"Ndtv 24x7","file":"https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/ndtv24x7master.m3u8"},
 					  {"title":"Ndtv India","file":"https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679/ndtvindia/ndtvindiamaster.m3u8"},
-		        {"title":"Ndtv India2","file":"https://d3t34m8y8rh0vb.cloudfront.net/preview/ndtvhindi/350.m3u8"}, 
-					  {"title":"Republic tv","file":"https://www.youtube.com/watch?v=m_01tHikdy4"},     
 					  {"title":"Republic tv2","file":"https://ottr2.republicworld.com/liveorigin/republictv/masterlive_180p.m3u8"},        
 					  {"title":"Mirror Now","file":"https://mbnowweb-lh.akamaihd.net/i/MRN_1@346545/master.m3u8"},					  
 		        {"title":"Abp news","file":"https://abp-i.akamaihd.net/hls/live/765529-b/abphindi/masterhls_136.m3u8"},                   
@@ -50,7 +46,8 @@ pjsdiv#player_playlist {
 					  {"title":"","file":""},
 					  {"title":"","file":""},
 					  {"title":"","file":""},
-					  {"title":"","file":""},      ]
+					  {"title":"","file":""},      
+      ]
    });
 
 </script>
