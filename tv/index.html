@@ -25,6 +25,7 @@
 <script>
    var player = new Playerjs({
       id:"player",
+      ready:"PlayerReady"
       "default_quality":"240p",
       file:[
             {"title":"Aajtak Hd","file":"https://feeds.intoday.in/aajtak/api/aajtakhd/master.m3u8"},
@@ -50,5 +51,9 @@
 					  {"title":"","file":""},      
       ]
    });
-player.api("fullscreen");
+  
+  function PlayerReady(id){
+   player.api("fullscreen");
+}
+
 </script>
