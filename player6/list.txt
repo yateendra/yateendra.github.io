@@ -1,0 +1,152 @@
+[
+		                {"title":"Music","folder":
+		              [
+
+		              {"title":"Vividh Bharati","file":"http://vividhbharati-lh.akamaihd.net/i/vividhbharati_1@507811/master.m3u8"},                    
+		              {"title":"Air Raipur","file":"http://nondelhi-lh.akamaihd.net/i/raipurair_1@832723/master.m3u8"},
+		              {"title":"FilmyMirchi ","file":"https://filmymirchihdliv-lh.akamaihd.net/i/FilmyMirchiHDLive_1_1@336266/master.m3u8"},
+		              {"title":"Pehla Nasha","file":"https://wmirchi-lh.akamaihd.net/i/WMIRCHI_1@75780/index_1_a-p.m3u8"},
+		              {"title":"Meethi Mirchi ","file":"https://meethimirchihdl-lh.akamaihd.net/i/MeethiMirchiHDLive_1_1@320572/master.m3u8"},
+		              {"title":"DriveRadio","file":"https://driveradio-lh.akamaihd.net/i/DriveRadio_1@793591/index_1_a-p.m3u8?sd=10&rebase=on"},
+                  {"title":"Bollywood Dil Se","file":"http://103.16.47.70:7333/;stream.nsv"},        
+		              {"title":"Mirchi Top 20","file":"http://51.15.208.163:8081/radio/mt20live_11/icecast.audio"},
+		              {"title":"Ishq kolkata","file":"https://ishq_kolkata-lh.akamaihd.net/i/Ishq_Kolkata_1@854569/index_1_a-p.m3u8"}, 
+		              {"title":"Ishq Delhi","file":"https://ishq_delhi-lh.akamaihd.net/i/Ishq_Delhi_1@854570/index_1_a-p.m3u8"},	                    
+		              {"title":"Diverse FM","file":"http://109.169.46.197:8011/stream"},
+                  {"title":"Mirchi 90's","file":"https://pehlanashahdlive-lh.akamaihd.net/i/PehlaNashaHDLive_1@335229/index_1_a-b.m3u8?sd=10&rebase=on"}, 
+		              {"title":"Purani Jeans","file":"https://puranijeanshdliv-lh.akamaihd.net/i/PuraniJeansHDLive_1_1@334555/master.m3u8"},
+		              {"title":"FM Rainbow","file":"http://fmrainbow-lh.akamaihd.net/i/fmrainbow_1@507812/master.m3u8"},         
+		              {"title":"FM Gold","file":"http://airfmgold-lh.akamaihd.net/i/fmgold_1@507591/master.m3u8"},
+                  {"title":"Instrumental","file":"http://103.16.47.70:8333/;stream.nsv"},   
+		              {"title":"Mirchi Ghazal","file":"https://mirchimahfil-lh.akamaihd.net/i/MirchiMehfl_1@120798/master.m3u8"},  
+                  {"title":"Gujarati Radio","file":"https://redlive1.listenon.in/Gujarati"},  
+                  {"title":"Gujarat Radio2","file":"http://prclive1.listenon.in:9932/;"},                       
+                  {"title":"Yo Punjabi","file":"https://yopunjabihdlive-lh.akamaihd.net/i/YoPunjabiHDLive_1_1@345454/index_1_a-p.m3u8?sd=10&rebase=on"},  
+                  {"title":"Radio Punjabi","file":"http://103.16.47.70:9888/;stream.nsv"}, 		                        
+		              {"title":"","file":""}, 
+		              {"title":"","file":""},		              
+		              {"title":"","file":""}, 
+		              {"title":"","file":""}, 
+		              {"title":"","file":""}, 
+		              {"title":"","file":""}         
+
+		              ]
+		           },
+		           {"title":"News","folder":
+		              [
+		              {"title":"Aaj Tak","file":"https://lmil.pc.cdn.bitgravity.com/lmil/live/aajtak_150k/chunklist_ao.m3u8"},  
+		              {"title":"AIR News","file":"http://esdcdn2-lh.akamaihd.net/i/esdcdn2_1@528073/master.m3u8"},  
+		              {"title":"India Today","file":"https://feeds.intoday.in/hltapps/api/master.m3u8"},
+		              {"title":"Mirror Now","file":"https://mbnowweb-lh.akamaihd.net/i/MRNA_1@346545/index_100_a-p.m3u8?sd=10&rebase=on"},
+		              {"title":"Times Now","file":"https://timesnow-lh.akamaihd.net/i/TNA_1@129288/index_100_a-p.m3u8?sd=10&rebase=on"},  
+		              {"title":"Cnn News18","file":"https://cnnnews18-lh.akamaihd.net/i/cnnnews18_1@174950/index_1_av-p.m3u8"},
+		              {"title":"Ndtv 24x7","file":"https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/masterp_480p@1.m3u8"},
+                  {"title":"Ndtv India","file":"https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679/ndtvindia/masterp_480p@1.m3u8"},
+		              {"title":"Ndtv India2","file":"https://d3t34m8y8rh0vb.cloudfront.net/preview/ndtvhindi/350.m3u8"}, 
+		              {"title":"Abp news","file":"https://abp-i.akamaihd.net/hls/live/765529-b/abphindi/masterhls_136.m3u8"},                     
+		              {"title":"Republicworld","file":"https://weblive.republicworld.com/liveorigin/republictv/masterlive_180p.m3u8"}, 
+		              {"title":"Aljazeera","file":"https://live-hls-audio-web-aje.getaj.net/VOICE-AJE/01.m3u8"}, 
+		              {"title":"","file":""}, 
+		              {"title":"","file":""}, 
+		              {"title":"","file":""}, 
+		              {"title":"","file":""}, 
+		              {"title":"","file":""}, 
+		              {"title":"","file":""}               
+
+		              ]
+		           },
+
+		              {"title":"Devotional","folder":
+		              [
+		              {"title":"Devraag Live","file":"http://devraaghdlive-lh.akamaihd.net/i/DevraagHDLive_1_1@336268/index_1_a-p.m3u8?sd=10&rebase=on"},
+		              {"title":"Smaran","file":"http://prclive1.listenon.in:9950/"},
+		              {"title":"Bhakti radio","file":"http://67.212.165.106:8191/;"},
+		              {"title":"Bhakti Sagar","file":"http://103.16.47.70:7777/;stream.nsv"},
+		              {"title":"Bhajan Radio","file":"http://usa6.fastcast4u.com:5086/live"}, 
+		              {"title":"Bhajan radio 2","file":"http://192.99.35.215:5086/stream"}, 
+		              {"title":"24h Kirtan","file":"http://icecast.24hourkirtan.fm:8000/128k.mp3"}, 
+		              {"title":"Osho Radio","file":"http://radioe.dns.osho.com:8348/live"}, 
+		              {"title":"Spiritual","file":"http://103.16.47.70:7000/;stream.nsv"}, 
+		              {"title":"","file":""}, 
+		              {"title":"","file":""}, 
+		              {"title":"","file":""}, 
+		              {"title":"","file":""}, 
+		              {"title":"","file":""}, 
+		              {"title":"","file":""}, 
+		              {"title":"","file":""}, 
+		              {"title":"","file":""}                 
+		              ]
+		           },
+
+		             {"title":"EnglishMusic","folder":
+                    [
+                  {"title":"1.fm top40","file":"http://sc-t40.1.fm:8075/"},
+                  {"title":"The RnB Channel ","file":"http://192.99.8.192:3132/stream"},
+                  {"title":"MixLite","file":"https://rfcmedia.streamguys1.com/mixlite.mp3"},
+                  {"title":"Mixlite Premium","file":"https://rfcmedia.streamguys1.com/mixlitepremium.mp3"},
+                  {"title":"Music Plus","file":"http://rfcmedia.streamguys1.com:80/MusicPulse.mp3"},
+                  {"title":"Musicplus Premium","file":"http://rfcmedia.streamguys1.com:80/MusicPulsePremium.mp3"},
+                  {"title":"SR The Hit List","file":"https://rfcmedia.streamguys1.com/srhitlist.mp3"},
+                  {"title":"New Pop Hits","file":"https://rfcmedia.streamguys1.com/newpophits.mp3"},
+                  {"title":"New Pop Hits Premium","file":"https://rfcmedia.streamguys1.com/newpophitspremium.mp3"},                          
+                  {"title":"Hip Hops hits","file":"http://listen.011fm.com/stream13"},
+                  {"title":"Hip Hop","file":"http://tunein4.streamguys1.com/hhbeat"},  
+                  {"title":"HipHop Premium","file":"http://tunein4.streamguys1.com/hhbeatprem"},    
+                  {"title":"HipHop Premium2","file":"http://tunein4.streamguys1.com/hhhrbprem1"},
+                  {"title":"HipHop Premium3","file":"http://tunein4.streamguys1.com/hhhitprem1"}, 
+                  {"title":"HipHop Premium4","file":"http://tunein4.streamguys1.com/hhhitfree1"},    
+                  {"title":"Pop Hits","file":"http://tunein4.streamguys1.com/wrkhtprem1"},
+                  {"title":"1.fm Rock X","file":"http://185.33.21.112/x_128"}, 	                                                          
+                  {"title":"Power 105.1 FM","file":"http://c11icyelb.prod.playlists.ihrhls.com/1481_icy"}, 
+                  {"title":"Z100","file":"http://c5icyelb.prod.playlists.ihrhls.com/1469_icy"}, 
+                  {"title":"KIIS FM","file":"http://c2icyelb.prod.playlists.ihrhls.com/185_icy"}, 
+                  {"title":"KTU","file":"http://c5icyelb.prod.playlists.ihrhls.com/1473_icy"},     
+                  {"title":"Heart Extra","file":"http://media-ice.musicradio.com/HeartextraMP3"}, 
+		              {"title":"New Sounds","file":"http://iheart.wnyc.org/q2-tunein.aac"}, 
+		              {"title":"SBS Chill","file":"http://sbs-ice.streamguys1.com/sbschill"}, 
+		              {"title":"Smooth Chill","file":"https://media-ssl.musicradio.com/SmoothChill"}, 
+		              {"title":"Smooth Chill2","file":"http://media-the.musicradio.com/Chill"}, 
+		              {"title":"","file":""}, 
+		              {"title":"","file":""}, 
+		              {"title":"","file":""}, 
+		              {"title":"","file":""}, 
+		              {"title":"","file":""}, 
+		              {"title":"","file":""}, 
+		              {"title":"","file":""}, 
+		              {"title":"","file":""}, 
+		              {"title":"","file":""}, 
+		              {"title":"","file":""}, 
+		              {"title":"","file":""}, 
+		              {"title":"","file":""}, 
+		              {"title":"","file":""}, 
+		              {"title":"","file":""} 
+                    ]
+                 },
+
+		             {"title":"Extras","folder":
+                    [
+
+                  {"title":"WBEZ","file":"http://wbez.ord.streamguys1.com/WBEZ-itunes256.aac"},
+                  {"title":"Gimlet","file":"http://tunein.streamguys1.com/Gimlet"}, 
+                  {"title":"TED Talks","file":"http://tunein.streamguys1.com/TEDTalks"}, 
+                   {"title":"MSNBC","file":"http://wrau.streamguys1.com/msnbc-free"},   
+                   {"title":"CSPAN RADIO","file":"https://playerservices.streamtheworld.com/api/livestream-redirect/CSPANRADIO.mp3"}, 
+                   {"title":"WNYC FM","file":"http://fm939.wnyc.org/wnycfm-tunein.aac"},  
+                   {"title":"WNYC AM","file":"http://njpr.wnyc.org/wnycam"},
+                   {"title":"NPR","file":"https://npr-ice.streamguys1.com/live.aac.m3u"},   
+                   {"title":"Fox News","file":"http://tunein.streamguys1.com/foxnews"}, 
+                   {"title":"Info Wars","file":"http://stream.infowars.com/;"},  
+                   {"title":"CNN","file":"https://s3.amazonaws.com/cnn-assets/app-assets/cnn-lite/liteaudio.m3u8"}, 
+                   {"title":"FOX News Talk","file":"https://streaming-ent.shoutcast.com/foxnews"}, 
+                   {"title":"Talk KSFO","file":"https://playerservices.streamtheworld.com/api/livestream-redirect/KSFOAMAAC.aac"}, 
+                   {"title":"WBAP News","file":"https://playerservices.streamtheworld.com/api/livestream-redirect/WBAPAMAAC.aac"}, 
+                   {"title":"77 WABC","file":"https://playerservices.streamtheworld.com/api/livestream-redirect/WABCAMAAC.aac"},                    
+                  {"title":"File","file":""}, 
+                  {"title":"File","file":""},                 
+                  {"title":"File","file":""}, 
+                  {"title":"File","file":""}, 
+                  {"title":"File","file":""}                    ]
+                 }
+                 
+ 
+               ]		    
