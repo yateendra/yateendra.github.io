@@ -1,0 +1,48 @@
+<html lang="en">
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+#playercss {	
+    
+    width:100%;
+    max-width: 440px;	
+    margin: .5em auto 0;	
+    padding: 0;	
+}
+pjsdiv#player_playlist {
+    overflow: hidden !important;
+}
+</style>
+</head>
+<script type="text/javascript" src="https://cdn.plrjs.com/player/afhsr7hhkzkht/zqjq9qiign0f.js"></script>
+
+<div id="playercss">
+<div id="player"></div>
+<br/>
+<div id="playlist_container"></div>
+</div>
+<script>
+   document.getElementById("player").addEventListener("init",PlayerInit);
+var player = new Playerjs({id:"player",file:"https://raw.githubusercontent.com/yateendra/yateendra.github.io/master/tv/tvv.txt"});
+   function PlayerInit(){
+      player.api("moveplaylist","playlist_container");
+   }
+</script>
+
+<script>
+var playlist = $("#player_playlist");
+$(".up_scroll_button").click(function() {
+   playlist.animate({
+      scrollTop: playlist.scrollTop()-100
+   }, 500);
+});
+$(".down_scroll_button").click(function() {
+   playlist.animate({
+      scrollTop: playlist.scrollTop()+100
+   }, 500);
+});
+</script> 
+
+
+
