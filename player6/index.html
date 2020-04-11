@@ -45,15 +45,13 @@
 
 <body>
 	<center id="hideme" style="display:none;">
-		<div id="welcomeDiv" style="display:none; color: rgb(191, 191, 191);" class="answer_list"> <span>
+		<div> <span>
         <button onclick="player.api('play');">Play</button>
         <button onclick="player.api('pause');">Pause</button>  
         <button onclick="player.api('prev');">Prev</button> 
         <button onclick="player.api('next');">Next</button> 
-<a href="https://playerjs.com/samples/tv/user.html?">test!</a>
       </span>
 		</div>
-		<input style="border: none;" id="welcomeDiv2" type="button" name="answer" value="Options" onclick="showDiv()" />
 	</center>
 	<div id="player"></div>
 	<script>
@@ -215,14 +213,7 @@
 		        });
 	</script>
  
-</body>  
-<script type="text/javascript">
-	function showDiv() {
-	   document.getElementById('welcomeDiv').style.display = "block";
-	   document.getElementById('welcomeDiv2').style.display = "none";
-	}
-</script>
-
+</body>   
 <script type="text/javascript">  
   if( /Android|webOS|iPhone|iPad|iPod|Opera Mini/i.test(navigator.userAgent) ) {
  document.getElementById('hideme').style.display = "block";  
