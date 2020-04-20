@@ -50,6 +50,12 @@ tag_feed_layout: blog_by_tag
 tag_feed_dir: blog/tag
 tag_permalink_style: pretty
 
+webserver_headers:
+  - - Access-Control-Allow-Origin
+    - "*"
+  - - Access-Control-Allow-Methods
+    - GET, OPTIONS, HEAD
+
 compress_html:
     clippings: all
     comments: all
