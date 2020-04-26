@@ -57,6 +57,12 @@
 		      }
 
 	</style>
+  	<script>
+		var player = new Playerjs({
+		           id:"player",
+		           file:"https://raw.githubusercontent.com/yateendra/yateendra.github.io/master/player6/list.txt"		            
+		        });
+	</script>
 	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 	<script src="https://cdn.plrjs.com/player/afhsr7hhkzkht/2sv0vyz7ufjh.js" type="text/javascript"></script>
   
@@ -81,18 +87,12 @@ galite('send', 'pageview');
         <button onclick="player.api('pause');">Pause</button>  
         <button onclick="player.api('prev');">Prev</button> 
         <button onclick="player.api('next');">Next</button> 
-<a href="https://playerjs.com/samples/tv/user.html?">test!</a>
       </span>
 		</div>
 		<input style="border: none;" id="welcomeDiv2" type="button" name="answer" value="Options" onclick="showDiv()" />
 	</center>
 	<div id="player"></div>
-	<script>
-		var player = new Playerjs({
-		           id:"player",
-		           file:"https://raw.githubusercontent.com/yateendra/yateendra.github.io/master/player6/list.txt"		            
-		        });
-	</script>
+
 </body>
 <script type="text/javascript">
 	function showDiv() {
