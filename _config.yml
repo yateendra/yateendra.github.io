@@ -12,7 +12,7 @@ permalink:
 title:               Yateendra
 #tagline:             'Sahu'
 description:         Yateendra sahu's official website 
-url:                 http://yateendra.github.io
+url:                 "https://yateendra.github.io"
 baseurl:             
 paginate:            15
 
