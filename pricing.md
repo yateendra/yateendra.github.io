@@ -16,7 +16,7 @@ description: Web development pricings. Complex Website -  This type of website u
 
 **eCommerce Website** - This is your shopping cart-enabled site, You get basic eCommerce functionality with a shopping cart and the ability to add and update products, accept and process payments, etc. Such a website costs somewhere between **15,000 rs**.
 
-(Domain and Hosting prices are not included)
+(Domain and Hosting charges extra)
 
 **Check some of my projects here** ~ [yateendra.github.io/projects](http://yateendra.github.io/projects.html "yateendra.github.io/projects")
 
