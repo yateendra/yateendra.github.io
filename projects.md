@@ -3,14 +3,14 @@ layout: page
 title: Projects
 Discription: My Web development projects
 ---
-[yateendra.me](http://yateendra.me)
+[yateendra.github.io](http://yateendra.github.io)
 -My website.
 [Investeasy.in.net(expired)](http://investeasy.in.net)
 -Vipin Dixena's website.
 [pushkarchawda.com](http://pushkarchawda.com)
--Pushkar's website.(Dead)
+-Pushkar's website.(domain expired)
 [rahuldhali.org](http://rahuldhali.org)
--Dhali's website.(Dead)
+-Dhali's website.(domain expired)
 [csslord.blogspot.com](https://csslord.blogspot.com) 
 -Bank preparation blog.
 [tweetpur.blogspot.com](https://hamarkhabar.blogspot.com)
@@ -21,10 +21,13 @@ Discription: My Web development projects
 -Website for my ET&T 2014 batchmates.
 
 
-- Personal streaming player: [yateendra.me/player](http://yateendra.me/player)
+- Personal streaming player: [yateendra.github.io/player](http://yateendra.github.io/player)
 - Yplayer: [App Link](https://github.com/yateendra/yateendra.github.io/releases/download/%233/Yplayer_1.0.apk)
 
-- Pricings: [yateendra.me/pricing](http://yateendra.me/pricing.html)
+- Ytv: [yateendra.github.io/tv](http://yateendra.github.io/tv)
+- Ytv: [App Link](https://github.com/yateendra/yateendra.github.io/releases/download/1.10/Ytv_1_1.0.apk)
+
+- Pricings: [yateendra.github.io/pricing](http://yateendra.github.io/pricing.html)
 
 
 
