@@ -61,7 +61,7 @@
 		              {"title":"Ndtv 24x7","file":"https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/masterp_480p@1.m3u8"},
                   {"title":"Ndtv India","file":"https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679/ndtvindia/masterp_480p@1.m3u8"},
 		              {"title":"Abp news","file":"https://abp-i.akamaihd.net/hls/live/765529-b/abphindi/masterhls_136.m3u8"},                     
-		              {"title":"Republicworld","file":"https://weblive.republicworld.com/liveorigin/republictv/masterlive_180p.m3u8"}, 
+		              {"title":"Republicworld","file":"https://weblive.republicworld.com/liveorigin/republictv/master_hdlive_180p.m3u8"}, 
 		              {"title":"Aljazeera","file":"https://live-hls-audio-web-aje.getaj.net/VOICE-AJE/01.m3u8"}, 
 		              {"title":"","file":""}, 
 		              {"title":"","file":""}, 
