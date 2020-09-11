@@ -181,7 +181,7 @@
                   {"title":"HLN","file":"http://stream1.skyviewnetworks.com:8010/HLN"},              
                   {"title":"710 WOR","file":"https://stream.revma.ihrhls.com/zc5874"}, 
                   {"title":"Wqxr","file":"https://stream.wqxr.org/wqxr-web"},  
-                  {"title":"	Brick Wall Comedy","file":"https://rfcmedia.streamguys1.com/comedyexplicitpremium.mp3"},
+                  {"title":"Brick Wall Comedy","file":"https://rfcmedia.streamguys1.com/comedyexplicitpremium.mp3"},
                   {"title":"File","file":""}, 
                   {"title":"File","file":""},                   {"title":"File","file":""},                 
                   {"title":"File","file":""}, 
