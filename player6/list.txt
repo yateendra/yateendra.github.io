@@ -133,7 +133,7 @@
 		              {"title":"chillprem1","file":"http://tunein4.streamguys1.com/chillprem1"}, 
 		              {"title":"movedahouse","file":"https://uk7.internet-radio.com/proxy/movedahouse?mp=/stream;n"}, 
 		              {"title":"techo fm","file":"https://stream.techno.fm/radio1.mp3"}, 
-		              {"title":"fnoobtechno","file":"https://play.fnoobtechno.com:2199/tunein/%3B.mp3"}, 		              {"title":"","file":""}, 
+		              {"title":"fnoobtechno","file":"https://play.fnoobtechno.com:2199/tunein/%3B.mp3"}, 		              {"title":"fnoobtechno hq","file":"https://fnoobtechno.com/wp-content/plugins/fwdrap/content/audio/silent.mp3"}, 
 		              {"title":"","file":""}, 
 		              {"title":"","file":""}, 
 		            
