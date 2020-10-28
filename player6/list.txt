@@ -2,11 +2,12 @@
 		          {"title":"Music","folder":
 		              [
 
-		              {"title":"Vividh Bharati","file":"https://vividhbharati-lh.akamaihd.net/i/vividhbharati_1@507811/index_1_a-p.m3u8?sd=10&rebase=on"},                    
-		              {"title":"Air Raipur","file":"https://nondelhi-lh.akamaihd.net/i/raipurair_1@832723/index_1_a-b.m3u8?sd=10&rebase=on"},
-                  {"title":"Mirchi 90's","file":"https://pehlanashahdlive-lh.akamaihd.net/i/PehlaNashaHDLive_1@335229/index_1_a-b.m3u8?sd=10&rebase=on"},
+		              {"title":"Vividh Bharati","file":"http://air.pc.cdn.bitgravity.com/air/live/pbaudio001/playlist.m3u8"},                    
+		              {"title":"Air Raipur","file":"http://air.pc.cdn.bitgravity.com/air/live/pbaudio118/playlist.m3u8"},
+                  {"title":""Air Bilaspur,"file":"http://air.pc.cdn.bitgravity.com/air/live/pbaudio110/playlist.m3u8"}, 
+                  {"title":"Mirchi 90's","file":"https://pehlanashahdlive-lh.akamaihd.net/i/PehlaNashaHDLive_1@335229/index_1_a-p.m3u8?sd=10&rebase=on"},
 		              {"title":"Hungama 90s","file":"https://radioindia.net/radio/hungama90/icecast.audio"},
-                  {"title":"Diverse FM","file":"https://a11.streamgb.com/proxy/radioxl?mp=%2Fstream"},
+                  
 		              {"title":"Purani Jeans","file":"https://puranijeanshdliv-lh.akamaihd.net/i/PuraniJeansHDLive_1_1@334555/master.m3u8"},
                     
                   {"title":"Evergreen Bollywood","file":"https://radioindia.net/radio/hungama_evergreen_bollywood/icecast.audio"},                      
@@ -29,6 +30,7 @@
 		              {"title":"FM Rainbow","file":"https://fmrainbow-lh.akamaihd.net/i/fmrainbow_1@507812/index_1_a-p.m3u8?sd=10&rebase=on"},         
 		              {"title":"FM Gold","file":"https://airfmgold-lh.akamaihd.net/i/fmgold_1@507591/master.m3u8"}, 
                   {"title":"Instrumental","file":"https://103.16.47.70:8333/;stream.nsv"},   
+                  {"title":"Diverse FM","file":"http://109.169.46.197:8011/;"},
 		              {"title":"Mirchi Ghazal","file":"https://mirchimahfil-lh.akamaihd.net/i/MirchiMehfl_1@120798/master.m3u8"},  
                   {"title":"Gujarati Radio","file":"https://redlive1.listenon.in/Gujarati"},  
                   {"title":"Gujarat Radio2","file":"http://prclive1.listenon.in:9932/;"},                       
@@ -40,7 +42,7 @@
 		              
                    
                    
-		              {"title":"","file":""}, 
+		              
 		              {"title":"","file":""}, 		              {"title":"","file":""}, 
 		              {"title":"","file":""},		              
 		              {"title":"","file":""}, 
@@ -53,7 +55,7 @@
 		           {"title":"News","folder":
 		              [
 		              {"title":"Aaj Tak","file":"https://lmil.pc.cdn.bitgravity.com/lmil/live/aajtak_150k/chunklist_ao.m3u8"},  
-		              {"title":"AIR News","file":"https://esdcdn2-lh.akamaihd.net/i/esdcdn2_1@528073/index_1_a-b.m3u8?sd=10&rebase=on"},  
+		              {"title":"AIR News","file":"https://air.pc.cdn.bitgravity.com/air/live/pbaudio002/playlist.m3u8"},  
 		              {"title":"India Today","file":"https://lmil.pc.cdn.bitgravity.com/lmil/live/it_150k/chunklist_ao.m3u8"},
 		              {"title":"Mirror Now","file":"https://mbnowweb-lh.akamaihd.net/i/MRNA_1@346545/index_100_a-p.m3u8?sd=10&rebase=on"},
 		              {"title":"Times Now","file":"https://timesnow-lh.akamaihd.net/i/TNA_1@129288/index_100_a-p.m3u8?sd=10&rebase=on"},  
@@ -97,7 +99,6 @@
                     [
                   {"title":"1.fm top40","file":"http://sc-t40.1.fm:8075/"},
                   {"title":"The RnB Channel ","file":"http://192.99.8.192:3132/stream"},
-                  {"title":"MixLite","file":"https://rfcmedia.streamguys1.com/mixlite.mp3"},
                   {"title":"Mixlite Premium","file":"https://rfcmedia.streamguys1.com/mixlitepremium.mp3"},
                   {"title":"SR The Hit List","file":"https://rfcmedia.streamguys1.com/srhitlist.mp3"},
                   {"title":"New Pop Hits","file":"https://rfcmedia.streamguys1.com/newpophits.mp3"},
@@ -112,7 +113,7 @@
                   {"title":"HipHop Premium4","file":"http://tunein4.streamguys1.com/hhhitfree1"},  
 		              {"title":"HipHop Free","file":"http://tunein4.streamguys1.com/hhhrbfree1"}, 
 		              {"title":"Rock Premium","file":"http://tunein4.streamguys1.com/rckonprem1"}, 
-                      
+                  {"title":"Diverse FM","file":"https://media-ice.co.uk:8000/DiverseMP3"},    
                   {"title":"Pop Hits","file":"http://tunein4.streamguys1.com/wrkhtprem1"},
                   {"title":"1.fm Rock X","file":"http://185.33.21.112/x_128"}, 	
                   {"title":"SR Alt Rock Hits","file":"https://rfcmedia.streamguys1.com/sraltrockhits.mp3"}, 
@@ -125,6 +126,7 @@
 		              {"title":"New Sounds","file":"http://iheart.wnyc.org/q2-tunein.aac"}, 
 		              {"title":"SBS Chill","file":"https://sbs-ice.streamguys1.com/sbschill-sbs-web"}, 
 		              {"title":"Smooth Chill","file":"https://media-ssl.musicradio.com/SmoothChill"}, 
+                  {"title":"Relax & Unwind","file":"https://rfcmedia.streamguys1.com/relaxationpremium.mp3"},
 		              {"title":"Smooth Chill2","file":"http://media-the.musicradio.com/Chill"}, 
 		              {"title":"wrkhtprem1","file":"http://tunein4.streamguys1.com/wrkhtprem1"}, 
 		              {"title":"tdrnbprem1","file":"http://tunein4.streamguys1.com/tdrnbprem1"}, 
@@ -139,9 +141,9 @@
 		              {"title":"","file":""}, 
 		            
 		              
+		               
 		              {"title":"","file":""}, 
-		              {"title":"","file":""}, 
-		              {"title":"","file":""}, 		              {"title":"","file":""}, 
+		              {"title":"","file":""}, 		               
 		              {"title":"","file":""}, 
 		              {"title":"","file":""}, 
 		              {"title":"","file":""}, 
