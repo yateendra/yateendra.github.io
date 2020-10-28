@@ -114,7 +114,8 @@
 		              {"title":"Rock Premium","file":"http://tunein4.streamguys1.com/rckonprem1"}, 
                       
                   {"title":"Pop Hits","file":"http://tunein4.streamguys1.com/wrkhtprem1"},
-                  {"title":"1.fm Rock X","file":"http://185.33.21.112/x_128"}, 		                                                          
+                  {"title":"1.fm Rock X","file":"http://185.33.21.112/x_128"}, 	
+                  {"title":"SR Alt Rock Hits","file":"https://rfcmedia.streamguys1.com/sraltrockhits.mp3"}, 
                   {"title":"Power 105.1 FM","file":"https://stream.revma.ihrhls.com/zc1481"}, 
                   {"title":"Z100","file":"https://stream.revma.ihrhls.com/zc1469"}, 
                   {"title":"KIIS FM","file":"https://stream.revma.ihrhls.com/zc533"}, 
@@ -137,7 +138,7 @@
 		              {"title":"revolutionradio","file":"https://revolutionradio.ru:8443/live.mp3"}, 
 		              {"title":"","file":""}, 
 		            
-		              {"title":"","file":""}, 
+		              
 		              {"title":"","file":""}, 
 		              {"title":"","file":""}, 
 		              {"title":"","file":""}, 		              {"title":"","file":""}, 
