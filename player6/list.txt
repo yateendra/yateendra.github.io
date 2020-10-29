@@ -101,7 +101,6 @@
                   {"title":"The RnB Channel ","file":"http://192.99.8.192:3132/stream"},
                   {"title":"Mixlite Premium","file":"https://rfcmedia.streamguys1.com/mixlitepremium.mp3"},
                   {"title":"SR The Hit List","file":"https://rfcmedia.streamguys1.com/srhitlist.mp3"},
-                  {"title":"New Pop Hits","file":"https://rfcmedia.streamguys1.com/newpophits.mp3"},
                   {"title":"New Pop Hits Premium","file":"https://rfcmedia.streamguys1.com/newpophitspremium.mp3"},  
                   {"title":"SR Project X","file":"https://rfcmedia.streamguys1.com/srprojectx.mp3"}, 
 		              {"title":"Today's Hits","file":"https://rfcmedia.streamguys1.com/MusicPulsePremium.mp3"},                   
