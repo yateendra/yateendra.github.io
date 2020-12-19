@@ -185,8 +185,9 @@
                   {"title":"Wqxr","file":"https://stream.wqxr.org/wqxr-web"},  
                   {"title":"977 comedy","file":"https://playerservices.streamtheworld.com/api/livestream-redirect/977_COMEDY_SC"},
                   {"title":"181 comedy","file":"https://listen.181fm.com/181-comedy_128k.mp3"}, 
-                  {"title":"247 comedy","file":"https://stream.revma.ihrhls.com/zc4902"},                   {"title":"File","file":""},                 
-                  {"title":"File","file":""}, 
+                  {"title":"247 comedy","file":"https://stream.revma.ihrhls.com/zc4902"},                   
+                  {"title":"247 Comedy Legends","file":"http://stream.revma.ihrhls.com/zc7202"},                 
+                  {"title":"247 Urban Comedy","file":"http://stream.revma.ihrhls.com/zc7207 "}, 
                   {"title":"File","file":""}, 
                   {"title":"File","file":""}                    ]
                  }
