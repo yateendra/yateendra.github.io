@@ -80,7 +80,6 @@
 		              {"title":"Hariom Radio","file":"https://radiobhaktiweb.shemaroo.com/hariomradio/Stream1_aac/chunklist_w1460949163.m3u8"},                    
 		              {"title":"Bhakti radio","file":"http://108.178.13.122:8006/;stream.nsv"},
 		              {"title":"Bhakti Sagar","file":"http://103.16.47.70:7777/;stream.nsv"},
-		              {"title":"Bhajan Radio","file":"http://192.99.35.215:5086/stream"}, 
 		              {"title":"24h Kirtan","file":"http://icecast.24hourkirtan.fm:8000/128k.mp3"}, 
 		              {"title":"Osho Radio","file":"http://radioe.dns.osho.com:8348/live"}, 
 		              {"title":"Spiritual","file":"http://103.16.47.70:7000/;stream.nsv"},  
