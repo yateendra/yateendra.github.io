@@ -5,38 +5,38 @@
 		              {"title":"Vividh Bharati","file":"http://air.pc.cdn.bitgravity.com/air/live/pbaudio001/playlist.m3u8"},                    
 		              {"title":"Air Raipur","file":"http://air.pc.cdn.bitgravity.com/air/live/pbaudio118/playlist.m3u8"},
                   {"title":"Air Bilaspur","file":"http://air.pc.cdn.bitgravity.com/air/live/pbaudio110/playlist.m3u8"}, 
-                  {"title":"Mirchi 90's","file":"https://pehlanashahdlive-lh.akamaihd.net/i/PehlaNashaHDLive_1@335229/index_1_a-p.m3u8?sd=10&rebase=on"},
+                  {"title":"Mirchi 90's","file":"https://pehlanashahdlive-lh.akamaihd.net/i/PehlaNashaHDLive_1@335229/index_1_a-p.m3u8"},
 		              {"title":"Hungama 90s","file":"https://radioindia.net/radio/hungama90/icecast.audio"},
                   
 		              {"title":"Purani Jeans","file":"https://puranijeanshdliv-lh.akamaihd.net/i/PuraniJeansHDLive_1_1@334555/master.m3u8"},
                     
                   {"title":"Evergreen Bollywood","file":"https://radioindia.net/radio/hungama_evergreen_bollywood/icecast.audio"},                      
-                  {"title":"Mirchi Love","file":"https://mirchilove-lh.akamaihd.net/i/MIRCHILOVE_1@32886/index_1_a-p.m3u8?sd=10&rebase=on"},
+                  {"title":"Mirchi Love","file":"https://mirchilove-lh.akamaihd.net/i/MIRCHILOVE_1@32886/index_1_a-p.m3u8"},
 
-		              {"title":"DriveRadio","file":"https://driveradio-lh.akamaihd.net/i/DriveRadio_1@793591/index_1_a-b.m3u8?sd=10&rebase=on"},
+		              {"title":"DriveRadio","file":"https://driveradio-lh.akamaihd.net/i/DriveRadio_1@793591/master.m3u8"},
                      
                   {"title":"Bollywood Dil Se","file":"https://radioindia.net/radio/hungamadilse/icecast.audio"},        
                   
-		              {"title":"Toota Dil","file":"https://tootadil-lh.akamaihd.net/i/tootadil_1@42539/index_1_a-b.m3u8?sd=10&rebase=on"}, 
+		              {"title":"Toota Dil","file":"https://tootadil-lh.akamaihd.net/i/tootadil_1@42539/master.m3u8"}, 
 		              {"title":"Pehla Nasha","file":"https://wmirchi-lh.akamaihd.net/i/WMIRCHI_1@75780/index_1_a-p.m3u8"},
 		              {"title":"Meethi Mirchi ","file":"https://meethimirchihdl-lh.akamaihd.net/i/MeethiMirchiHDLive_1_1@320572/master.m3u8"},
-                  {"title":"Ishq FM","file":"https://ishq_mumbai-lh.akamaihd.net/i/Ishq_Mumbai_1@855087/index_1_a-p.m3u8?sd=10&rebase=on"},   
+                  {"title":"Ishq FM","file":"https://ishq_mumbai-lh.akamaihd.net/i/Ishq_Mumbai_1@855087/index_1_a-p.m3u8"},   
                   
-		              {"title":"Mirchi Unplugged","file":"https://mirchiunplugged-lh.akamaihd.net/i/mirchiunplugged_1@353022/index_1_a-b.m3u8?sd=10&rebase=on"},   
-		              {"title":"Mirchi Indies","file":"https://meethimirchihdl-lh.akamaihd.net/i/MirchiEdgeHDLive_1_1@336272/index_1_a-b.m3u8?sd=10&rebase=on"}, 
+		              {"title":"Mirchi Unplugged","file":"https://mirchiunplugged-lh.akamaihd.net/i/mirchiunplugged_1@353022/master.m3u8"},   
+		              {"title":"Mirchi Indies","file":"https://meethimirchihdl-lh.akamaihd.net/i/MirchiEdgeHDLive_1_1@336272/master.m3u8"}, 
 		              {"title":"Filmy Mirchi ","file":"https://filmymirchihdliv-lh.akamaihd.net/i/FilmyMirchiHDLive_1_1@336266/master.m3u8"},
 		              {"title":"Hot now Bollywood","file":"https://radioindia.net/radio/hungamanow/icecast.audio"}, 
-                  {"title":"Mirchi Top 20","file":"https://mt20live-lh.akamaihd.net/i/mt20live_1@346531/index_1_a-b.m3u8?sd=10&rebase=on"},  
+                  {"title":"Mirchi Top 20","file":"https://mt20live-lh.akamaihd.net/i/mt20live_1@346531/index_1_a-b.m3u8"},  
 		              {"title":"FM Rainbow","file":"https://air.pc.cdn.bitgravity.com/air/live/pbaudio004/chunklist.m3u8"},         
 		              {"title":"FM Gold","file":"https://air.pc.cdn.bitgravity.com/air/live/pbaudio005/chunklist.m3u8"}, 
                   {"title":"Diverse FM","file":"http://109.169.46.197:8011/;"},
 		              {"title":"Radiocity Ghazal","file":"https://prclive4.listenon.in/Ghazal"},  
                   {"title":"Hungama Ghazal","file":"https://radioindia.net/radio/hungamaghazal/icecast.audio"},  
                   {"title":"Gujarat Radio2","file":"http://prclive1.listenon.in:9932/;"},                       
-                  {"title":"Yo Punjabi","file":"https://yopunjabihdlive-lh.akamaihd.net/i/YoPunjabiHDLive_1_1@345454/index_1_a-p.m3u8?sd=10&rebase=on"},  
+                  {"title":"Yo Punjabi","file":"https://yopunjabihdlive-lh.akamaihd.net/i/YoPunjabiHDLive_1_1@345454/index_1_a-p.m3u8"},  
                   {"title":"Radio Punjabi","file":"http://103.16.47.70:9888/;stream.nsv"}, 		                        
 
-		              {"title":"Rabindra Sangeet","file":"https://tagoreradio-lh.akamaihd.net/i/TagoreRadio_1@435590/index_320_a-p.m3u8?sd=10&rebase=on"},
+		              {"title":"Rabindra Sangeet","file":"https://tagoreradio-lh.akamaihd.net/i/TagoreRadio_1@435590/index_320_a-p.m3u8"},
  		              
 		              
                    
@@ -56,8 +56,8 @@
 		              {"title":"Aaj Tak","file":"https://lmil.pc.cdn.bitgravity.com/lmil/live/aajtak_150k/chunklist_ao.m3u8"},  
 		              {"title":"AIR News","file":"https://air.pc.cdn.bitgravity.com/air/live/pbaudio002/playlist.m3u8"},  
 		              {"title":"India Today","file":"https://lmil.pc.cdn.bitgravity.com/lmil/live/it_150k/chunklist_ao.m3u8"},
-		              {"title":"Mirror Now","file":"https://mbnowweb-lh.akamaihd.net/i/MRNA_1@346545/index_100_a-p.m3u8?sd=10&rebase=on"},
-		              {"title":"Times Now","file":"https://timesnow-lh.akamaihd.net/i/TNA_1@129288/index_100_a-p.m3u8?sd=10&rebase=on"},  
+		              {"title":"Mirror Now","file":"https://mbnowweb-lh.akamaihd.net/i/MRNA_1@346545/index_100_a-p.m3u8"},
+		              {"title":"Times Now","file":"https://timesnow-lh.akamaihd.net/i/TNA_1@129288/index_100_a-p.m3u8"},  
 		              {"title":"Cnn News18","file":"https://cnnnews18-lh.akamaihd.net/i/cnnnews18_1@174950/index_1_av-p.m3u8"},
 		              {"title":"Ndtv 24x7","file":"https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/masterp_480p@1.m3u8"},
                   {"title":"Ndtv Profit","file":"https://ndtvprofitelemarchana.akamaized.net/hls/live/2003680/ndtvprofit/masterp_480p@3.m3u8"}, 
@@ -76,7 +76,7 @@
 
 		              {"title":"Devotional","folder":
 		              [
-		              {"title":"Devraag Live","file":"https://devraaghdlive-lh.akamaihd.net/i/DevraagHDLive_1_1@336268/index_1_a-p.m3u8?sd=10&rebase=on"},
+		              {"title":"Devraag Live","file":"https://devraaghdlive-lh.akamaihd.net/i/DevraagHDLive_1_1@336268/index_1_a-p.m3u8"},
 		              {"title":"Hariom Radio","file":"https://radiobhaktiweb.shemaroo.com/hariomradio/Stream1_aac/chunklist_w1460949163.m3u8"},                    
 		              {"title":"Bhakti radio","file":"http://108.178.13.122:8006/;stream.nsv"},
 		              {"title":"Bhakti Sagar","file":"http://103.16.47.70:7777/;stream.nsv"},
