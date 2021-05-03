@@ -1,10 +1,11 @@
 ---
-published: false
+title: 'How to uninstall system apps on Xiaomi devices (NO ROOT)'
+layout: post
+description: 'This is a small guide on how to debloat your Xiaomi devices' 
 ---
-## How to uninstall system apps on Xiaomi devices (NO ROOT)
 
 
-This is a small guide on how to debloat your Xiaomi devices.
+This is a small guide on how to debloat(uninstall system apps) your Xiaomi devices without root privilege.
 
  - First you need to install [ADB Drivers](https://forum.xda-developers.com/t/official-tool-windows-adb-fastboot-and-drivers-15-seconds-adb-installer-v1-4-3.2588979/) and [Java SDK](https://www.oracle.com/java/technologies/javase-jdk14-downloads.html) on your PC.
  - Open your phone settings and enter the My Device menu. Now press 7 times in the "MIUI Version" field until the message "You are a developer now" appears.
