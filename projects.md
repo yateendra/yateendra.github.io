@@ -19,13 +19,14 @@ Discription: My Web development projects
 -Tech blog
 [csitetc.mobie.in](https://csitetc.mobie.in)
 -Website for my ET&T 2014 batchmates.
+- [yateendra.github.io/cgcovid](https://yateendra.github.io/cgcovid/) (Covid resources)
 
 
 - Personal streaming player: [yateendra.github.io/player](http://yateendra.github.io/player)
 - Yplayer: [App Link](https://github.com/yateendra/yateendra.github.io/releases/download/%233/Yplayer_1.0.apk)
 
 - Ytv: [yateendra.github.io/tv](http://yateendra.github.io/tv)
-- Ytv: [App Link](https://github.com/yateendra/yateendra.github.io/releases/download/1.10/Ytv_1_1.0.apk)
+- Ytv: [App Link](https://github.com/yateendra/yateendra.github.io/releases/download/3.0/Ytv_3.0.apk)
 
 - Pricings: [yateendra.github.io/pricing](http://yateendra.github.io/pricing.html)
 
