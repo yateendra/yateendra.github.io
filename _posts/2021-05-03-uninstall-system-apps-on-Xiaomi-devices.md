@@ -1,5 +1,5 @@
 ---
-title: 'How to uninstall system apps on Xiaomi devices (NO ROOT)'
+title: 'How to Uninstall System Apps on Xiaomi Devices (No Root)'
 layout: post
 description: 'This is a small guide on how to debloat your Xiaomi devices' 
 ---
