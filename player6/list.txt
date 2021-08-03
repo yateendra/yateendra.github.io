@@ -11,7 +11,6 @@
 		              {"title":"Purani Jeans","file":"https://puranijeanshdliv-lh.akamaihd.net/i/PuraniJeansHDLive_1_1@334555/master.m3u8"},
                     
                   {"title":"Evergreen Bollywood","file":"https://radioindia.net/radio/hungama_evergreen_bollywood/icecast.audio"},                      
-                  {"title":"Mirchi Love","file":"https://mirchilove-lh.akamaihd.net/i/MIRCHILOVE_1@32886/index_1_a-p.m3u8"},
 
 		              {"title":"DriveRadio","file":"https://driveradio-lh.akamaihd.net/i/DriveRadio_1@793591/master.m3u8"},
                      
