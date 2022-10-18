@@ -1,5 +1,5 @@
 ---
-title: 'Scrcpy How to Mirror Your Android Device Screen to PC'
+title: 'Scrcpy: How to Mirror Your Android Device Screen to PC'
 layout: post
 description: 'scrcpy is the best application that allows you to mirror your phone screen to PC via USB for free.'
 ---
