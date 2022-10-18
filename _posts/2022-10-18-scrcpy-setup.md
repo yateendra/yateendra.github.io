@@ -1,7 +1,7 @@
 ---
 title: 'Scrcpy How to Mirror Your Android Device Screen to PC'
 layout: post
-description: 'scrcpy is the best application that allows you to mirror your phone screen to PC via USB for free. It works on all desktop operating systems including Windows, macOS and Linux. You don't need to download or install any app on your android phone.'
+description: 'scrcpy is the best application that allows you to mirror your phone screen to PC via USB for free.'
 ---
 
 [Scrcpy](https://github.com/Genymobile/scrcpy) is the best application that allows you to mirror your phone screen to PC via USB for free. It works on all desktop operating systems including Windows, macOS and Linux. You don't need to download or install any app on your android phone.
