@@ -29,6 +29,8 @@ Now that the USB debugging mode is enabled, the rest is simple:
 4.  Install  [ADB Drivers](https://forum.xda-developers.com/t/official-tool-windows-adb-fastboot-and-drivers-15-seconds-adb-installer-v1-4-3.2588979/) on your PC.
 5.  Run **scrcpy.exe** .
 6.  At this point, you can view the display and operate the device.
+
+
 ### How to Mirror Android Screen to PC Wirelessly
  - Connect the mobile and PC to same Wi-Fi.
  - Find the mobile IP address at **Settings  -> About phone-> Status**.
