@@ -111,8 +111,8 @@
 		            
 		              
 		               
-		              {"title":"","file":""}, 
-		              {"title":"","file":""}, 		               
+		              {"title":"Coldplay","file":"https://streaming.exclusive.radio/er/coldplay/icecast.audio"}, 
+		              {"title":"Eminem","file":"https://streaming.exclusive.radio/er/eminem/icecast.audio"}, 		               
 		              {"title":"","file":""}, 
 		              {"title":"","file":""}, 
 		              {"title":"","file":""}, 
