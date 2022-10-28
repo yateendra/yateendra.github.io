@@ -4,42 +4,20 @@
 
 		              {"title":"Vividh Bharati","file":"http://air.pc.cdn.bitgravity.com/air/live/pbaudio001/playlist.m3u8"},                    
 		              {"title":"Air Raipur","file":"http://air.pc.cdn.bitgravity.com/air/live/pbaudio118/playlist.m3u8"},
-                  {"title":"Air Bilaspur","file":"http://air.pc.cdn.bitgravity.com/air/live/pbaudio110/playlist.m3u8"}, 
-                  {"title":"Mirchi 90's","file":"https://pehlanashahdlive-lh.akamaihd.net/i/PehlaNashaHDLive_1@335229/index_1_a-p.m3u8"},
-		              {"title":"Hungama 90s","file":"https://radioindia.net/radio/hungama90/icecast.audio"},
-                  
-		              {"title":"Purani Jeans","file":"https://puranijeanshdliv-lh.akamaihd.net/i/PuraniJeansHDLive_1_1@334555/master.m3u8"},
-                    
-                  {"title":"Evergreen Bollywood","file":"https://radioindia.net/radio/hungama_evergreen_bollywood/icecast.audio"},   
+                  {"title":"Air Bilaspur","file":"http://air.pc.cdn.bitgravity.com/air/live/pbaudio110/playlist.m3u8"},   
                   {"title":"Diverse FM","file":"http://109.169.46.197:8011/;"},
-                  
-
-		              {"title":"DriveRadio","file":"https://driveradio-lh.akamaihd.net/i/DriveRadio_1@793591/master.m3u8"},
-                     
-                  {"title":"Bollywood Dil Se","file":"https://radioindia.net/radio/hungamadilse/icecast.audio"},        
-		              {"title":"Hot now Bollywood","file":"https://radioindia.net/radio/hungamanow/icecast.audio"}, 
-                  
-		              {"title":"Toota Dil","file":"https://tootadil-lh.akamaihd.net/i/tootadil_1@42539/master.m3u8"}, 
-		              {"title":"Pehla Nasha","file":"https://wmirchi-lh.akamaihd.net/i/WMIRCHI_1@75780/index_1_a-p.m3u8"},
-		              {"title":"Meethi Mirchi ","file":"https://meethimirchihdl-lh.akamaihd.net/i/MeethiMirchiHDLive_1_1@320572/master.m3u8"},
-                  {"title":"Ishq FM","file":"https://ishq_mumbai-lh.akamaihd.net/i/Ishq_Mumbai_1@855087/index_1_a-p.m3u8"},   
-                  
-		              {"title":"Mirchi Unplugged","file":"https://mirchiunplugged-lh.akamaihd.net/i/mirchiunplugged_1@353022/master.m3u8"},   
-		              {"title":"Mirchi Indies","file":"https://meethimirchihdl-lh.akamaihd.net/i/MirchiEdgeHDLive_1_1@336272/master.m3u8"}, 
-		              {"title":"Filmy Mirchi ","file":"https://filmymirchihdliv-lh.akamaihd.net/i/FilmyMirchiHDLive_1_1@336266/master.m3u8"},
-                  {"title":"Mirchi Top 20","file":"https://mt20live-lh.akamaihd.net/i/mt20live_1@346531/index_1_a-b.m3u8"},  
-		              {"title":"FM Rainbow","file":"https://air.pc.cdn.bitgravity.com/air/live/pbaudio004/chunklist.m3u8"},         
-		              {"title":"FM Gold","file":"https://air.pc.cdn.bitgravity.com/air/live/pbaudio005/chunklist.m3u8"}, 
-		              {"title":"Radiocity Ghazal","file":"https://prclive4.listenon.in/Ghazal"},  
-                  {"title":"Hungama Ghazal","file":"https://radioindia.net/radio/hungamaghazal/icecast.audio"},  
-                  {"title":"Gujarat Radio2","file":"http://prclive1.listenon.in:9932/;"},                       
-                  {"title":"Yo Punjabi","file":"https://yopunjabihdlive-lh.akamaihd.net/i/YoPunjabiHDLive_1_1@345454/index_1_a-p.m3u8"},  
-                  {"title":"Radio Punjabi","file":"http://103.16.47.70:9888/;stream.nsv"}, 		                        
-
-		              {"title":"Rabindra Sangeet","file":"https://tagoreradio-lh.akamaihd.net/i/TagoreRadio_1@435590/index_320_a-p.m3u8"},
- 		              
-		              
-                   
+		              {"title":"Mirchi Radio","file":"https://admdn7ta.cdn.mangomolo.com/mirchirdo/mirchirdo.stream_aac/chunklist.m3u8"},		              
+		              {"title":"Bollywood Love","file":"https://drive.uber.radio/uber/bollywoodlove/icecast.audio"}, 
+		              {"title":"Bollywood Mix","file":"https://drive.uber.radio/uber/bollywoodmix/icecast.audio"}, 
+		              {"title":"Arijit Singh","file":"https://drive.uber.radio/uber/bollywoodaruitsingh/icecast.audio"}, 
+		              {"title":"Bollywood Now","file":"https://drive.uber.radio/uber/bollywoodnow/icecast.audio"},		              
+		              {"title":"Shreya Ghoshal","file":"https://drive.uber.radio/uber/bollywoodshreyaghosal/icecast.audio"}, 
+		              {"title":"Atif Aslam","file":"https://drive.uber.radio/uber/bollywoodatifaslam/icecast.audio"}, 
+		              {"title":"2010s Songs","file":"https://drive.uber.radio/uber/bollywood2010s/icecast.audio"}, 		              
+		              {"title":"Bollywood Workout","file":"https://drive.uber.radio/uber/bollywoodworkout/icecast.audio"},		              
+		              {"title":"Bollywood Diwali","file":"https://drive.uber.radio/uber/bollywooddiwali/icecast.audio"}, 
+		              {"title":"Spotify Bollywood","file":"https://drive.uber.radio/uber/sportifybollywood/icecast.audio"}, 
+		              {"title":"A R Rahman","file":"https://drive.uber.radio/uber/bollywoodarrahman/icecast.audio"},                    
                    
 		              
 		              {"title":"","file":""}, 		              {"title":"","file":""}, 
