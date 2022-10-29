@@ -22,11 +22,11 @@ Discription: My Web development projects
 - [yateendra.github.io/cgcovid](https://yateendra.github.io/cgcovid/) (Covid resources)
 
 
-- Personal streaming player: [yateendra.github.io/player](http://yateendra.github.io/player)
-- Yplayer: [App Link](https://github.com/yateendra/yateendra.github.io/releases/download/%233/Yplayer_1.0.apk)
+- Personal streaming player: [yateendra.github.io/player](http://yateendra.github.io/player6)
+- Yplayer: [App Link](https://github.com/yateendra/yateendra.github.io/releases/download/yplayer/Yplayer_1_2.0.apk)
 
-- Ytv: [yateendra.github.io/tv](http://yateendra.github.io/tv)
-- Ytv: [App Link](https://github.com/yateendra/yateendra.github.io/releases/download/3.0/Ytv_3.0.apk)
+- Live Tv Player Ytv: [yateendra.github.io/tv](http://yateendra.github.io/tv)
+- Ytv App: [App Link](https://github.com/yateendra/yateendra.github.io/releases/download/3.0/Ytv_3.0.apk)
 
 - Pricings: [yateendra.github.io/pricing](http://yateendra.github.io/pricing.html)
 
