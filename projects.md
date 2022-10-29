@@ -20,7 +20,7 @@ Discription: My Web development projects
 - Live Tv Player Ytv: [yateendra.github.io/tv](http://yateendra.github.io/tv)
 - Ytv App: [App Link](https://github.com/yateendra/yateendra.github.io/releases/download/3.0/Ytv_3.0.apk)
 
-- Pricings: [yateendra.github.io/pricing](http://yateendra.github.io/pricing.html)
+
 
 
 
