@@ -5,25 +5,15 @@ Discription: My Web development projects
 ---
 [yateendra.github.io](http://yateendra.github.io)
 -My website.
-[Investeasy.in.net(expired)](http://investeasy.in.net)
--Vipin Dixena's website.
-[pushkarchawda.com](http://pushkarchawda.com)
--Pushkar's website.(domain expired)
-[rahuldhali.org](http://rahuldhali.org)
--Dhali's website.(domain expired)
-[csslord.blogspot.com](https://csslord.blogspot.com) 
--Bank preparation blog.
-[tweetpur.blogspot.com](https://hamarkhabar.blogspot.com)
--Chhattisgarh News.
-[tweetpur.blogspot.com](https://tweetpur.blogspot.com)
--Tech blog
 [csitetc.mobie.in](https://csitetc.mobie.in)
 -Website for my ET&T 2014 batchmates.
+[csslord.blogspot.com](https://csslord.blogspot.com) 
+-Bank preparation blog.
 - [yateendra.github.io/cgcovid](https://yateendra.github.io/cgcovid/) (Covid resources)
 
 
-- Personal streaming player: [yateendra.github.io/player](http://yateendra.github.io/player6)
-- Yplayer: [App Link](https://github.com/yateendra/yateendra.github.io/releases/download/yplayer/Yplayer_1_2.0.apk)
+- Personal streaming player: [yateendra.github.io/player6](http://yateendra.github.io/player6)
+- Yplayer: [App Link](https://github.com/yateendra/yateendra.github.io/releases/download/yplayer2/Yplayer.apk)
 
 - Live Tv Player Ytv: [yateendra.github.io/tv](http://yateendra.github.io/tv)
 - Ytv App: [App Link](https://github.com/yateendra/yateendra.github.io/releases/download/3.0/Ytv_3.0.apk)
