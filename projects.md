@@ -10,8 +10,6 @@ Heavy Head Social  [https://www.heavyheadsocial.com](https://stackedit.io/app)
 - My website. 
 [yateendra.github.io](http://yateendra.github.io)
 - Website for my ET&T 2014 batchmates(archive). [csitetc.mobie.in](https://csitetc.mobie.in)
-- Bank preparation blog. 
- [csslord.blogspot.com](https://csslord.blogspot.com) 
 - Live Radio Player: [yateendra.github.io/player6](http://yateendra.github.io/player6)
 - Yplayer App: [App Link](https://github.com/yateendra/yateendra.github.io/releases/download/yplayer2/Yplayer.apk)
 -![enter image description here](https://i.imgur.com/TvnsC0F.jpg)
@@ -19,7 +17,9 @@ Heavy Head Social  [https://www.heavyheadsocial.com](https://stackedit.io/app)
 - Live Tv Player (Ytv): [yateendra.github.io/tv](http://yateendra.github.io/tv)
 - Ytv App: [App Link](https://github.com/yateendra/yateendra.github.io/releases/download/3.0/Ytv_3.0.apk)
 ![enter image description here](https://i.imgur.com/ATydsEE.jpg)
-- [yateendra.github.io/cgcovid](https://yateendra.github.io/cgcovid/) (Covid resources)
+- CG Covid Resources: [yateendra.github.io/cgcovid](https://yateendra.github.io/cgcovid/) 
+- Bank preparation blog. 
+ [csslord.blogspot.com](https://csslord.blogspot.com) 
 
 
 
