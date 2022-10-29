@@ -6,7 +6,7 @@ Discription: My Web development projects
 
 Heavy Head Social  [https://www.heavyheadsocial.com](https://stackedit.io/app)
 - My website. 
-[yateendra.github.io](htp://yateendra.github.io)
+[yateendra.github.io](http://yateendra.github.io)
 - Website for my ET&T 2014 batchmates. [csitetc.mobie.in](https://csitetc.mobie.in)
 - Bank preparation blog. 
  [csslord.blogspot.com](https://csslord.blogspot.com) 
