@@ -3,22 +3,22 @@ layout: page
 title: Projects
 Discription: My Web development projects
 ---
-[https://www.heavyheadsocial.com](https://www.heavyheadsocial.com/)
+- [https://www.heavyheadsocial.com](https://www.heavyheadsocial.com/)
 -Heavy Head Social  
-[yateendra.github.io](htp://yateendra.github.io)
+- [yateendra.github.io](htp://yateendra.github.io)
 -My website.
-[csitetc.mobie.in](https://csitetc.mobie.in)
+- [csitetc.mobie.in](https://csitetc.mobie.in)
 -Website for my ET&T 2014 batchmates.
-[csslord.blogspot.com](https://csslord.blogspot.com) 
+- [csslord.blogspot.com](https://csslord.blogspot.com) 
 -Bank preparation blog.
 -[yateendra.github.io/cgcovid](https://yateendra.github.io/cgcovid/) (Covid resources)
 
 
--Personal streaming player: [yateendra.github.io/player6](http://yateendra.github.io/player6)
--Yplayer: [App Link](https://github.com/yateendra/yateendra.github.io/releases/download/yplayer2/Yplayer.apk)
+- Personal streaming player: [yateendra.github.io/player6](http://yateendra.github.io/player6)
+- Yplayer: [App Link](https://github.com/yateendra/yateendra.github.io/releases/download/yplayer2/Yplayer.apk)
 
--Live Tv Player Ytv: [yateendra.github.io/tv](http://yateendra.github.io/tv)
--Ytv App: [App Link](https://github.com/yateendra/yateendra.github.io/releases/download/3.0/Ytv_3.0.apk)
+- Live Tv Player Ytv: [yateendra.github.io/tv](http://yateendra.github.io/tv)
+- Ytv App: [App Link](https://github.com/yateendra/yateendra.github.io/releases/download/3.0/Ytv_3.0.apk)
 
 
 
