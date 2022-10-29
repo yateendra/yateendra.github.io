@@ -4,6 +4,7 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" href="/player/favicon.png" />
+  <script src="https://richtr.github.io/NoSleep.js/dist/NoSleep.min.js"></script>
 	<title>Player v6</title>
 	<style>
 		      body {
@@ -244,6 +245,11 @@ eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a
   if( /Android|webOS|iPhone|iPad|iPod|Opera Mini/i.test(navigator.userAgent) ) {
  document.getElementById('hideme').style.display = "block";  
 }
+</script>
+  
+<script>
+var noSleep = new NoSleep();
+var wakeLockEnabled = true;
 </script>
 
 </html>  
