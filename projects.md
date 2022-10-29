@@ -12,11 +12,8 @@ Heavy Head Social  [https://www.heavyheadsocial.com](https://stackedit.io/app)
 - Website for my ET&T 2014 batchmates(archive). [csitetc.mobie.in](https://csitetc.mobie.in)
 - Bank preparation blog. 
  [csslord.blogspot.com](https://csslord.blogspot.com) 
-
-
-
-- Personal streaming player: [yateendra.github.io/player6](http://yateendra.github.io/player6)
-- Yplayer: [App Link](https://github.com/yateendra/yateendra.github.io/releases/download/yplayer2/Yplayer.apk)
+- Live Radio Player: [yateendra.github.io/player6](http://yateendra.github.io/player6)
+- Yplayer App: [App Link](https://github.com/yateendra/yateendra.github.io/releases/download/yplayer2/Yplayer.apk)
 -![enter image description here](https://i.imgur.com/TvnsC0F.jpg)
 
 - Live Tv Player (Ytv): [yateendra.github.io/tv](http://yateendra.github.io/tv)
