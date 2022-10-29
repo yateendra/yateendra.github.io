@@ -1,11 +1,10 @@
-
 ---
 layout: page
 title: Projects
 Discription: My Web development projects
 ---
 
-- Heavy Head Social  [https://www.heavyheadsocial.com](https://stackedit.io/app)
+Heavy Head Social  [https://www.heavyheadsocial.com](https://stackedit.io/app)
 - My website. 
 [yateendra.github.io](htp://yateendra.github.io)
 - Website for my ET&T 2014 batchmates. [csitetc.mobie.in](https://csitetc.mobie.in)
