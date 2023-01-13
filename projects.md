@@ -3,7 +3,7 @@ layout: page
 title: Projects
 Discription: My Web development projects
 ---
-
+Hi there!  
 **Here are some of my projects ~** 
 
 Heavy Head Social  [https://www.heavyheadsocial.com](https://stackedit.io/app)
