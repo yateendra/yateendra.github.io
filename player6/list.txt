@@ -14,10 +14,7 @@
         "title": "Diverse FM",
         "file": "https://carol.epichosts.co.uk:8570/;"
       },
-      {
-        "title": "Mirchi Radio",
-        "file": "https://admdn7ta.cdn.mangomolo.com/mirchirdo/mirchirdo.stream_aac/chunklist.m3u8"
-      },
+   
       {
         "title": "Bollywood Love",
         "file": "https://drive.uber.radio/uber/bollywoodlove/icecast.audio"
@@ -95,22 +92,6 @@
         "file": "https://stream-141.zeno.fm/u0hrd3xkzhhvv?zs=--jfKarhQ-K5zHGC77B-ZA"
       },
       {
-        "title": "HUNGAMA EVERGREEN",
-        "file": "https://radioindia.net/radio/hungama_evergreen_bollywood/icecast.audio"
-      },
-      {
-        "title": "HUNGAMA 90'S ONCE AGAIN",
-        "file": "https://radioindia.net/radio/hungama90/icecast.audio"
-      },
-      {
-        "title": "HUNGAMA DILSE",
-        "file": "https://radioindia.net/radio/hungamadilse/icecast.audio"
-      },
-      {
-        "title": "HUNGAMA DANCE MASTI INTERNATIONAL",
-        "file": "https://radioindia.net/radio/hungamamasti/icecast.audio"
-      },
-      {
         "title": "RADIO CITY HINDI",
         "file": "https://stream-147.zeno.fm/u7sgq72zrf9uv?zs=m9m_WJIBSdyZgnk0bK6t0A"
       },
@@ -118,14 +99,7 @@
         "title": "RADIO ISHQ",
         "file": "https://drive.uber.radio/uber/bollywoodlove/icecast.audio"
       },
-      {
-        "title": "NONSTOP HINDI",
-        "file": "http://158.69.254.140:8168/stream"
-      },
-      {
-        "title": "RADIO MIRCHI",
-        "file": "http://peridot.streamguys.com:7150/Mirchi"
-      },
+      
       {
         "title": "RADIO MIRCHI LOVE",
         "file": "https://drive.uber.radio/uber/lrbollywood/icecast.audio"
@@ -138,10 +112,7 @@
         "title": "MIRCHI 90'S RADIO",
         "file": "https://sp14.instainternet.com/8098/stream"
       },
-      {
-        "title": "RADIO DILSE",
-        "file": "https://cp3.shoutcheap.com:18180/stream"
-      },
+     
       {
         "title": "BOLLYWOOD 90'S RADIO",
         "file": "https://stream-149.zeno.fm/rm4i9pdex3cuv?zs=nywOJBPKQcKfapkqRzlJNg"
