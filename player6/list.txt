@@ -14,6 +14,18 @@
         "title": "Diverse FM",
         "file": "https://carol.epichosts.co.uk:8570/;"
       },
+{
+        "title": "Asian Network",
+        "file": "https://a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/hls/nonuk/audio_syndication_low_sbr_v1/cfs/bbc_asian_network.m3u8"
+      },
+      {
+        "title": "Radio Olive",
+        "file": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_OLIVE_CLUB_S04AAC.aac"
+      },
+{
+        "title": "Radio Nyra",
+        "file": "https://streams.radio.co/s8d06d0298/listen"
+      },
    
       {
         "title": "Bollywood Love",
@@ -153,26 +165,13 @@
         "title": "UDIT NARAYAN RADIO",
         "file": "https://stream-161.zeno.fm/ke8m4vr3ss8uv?zs=7-hb7d88Sre70faBaQkRjQ"
       },
-      {
-        "title": "Asian Network",
-        "file": "https://a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/hls/nonuk/audio_syndication_low_sbr_v1/cfs/bbc_asian_network.m3u8"
-      },
-      {
-        "title": "Radio Olive",
-        "file": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_OLIVE_CLUB_S04AAC.aac"
-      },
+      
       {
         "title": "Apna 990 AM",
         "file": "https://ais-nzme.streamguys1.com/nz_145_aac"
       },
-      {
-        "title": "Radio Nyra",
-        "file": "https://streams.radio.co/s8d06d0298/listen"
-      },
-      {
-        "title": "indian beat",
-        "file": "https://n20a-eu.rcs.revma.com/hrcdg9ubv4uvv/32_l87jk9e4xju502/playlist.m3u8"
-      },
+      
+      
       {
         "title": "",
         "file": ""
