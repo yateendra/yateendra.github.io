@@ -139,8 +139,8 @@
 		              {"title":"Radio Olive","file":"https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_OLIVE_CLUB_S04AAC.aac"}, 
 		              {"title":"Apna 990 AM","file":"https://ais-nzme.streamguys1.com/nz_145_aac"}, 
 
-		              {"title":"","file":"https://streams.radio.co/s8d06d0298/listen"}, 
-{"title":"","file":""}, 
+		              {"title":"Radio Nyra","file":"https://streams.radio.co/s8d06d0298/listen"}, 
+{"title":"indian beat","file":"https://n20a-eu.rcs.revma.com/hrcdg9ubv4uvv/32_l87jk9e4xju502/playlist.m3u8"}, 
 {"title":"","file":""}, 
 		              {"title":"","file":""}, {"title":"","file":""}, 
 		              {"title":"","file":""}, 
